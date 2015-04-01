@@ -19,5 +19,7 @@
 		"HTML-CSS-JS Prettify"
 	],
 	"theme": "Spacegray.sublime-theme",
-	"word_wrap": true
+	"word_wrap": true,
+	"highlight_line": true,
+	"show_line_endings": true
 }
