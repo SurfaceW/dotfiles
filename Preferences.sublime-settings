@@ -1,0 +1,23 @@
+{
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"caniuse_local",
+		"Clipboard Manager",
+		"jQuery",
+		"Nodejs",
+		"Terminal",
+		"Markdown",
+		"Trimmer",
+		"JsFormat",
+		"JavaScript Patterns",
+		"SublimeCodeIntel",
+		"SublimeLinter-jsl",
+		"CSScomb",
+		"Emmet",
+		"HTML-CSS-JS Prettify"
+	],
+	"theme": "Spacegray.sublime-theme",
+	"word_wrap": true
+}
