@@ -10,6 +10,9 @@ File System:
 - `..` | `...` | `.3` | `.4` | `.5` | `.6` : back to n level of directory
 - `edit` `editd`: edit file/directory in sublime editor
 - `f`: open current direcotry in finder
+- `wd add xxx`: add alias for directory in wd `~/.wraprc`
+- `wd youralias`: go to your pre-defined directory
+- `wd rm xxx`: delete your directory alias in wd
 
 OSX Series:
 
@@ -21,6 +24,8 @@ OSX Series:
 - `quick-look` - Quick Look a specified file
 - `man-preview` - open a specified man page in Preview
 - `trash` - move a specified file to the Trash
+
+
 
 
 

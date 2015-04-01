@@ -1,6 +1,6 @@
 " The Vundle for vim
 set nocompatible              " be iMproved, required
-filetype off                  " required
+" filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -35,7 +35,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'user/L9', {'name': 'newL9'}
 
 " Vim Javascript Syntax on and Indent
-Plugin 'pangloss/vim-javascript'
+" Plugin 'pangloss/vim-javascript'
 
 
 " All of your Plugins must be added before the following line
@@ -63,13 +63,13 @@ let g:solarized_termtrans=1
 " 禁止光标闪烁
 set gcr=a:block-blinkon0
 " 禁止显示滚动条
-set guioptions-=l
-set guioptions-=L
-set guioptions-=r
-set guioptions-=R
+"set guioptions-=l
+"set guioptions-=L
+"set guioptions-=r
+"set guioptions-=R
 " 禁止显示菜单和工具条
-set guioptions-=m
-set guioptions-=T
+"set guioptions-=m
+"set guioptions-=T
 
 
 " Make Vim more useful
@@ -155,17 +155,17 @@ set showcmd
 set scrolloff=3
 
 " Strip trailing whitespace (,ss)
-function! StripWhitespace()
-	let save_cursor = getpos(".")
-	let old_query = getreg('/')
-	:%s/\s\+$//e
-	call setpos('.', save_cursor)
-	call setreg('/', old_query)
-set expandtab
-endfunction
-noremap <leader>ss :call StripWhitespace()<CR>
+"function! StripWhitespace()
+"	let save_cursor = getpos(".")
+"	let old_query = getreg('/')
+"	:%s/\s\+$//e
+"	call setpos('.', save_cursor)
+"	call setreg('/', old_query)
+"set expandtab
+"endfunction
+"noremap <leader>ss :call StripWhitespace()<CR>
 " Save a file as root (,W)
-noremap <leader>W :w !sudo tee % > /dev/null<CR>
+"noremap <leader>W :w !sudo tee % > /dev/null<CR>
 
 " Enable automatically indent with file type
 filetype indent on
@@ -188,13 +188,6 @@ if has("autocmd")
 	autocmd BufNewFile,BufRead *.md setlocal filetype=markdown
 endif
 
-
-
-
-
-
-
-
-
-
-
+if v:progname =~? "evim"
+    finish
+endif
