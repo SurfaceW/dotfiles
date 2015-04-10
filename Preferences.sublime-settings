@@ -1,25 +1,26 @@
 {
 	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"font_size": 14,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"caniuse_local",
-		"Clipboard Manager",
+		"SublimeLinter-jsl",
+		"Emmet",
+		"SublimeCodeIntel",
 		"jQuery",
-		"Nodejs",
+		"CSScomb",
+		"JavaScript Patterns",
+		"Clipboard Manager",
 		"Terminal",
 		"Markdown",
+		"Nodejs",
 		"Trimmer",
-		"JsFormat",
-		"JavaScript Patterns",
-		"SublimeCodeIntel",
-		"SublimeLinter-jsl",
-		"CSScomb",
-		"Emmet",
-		"HTML-CSS-JS Prettify"
+		"HTML-CSS-JS Prettify",
+		"JsFormat"
 	],
+	"show_line_endings": true,
+	"tab_size": 2,
 	"theme": "Spacegray.sublime-theme",
-	"word_wrap": true,
-	"highlight_line": true,
-	"show_line_endings": true
+	"word_wrap": true
 }

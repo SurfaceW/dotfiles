@@ -5,4 +5,4 @@ cp ~/.vimrc ~/Developer/dotfiles/
 cp ~/.zshrc ~/Developer/dotfiles/
 cp /Users/yeqingnan/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings ~/Developer/dotfiles/
 cp ~/.gitconfig ~/Developer/dotfiles/
-
+cp /Users/yeqingnan/Library/Application\ Support/MacDown/Styles/macdown.css ~/Developer/dotfiles/
