@@ -2,7 +2,7 @@ body {
 	background-color: rgba(30, 30, 30, .94);
   font-family: Menlo;
   color: #bfbfbf;
-  font-size: 15px;
+  font-size: 14px;
   width: 95%;
   margin: 0 auto;
   overflow-x: hidden;
@@ -26,6 +26,31 @@ p {
 	padding: 10px 0 10px 0;
 }
 
+.care {
+  line-height: 24px;
+  margin: 10px 0 10px 0;
+  padding-left: 1em;
+  border-left: 4px green solid;
+}
+
+.warn {
+  line-height: 24px;
+  margin: 10px 0 10px 0;
+  padding-left: 1em;
+  border-left: 4px red solid;
+}
+
+.more {
+  line-height: 24px;
+  margin: 10px 0 10px 0;
+  padding-left: 1em;
+  border-left: 4px lightblue solid;
+}
+
+img {
+  width: 100%;
+}
+
 blockquote {
 	background: rgba(221,221,221,0.1);
   margin-left: 0;
@@ -44,16 +69,46 @@ em {
 	color: #2ca559;
 }
 
-hr {
-	border: 1px white dotted;
+a:link {
+  color: gray;
 }
 
-pre.line-numbers {
-	margin-left: -0.6em !important;
-	font-size: 14px !important;
-	background: rgb(30, 30, 30) !important;
-  margin-left: -18px !important;
-  width: 100% !important;
+a:hover {
+  color: white;
+}
+
+a:visited {
+  color: gray;
+}
+
+hr {
+	border: 1px gray solid;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+pre {
+  background: rgb(30,30,30);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  overflow: scroll;
+  font-size: 14px;
+}
+
+pre code {
+  border: none;
+  border-radius: 0;
+  background: none;
+  font-size: 14px;
+}
+
+pre[class*="language-"] {
+  background: rgb(30, 30, 30) !important;
+}
+
+pre.line-numbers > code {
+  padding: 0;
 }
 
 code {
@@ -62,13 +117,6 @@ code {
   border-radius: 4px;
   font-size: 12px;
   font-family: Monaco;
-}
-
-pre code {
-  border: none;
-  border-radius: 0;
-  background: none;
-  font-size: 14px;
 }
 
 ul {
