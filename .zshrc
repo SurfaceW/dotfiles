@@ -51,7 +51,7 @@ plugins=(git osx wd sublime)
 
 # User configuration
 
-export PATH="/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Users/yeqingnan/Developer/mongodb/bin:/sbin:/Users/yeqingnan/Developer/mongodb/bin"
+export PATH="/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin"
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
@@ -108,7 +108,7 @@ source $ZSH/oh-my-zsh.sh
 #   Set Paths
 #   ------------------------------------------------------------
 export PATH="$PATH:/usr/local/bin/"
-export PATH="/usr/local/git/bin:/sw/bin/:/usr/local/bin:/usr/local/:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
+export PATH="/usr/local/git/bin:/sw/bin/:/usr/local/bin:/usr/local/:/usr/local/sbin:/usr/local/mysql/bin:/sbin:$PATH"
 
 #   Set Default Editor (change 'Nano' to the editor of your choice)
 #   ------------------------------------------------------------
@@ -125,8 +125,7 @@ export BLOCKSIZE=1k
 #   ------------------------------------------------------------
 #   
 export CLICOLOR=1
-export LSCOLORS=ExFxBxDxCxegedabagacad
-
+export LSCOLORS=GxFxCxDxBxegedabagaced
 
 #   -----------------------------
 #   2.  MAKE TERMINAL BETTER

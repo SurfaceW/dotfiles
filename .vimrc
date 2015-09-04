@@ -24,19 +24,37 @@ Plugin 'L9'
 " Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
 
-" git repos on your local machine (i.e. when working on your own plugin)
-Plugin 'file:///home/gmarik/path/to/plugin'
-
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 " Avoid a name conflict with L9
-Plugin 'user/L9', {'name': 'newL9'}
+" Plugin 'user/L9', {'name': 'newL9'}
 
 " Vim Javascript Syntax on and Indent
 " Plugin 'pangloss/vim-javascript'
 
+" File Explore
+Plugin 'scrooloose/nerdtree'
+
+" File and Code Comment
+Plugin 'scrooloose/nerdcommenter'
+
+" JavaScript Enhancement
+Plugin 'pangloss/vim-javascript'
+
+" Support multi-pro-langs
+Plugin 'taglist.vim'
+
+" Support file finder
+" Plugin 'FuzzyFinder'
+Plugin 'kien/ctrlp.vim'
+
+" Support auto-complete
+" Plugin 'Valloric/YouCompleteMe'
+
+" Auto add brackets, quotes ...
+Plugin 'Raimondi/delimitMate'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -52,6 +70,22 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" --------------------
+" Plugin Configuration
+" --------------------
+
+" Automatically start the file-tree
+" autocmd vimenter * NERDTree
+
+" Automatically start the file-tree while vim open nothing
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+
+
+
+
 
 " Use the Solarized Dark theme
 set background=dark
@@ -88,6 +122,8 @@ set ttyfast
 set gdefault
 " Use UTF-8 without BOM
 set encoding=utf-8 nobomb
+set fencs=utf8,cp936
+set termencoding=utf-8
 " Change mapleader
 let mapleader=","
 " Don’t add empty newlines at the end of files
@@ -123,12 +159,14 @@ set tabstop=2
 " set list
 " Highlight searches
 set hlsearch
+set hls
 " Ignore case of searches
 set ignorecase
 " Highlight dynamically as pattern is typed
 set incsearch
 " Always show status line
 set laststatus=2
+set statusline=%F\ [%{&fenc}\ %{&ff}\ L%l/%L\ C%c]\ %=%{strftime('%Y-%m-%d\ %H:%M')}
 " Enable mouse in all modes
 set mouse=a
 " Disable error bells
@@ -191,3 +229,13 @@ endif
 if v:progname =~? "evim"
     finish
 endif
+
+" Open the auto indent
+set autoindent
+set smartindent
+set foldmethod=marker
+set display=lastline
+
+" 较长的行可以行中上下移动
+map <down> gj
+map <up> gk
