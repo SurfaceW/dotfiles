@@ -1,6 +1,6 @@
 [user]
 	name = SurfaceW
-	email = yeqingnan@live.cn
+	email = surfacew@163.com
 [filter "media"]
 	required = true
 	clean = git media clean %f

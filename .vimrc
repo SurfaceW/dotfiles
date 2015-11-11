@@ -28,12 +28,6 @@ Plugin 'git://git.wincent.com/command-t.git'
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
-" Avoid a name conflict with L9
-" Plugin 'user/L9', {'name': 'newL9'}
-
-" Vim Javascript Syntax on and Indent
-" Plugin 'pangloss/vim-javascript'
-
 " File Explore
 Plugin 'scrooloose/nerdtree'
 
@@ -81,11 +75,6 @@ filetype plugin indent on    " required
 " Automatically start the file-tree while vim open nothing
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
-
-
-
-
 
 " Use the Solarized Dark theme
 set background=dark
@@ -239,3 +228,7 @@ set display=lastline
 " 较长的行可以行中上下移动
 map <down> gj
 map <up> gk
+
+" Coding Folding Options
+" set foldmethod=syntax
+" set foldlevelstart=2

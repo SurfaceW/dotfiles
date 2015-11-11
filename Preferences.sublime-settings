@@ -1,7 +1,7 @@
 {
 	"auto_complete_delay": 5,
 	"auto_complete_selector": "source, text",
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"color_scheme": "Packages/One Dark Color Scheme/One Dark.tmTheme",
 	"create_window_at_startup": false,
 	"folder_exclude_patterns":
 	[
@@ -31,20 +31,21 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Markdown",
-		"JSLint",
-		"SublimeCodeIntel",
-		"Nodejs",
-		"JavaScript Patterns",
+		"caniuse_local",
 		"Clipboard Manager",
 		"CSScomb",
+		"HTML-CSS-JS Prettify",
+		"JavaScript Patterns",
+		"jQuery",
+		"JSLint",
+		"Markdown",
+		"Nodejs",
 		"SublimeLinter-jsl",
 		"Terminal",
-		"jQuery",
-		"Trimmer",
-		"caniuse_local",
-		"HTML-CSS-JS Prettify"
+		"Trimmer"
 	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"show_line_endings": true,
 	"tab_size": 4,
 	"theme": "Spacegray.sublime-theme",

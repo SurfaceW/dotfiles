@@ -136,7 +136,7 @@ alias mv='mv -iv'                           # Preferred 'mv' implementation
 alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
 alias ll='ls -FGlAhp'                       # Preferred 'ls' implementation
 alias less='less -FSRXc'                    # Preferred 'less' implementation
-cd() { builtin cd "$@"; }                   # Always list directory contents upon 'cd'
+cd() { builtin cd "$@" && ls; }                   # Always list directory contents upon 'cd'
 alias cd..='cd ../'                         # Go back 1 directory level (for fast typers)
 alias ..='cd ../'                           # Go back 1 directory level
 alias ...='cd ../../'                       # Go back 2 directory levels
@@ -159,6 +159,10 @@ trash () { command mv "$@" ~/.Trash ; }     # trash:        Moves a file to the 
 ql () { qlmanage -p "$*" >& /dev/null; }    # ql:           Opens any file in MacOS Quicklook Preview
 alias DT='tee ~/Desktop/terminalOut.txt'    # DT:           Pipe content to file on MacOS Desktop
 
+# Self-defined alias
+
+alias c_zhihu 'ssh yeqingnan.aws.dev'
+
 #   lr:  Full Recursive Directory Listing
 #   ------------------------------------------
 alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
@@ -166,7 +170,7 @@ alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\
 #   mans:   Search manpage given in agument '1' for term given in argument '2' (case insensitive)
 #           displays paginated result with colored search terms and two lines surrounding each hit.             Example: mans mplayer codec
 #   --------------------------------------------------------------------
-		mans () {
+	mans () {
         man $1 | grep -iC2 --color=always $2 | less
     }
 
