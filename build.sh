@@ -11,7 +11,7 @@ cp /Users/yeqingnan/Library/Application\ Support/MacDown/Styles/macdown.css ~/De
 
 # Get the sublime plugin lists
 cd ~/Developer/dotfiles
-rm sublime_plugin.txt
+rm Sublime_plugin.txt
 cd /Users/yeqingnan/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/
 ls >> ~/Developer/dotfiles/Sublime_plugin.txt
 

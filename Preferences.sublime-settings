@@ -1,7 +1,7 @@
 {
 	"auto_complete_delay": 5,
 	"auto_complete_selector": "source, text",
-	"color_scheme": "Packages/One Dark Color Scheme/One Dark.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/One Dark (SL).tmTheme",
 	"create_window_at_startup": false,
 	"folder_exclude_patterns":
 	[
@@ -27,7 +27,7 @@
 		".DS_Store",
 		"*.psd"
 	],
-	"font_size": 14,
+	"font_size": 12,
 	"highlight_line": true,
 	"ignored_packages":
 	[

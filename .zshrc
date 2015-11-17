@@ -136,7 +136,7 @@ alias mv='mv -iv'                           # Preferred 'mv' implementation
 alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
 alias ll='ls -FGlAhp'                       # Preferred 'ls' implementation
 alias less='less -FSRXc'                    # Preferred 'less' implementation
-cd() { builtin cd "$@" && ls; }                   # Always list directory contents upon 'cd'
+cd() { builtin cd "$@" && ls; }             # Always list directory contents upon 'cd'
 alias cd..='cd ../'                         # Go back 1 directory level (for fast typers)
 alias ..='cd ../'                           # Go back 1 directory level
 alias ...='cd ../../'                       # Go back 2 directory levels
@@ -149,9 +149,9 @@ alias editd='stt'                           # editp:        Opens any directory 
 alias f='open -a Finder ./'                 # f:            Opens current directory in MacOS Finder
 alias ~="cd ~"                              # ~:            Go Home
 alias c='clear'                             # c:            Clear terminal display
-alias which='type -all'                     # which:        Find executables
+# alias which='type -all'                   # which:        Find executables
 alias path='echo -e ${PATH//:/\\n}'         # path:         Echo all executable Paths
-alias show_options='shopt'                  # Show_options: display bash options settings
+# alias show_options='shopt'                # Show_options: display bash options settings
 alias fix_stty='stty sane'                  # fix_stty:     Restore terminal settings when screwed up
 alias cic='set completion-ignore-case On'   # cic:          Make tab-completion case-insensitive
 mcd () { mkdir -p "$1" && cd "$1"; }        # mcd:          Makes new Dir and jumps inside
@@ -161,7 +161,10 @@ alias DT='tee ~/Desktop/terminalOut.txt'    # DT:           Pipe content to file
 
 # Self-defined alias
 
-alias c_zhihu 'ssh yeqingnan.aws.dev'
+# Zhihu
+alias zhihu_c='ssh yeqingnan.aws.dev'
+alias zhihu_livecode='livecode ~/Sites/zhihu/zhihu-web surfacew@yeqingnan.aws.dev:/home/surfacew'
+
 
 #   lr:  Full Recursive Directory Listing
 #   ------------------------------------------

@@ -16,10 +16,6 @@ Thumbs.db
 # Compiled C++ files
 *.out
 
-# Temp file
-*.tmp
-*.swp
-
 # Application specific files
 venv
 node_modules
