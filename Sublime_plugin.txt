@@ -23,11 +23,13 @@ Jade.sublime-package
 JavaScript Multiline.sublime-package
 JavaScript Patterns.sublime-package
 JavaScript Snippets.sublime-package
+JavaScriptNext - ES6 Syntax.sublime-package
 JsFormat.sublime-package
 LESS.sublime-package
 Markdown Preview.sublime-package
 MarkdownEditing.sublime-package
 Nodejs.sublime-package
+Oceanic Next Color Scheme.sublime-package
 One Dark Color Scheme.sublime-package
 Package Control.sublime-package
 PyV8

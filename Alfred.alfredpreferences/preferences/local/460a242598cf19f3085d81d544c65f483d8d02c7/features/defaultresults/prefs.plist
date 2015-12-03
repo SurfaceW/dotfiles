@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>scope</key>
+	<array>
+		<string>~/Developer</string>
+		<string>~/Documents/Frame</string>
+		<string>~/Documents/Knowledge</string>
+		<string>~/Documents/Life</string>
+		<string>~/Documents/Reference</string>
+		<string>~/Documents/Work</string>
+		<string>~/Sites</string>
+	</array>
+</dict>
+</plist>

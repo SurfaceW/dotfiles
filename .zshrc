@@ -165,6 +165,10 @@ alias DT='tee ~/Desktop/terminalOut.txt'    # DT:           Pipe content to file
 alias zhihu_c='ssh yeqingnan.aws.dev'
 alias zhihu_livecode='livecode ~/Sites/zhihu/zhihu-web surfacew@yeqingnan.aws.dev:/home/surfacew'
 
+# Git
+alias co='git checkout'
+alias br='git branch'
+alias ci='git commit -a'
 
 #   lr:  Full Recursive Directory Listing
 #   ------------------------------------------
