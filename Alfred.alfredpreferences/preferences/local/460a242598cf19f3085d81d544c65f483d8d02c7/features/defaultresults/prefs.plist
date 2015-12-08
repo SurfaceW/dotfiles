@@ -4,13 +4,19 @@
 <dict>
 	<key>scope</key>
 	<array>
+		<string>/Applications</string>
+		<string>~/Desktop</string>
 		<string>~/Developer</string>
 		<string>~/Documents/Frame</string>
 		<string>~/Documents/Knowledge</string>
 		<string>~/Documents/Life</string>
 		<string>~/Documents/Reference</string>
+		<string>~/Documents/Track</string>
 		<string>~/Documents/Work</string>
-		<string>~/Sites</string>
+		<string>~/Downloads</string>
+		<string>~/Movies</string>
+		<string>~/Music</string>
+		<string>~/Pictures</string>
 	</array>
 </dict>
 </plist>

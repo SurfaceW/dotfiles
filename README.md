@@ -39,6 +39,7 @@ File and Directory
 - `lr`:  Full Recursive Directory Listing
 - `zipf FILE/DIR_NAME`: To create a ZIP archive of a folder
 - `extract ARCHIVE`: Extract mainstram archive like: \*.tra.bz2 \*.tar.gz and etc.
+- `size`: Show the current direcotry's sub-tree size
 
 Searching
 
@@ -64,18 +65,55 @@ Private Usage
 - `zhihu_c`
 - `zhihu_livecode`
 
+Git Shortcuts
+
+- `co`: git checkout
+- `ci`: git commit -a
+- `br`: git branch
+- `gs`: git status
+- `rebase`: git rebase
+- `reset`: git reset
+
 OSX Series:
 
 - `tab` - open the current directory in a new tab
 - `pfd` - return the path of the frontmost Finder window
 - `pfs` - return the current Finder selection
 - `cdf` - cd to the current Finder directory
-- `pushdf` - pushd to the current Finder directory
+- `pushdf` - pushed to the current Finder directory
 - `quick-look` - Quick Look a specified file
 - `man-preview` - open a specified man page in Preview
 - `trash` - move a specified file to the Trash
 
+---
 
+## Alfred enhancement
 
+### Quick Search Tips
 
+- `open` quickly open doc or folder
+- 「←」「→」go inside or outside of a folder
+- After searching, click「Ctrl」 to get more operations on the searched item
+- After searching, click「Shift」to preview the document.
+- 「cmd」+ 「enter」open current file or directory on Finder
+- 「ctrl」+ 「enter」search the web with default search engine.
 
+Web Search：
+
+- 「google」「translate」「maps」「wolfram」… Web Search quick commands
+
+### Tools
+
+- Dictionary:「define」
+- Calculator:「15*5/2.3」
+
+### Workflow
+
+- Chrome
+    - 「ch」Search Chrome History and open it
+    - 「chrome」Search Chrome bookmarks and open it
+- Evernote
+    - 「ent」Evernote note search with node title
+    - 「ens」Evernote note search with node title and its content
+        - 「end #」Search note with tag name
+    - 「end」Evernote search the notebook

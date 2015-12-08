@@ -14,5 +14,7 @@
 	<true/>
 	<key>ignorePlist</key>
 	<true/>
+	<key>ignoreSource</key>
+	<true/>
 </dict>
 </plist>

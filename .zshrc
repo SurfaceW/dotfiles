@@ -158,6 +158,7 @@ mcd () { mkdir -p "$1" && cd "$1"; }        # mcd:          Makes new Dir and ju
 trash () { command mv "$@" ~/.Trash ; }     # trash:        Moves a file to the MacOS trash
 ql () { qlmanage -p "$*" >& /dev/null; }    # ql:           Opens any file in MacOS Quicklook Preview
 alias DT='tee ~/Desktop/terminalOut.txt'    # DT:           Pipe content to file on MacOS Desktop
+alias size='du -d 1 -h'                     # size:         Show current file / dir size
 
 # Self-defined alias
 
@@ -169,6 +170,10 @@ alias zhihu_livecode='livecode ~/Sites/zhihu/zhihu-web surfacew@yeqingnan.aws.de
 alias co='git checkout'
 alias br='git branch'
 alias ci='git commit -a'
+alias gs='git status'
+alias diff='git diff'
+alias rebase='git rebase'
+alias reset='git reset'
 
 #   lr:  Full Recursive Directory Listing
 #   ------------------------------------------

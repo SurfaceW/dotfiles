@@ -10,8 +10,6 @@
 	<true/>
 	<key>showFolders</key>
 	<true/>
-	<key>showTextFiles</key>
-	<true/>
 	<key>showUserDefined</key>
 	<array>
 		<string>com.mindjet.mindmanager.map</string>
