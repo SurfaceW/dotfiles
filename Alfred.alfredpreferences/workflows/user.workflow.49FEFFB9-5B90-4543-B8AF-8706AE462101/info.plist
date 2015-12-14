@@ -743,6 +743,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -763,7 +765,7 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>en?</string>
+				<string>.en?</string>
 				<key>subtext</key>
 				<string>Keyword: en?</string>
 				<key>text</key>
@@ -781,6 +783,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -813,6 +817,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -834,9 +840,15 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
@@ -844,7 +856,7 @@
 			<key>uid</key>
 			<string>E0EEE9EF-3E52-4077-9A51-56882FEC0BED</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -854,7 +866,15 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>ens</string>
+				<string>.ens</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching...</string>
 				<key>script</key>
@@ -878,6 +898,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -920,6 +942,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -937,6 +961,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -954,6 +980,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -971,6 +999,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1008,7 +1038,15 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>ent</string>
+				<string>.ent</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching...</string>
 				<key>script</key>
@@ -1038,9 +1076,15 @@
 				<integer>3</integer>
 				<key>argumenttext</key>
 				<string>ent </string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
@@ -1048,11 +1092,13 @@
 			<key>uid</key>
 			<string>2B3579E2-6AF0-48FE-9503-A5D40C158FDB</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1095,6 +1141,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1112,6 +1160,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1129,6 +1179,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1151,7 +1203,15 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>enr</string>
+				<string>.enr</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_search.scpt")) with parameters {"reminder:{query}"}</string>
 				<key>subtext</key>
@@ -1173,6 +1233,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1215,6 +1277,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1232,6 +1296,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1249,6 +1315,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1286,7 +1354,15 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>entodo</string>
+				<string>.entodo</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
@@ -1310,6 +1386,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1352,6 +1430,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1369,6 +1449,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1386,6 +1468,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1418,6 +1502,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1440,7 +1526,15 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>enrec</string>
+				<string>.enrec</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
@@ -1489,6 +1583,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1506,6 +1602,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1528,7 +1626,15 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>enu</string>
+				<string>.enu</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
@@ -1552,6 +1658,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1569,6 +1677,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1586,6 +1696,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1608,7 +1720,15 @@
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
-				<string>enn</string>
+				<string>.enn</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Loading options...</string>
 				<key>script</key>
@@ -1657,6 +1777,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1674,6 +1796,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1691,6 +1815,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1714,6 +1840,14 @@
 				<integer>68</integer>
 				<key>keyword</key>
 				<string>typenote</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
@@ -1762,6 +1896,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1785,9 +1921,15 @@
 				<integer>3</integer>
 				<key>argumenttext</key>
 				<string>typenote </string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
@@ -1795,11 +1937,13 @@
 			<key>uid</key>
 			<string>EA1B23BD-B97B-428C-880C-5CE13AED4A32</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1823,9 +1967,15 @@
 				<integer>3</integer>
 				<key>argumenttext</key>
 				<string>New Note from Text Selection</string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
@@ -1833,11 +1983,13 @@
 			<key>uid</key>
 			<string>8AC9DA30-2F9D-4E61-919C-DA5DC07BC4D5</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1861,9 +2013,15 @@
 				<integer>3</integer>
 				<key>argumenttext</key>
 				<string>New Note from Clipboard</string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
@@ -1871,7 +2029,7 @@
 			<key>uid</key>
 			<string>B545AB8F-C982-484B-9A94-5849E5B1B098</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1935,6 +2093,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1967,6 +2127,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -1984,6 +2146,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -2007,6 +2171,14 @@
 				<integer>68</integer>
 				<key>keyword</key>
 				<string>📄:</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_append.scpt")) with parameters {"{query}||2"}</string>
 				<key>title</key>
@@ -2026,6 +2198,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -2074,6 +2248,14 @@
 				<integer>68</integer>
 				<key>keyword</key>
 				<string>📆:</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addrm.scpt")) with parameters {"{query}||2"}</string>
 				<key>subtext</key>
@@ -2101,6 +2283,14 @@
 				<integer>68</integer>
 				<key>keyword</key>
 				<string>📎:</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_act_append.scpt")) with parameters {"{query}|2|"}</string>
 				<key>title</key>
@@ -2120,6 +2310,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -2143,6 +2335,14 @@
 				<integer>68</integer>
 				<key>keyword</key>
 				<string>enpref</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_pref.scpt")) with parameters {"{query}||f"}</string>
 				<key>subtext</key>
@@ -2164,6 +2364,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
@@ -2181,6 +2383,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>

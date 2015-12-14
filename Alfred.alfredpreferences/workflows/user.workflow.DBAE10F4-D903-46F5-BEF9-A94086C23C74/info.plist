@@ -38,7 +38,15 @@
 				<key>escaping</key>
 				<integer>32</integer>
 				<key>keyword</key>
-				<string>ch</string>
+				<string>.history</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Fetching History ...</string>
 				<key>script</key>

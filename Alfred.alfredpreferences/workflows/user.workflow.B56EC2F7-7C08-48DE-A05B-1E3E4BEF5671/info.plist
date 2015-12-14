@@ -77,31 +77,12 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string>com.google.chrome</string>
-				<key>plusspaces</key>
-				<true/>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>800AEC36-5B23-48F1-A2F0-18C041F1A17A</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>keyword</key>
-				<string>chrome</string>
+				<string>.bookmark</string>
 				<key>queuedelaycustom</key>
 				<integer>1</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -136,6 +117,25 @@ python "main.py" -v "chrome" -c "get.bookmarks" -q "${QUERY}"</string>
 			<key>config</key>
 			<dict>
 				<key>browser</key>
+				<string>com.google.chrome</string>
+				<key>plusspaces</key>
+				<true/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>800AEC36-5B23-48F1-A2F0-18C041F1A17A</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
 				<string>org.chromium.Chromium</string>
 				<key>plusspaces</key>
 				<false/>
@@ -154,12 +154,31 @@ python "main.py" -v "chrome" -c "get.bookmarks" -q "${QUERY}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string>com.google.Chrome.canary</string>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>6F699D42-32F5-4E05-BC56-B0CFE62B3FB8</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>keyword</key>
-				<string>canary</string>
+				<string>.bookmark</string>
 				<key>queuedelaycustom</key>
 				<integer>1</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -193,25 +212,6 @@ python "main.py" -v "canary" -c "get.bookmarks" -q "${QUERY}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string>com.google.Chrome.canary</string>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>6F699D42-32F5-4E05-BC56-B0CFE62B3FB8</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -227,27 +227,6 @@ python "settings.py" -v "chrome" -c "set.profile" -q "${QUERY}"</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>0436063E-BB98-42FF-A897-2CE6E941F289</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string>QUERY=$(./bin/normalise -form NFC "{query}")
-
-python "settings.py" -v "chromium" -c "set.profile" -q "${QUERY}"</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>3E84C658-B2CE-46AB-8242-4D2675D1AC1C</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -273,6 +252,27 @@ python "settings.py" -v "chromium" -c "set.profile" -q "${QUERY}"</string>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>986B910B-B203-4CFA-807B-7922C6D6FF15</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>QUERY=$(./bin/normalise -form NFC "{query}")
+
+python "settings.py" -v "chromium" -c "set.profile" -q "${QUERY}"</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3E84C658-B2CE-46AB-8242-4D2675D1AC1C</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>

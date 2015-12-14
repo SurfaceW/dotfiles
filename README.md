@@ -2,6 +2,8 @@
 
 This is a dotfiles which I keep to improve my efficiency.
 
+run `bash build.sh` on MacOSX to update files.
+
 ## File and Description
 
 - `.bash_profile`: bash config file, not recommended use.
