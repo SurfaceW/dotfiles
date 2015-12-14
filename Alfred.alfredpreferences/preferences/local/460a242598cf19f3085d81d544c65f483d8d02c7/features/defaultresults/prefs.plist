@@ -7,14 +7,9 @@
 		<string>/Applications</string>
 		<string>~/Desktop</string>
 		<string>~/Developer</string>
-		<string>~/Documents/Frame</string>
-		<string>~/Documents/Knowledge</string>
-		<string>~/Documents/Life</string>
-		<string>~/Documents/Reference</string>
-		<string>~/Documents/Resources</string>
-		<string>~/Documents/Track</string>
-		<string>~/Documents/Work</string>
+		<string>~/Documents</string>
 		<string>~/Downloads</string>
+		<string>~/Library/Caches/Metadata</string>
 		<string>~/Movies</string>
 		<string>~/Music</string>
 		<string>~/Pictures</string>
