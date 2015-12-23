@@ -119,3 +119,10 @@ Web Search：
     - 「ens」Evernote note search with node title and its content
         - 「end #」Search note with tag name
     - 「end」Evernote search the notebook
+
+### Global Hotkeys
+
+- `cmd + alt + control + T` Search Evernote with Title
+- `cmd + alt + control + E` Launch / Switch to Evernote
+- `cmd + alt + control + F` Launch / Switch to OmniFocus
+- `cmd + alt + control + G` Switch to GlobalFocus File

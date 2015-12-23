@@ -3,6 +3,17 @@
 	"auto_complete_selector": "source, text",
 	"color_scheme": "Packages/User/SublimeLinter/One Dark (SL).tmTheme",
 	"create_window_at_startup": false,
+	"file_exclude_patterns":
+	[
+		"*.map",
+		"*.min.js",
+		"*.min.css",
+		"node_modules/*",
+		"dist/*",
+		".tmp/*",
+		"static/compiled/-/js/closure/",
+		".DS_Store"
+	],
 	"folder_exclude_patterns":
 	[
 		".svn",
