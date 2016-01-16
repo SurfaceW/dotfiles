@@ -18,11 +18,6 @@
 			<key>itemuid</key>
 			<string>6F14711F-EB94-4099-8F3F-2A6BF933FEE6</string>
 		</dict>
-		<dict/>
-		<dict/>
-		<dict/>
-		<dict/>
-		<dict/>
 		<dict>
 			<key>actionconfig</key>
 			<dict>
@@ -40,6 +35,11 @@
 			<key>itemuid</key>
 			<string>16D8E222-4FAD-4E16-8688-11A22BA0CF71</string>
 		</dict>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
 		<dict>
 			<key>actionconfig</key>
 			<dict>

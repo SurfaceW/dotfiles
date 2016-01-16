@@ -76,6 +76,10 @@ Git Shortcuts
 - `rebase`: git rebase
 - `reset`: git reset
 
+Help
+
+- `tldr`: simplified man page 
+
 OSX Series:
 
 - `tab` - open the current directory in a new tab
@@ -86,6 +90,25 @@ OSX Series:
 - `quick-look` - Quick Look a specified file
 - `man-preview` - open a specified man page in Preview
 - `trash` - move a specified file to the Trash
+
+Tools:
+
+- `jekyll` - static blog generator
+    - `jekyll build | serve`
+- `jumbo` - Baidu Package Manager
+- `mongo` - Mongo DB
+- `mysql` - MySQL CLI tools
+- `brew` - Mac version of `apt-get`
+
+Node Tools:
+
+- `browserify`
+- `express`
+- `npm`
+- `gulp`
+- `grunt`
+- `bower`
+- `tldr`
 
 ---
 
@@ -126,3 +149,4 @@ Web Search：
 - `cmd + alt + control + E` Launch / Switch to Evernote
 - `cmd + alt + control + F` Launch / Switch to OmniFocus
 - `cmd + alt + control + G` Switch to GlobalFocus File
+- `cmd + alt + control + I` Launch / Switch to iTerm

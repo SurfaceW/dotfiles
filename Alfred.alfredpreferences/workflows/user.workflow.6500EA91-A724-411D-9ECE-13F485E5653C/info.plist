@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>surfacew</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>4D1D6345-DE0E-4C64-BEA1-7F9663C7FCED</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>739DE2D1-18B1-47E5-988E-E648419AF82A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>surfacew</string>
+	<key>description</key>
+	<string>Make into Finder Much Faster</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Finder Express Way</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>screenshoot</string>
+				<key>subtext</key>
+				<string>Enter Please</string>
+				<key>text</key>
+				<string>Open Screen Shoot Pics of QQ</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4D1D6345-DE0E-4C64-BEA1-7F9663C7FCED</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>sourcefile</key>
+				<string>~/Pictures/FN2V63AD2J.com.tencent.ScreenCapture2</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>739DE2D1-18B1-47E5-988E-E648419AF82A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>This is a great way to view frequently used files in Finder.</string>
+	<key>uidata</key>
+	<dict>
+		<key>4D1D6345-DE0E-4C64-BEA1-7F9663C7FCED</key>
+		<dict>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>739DE2D1-18B1-47E5-988E-E648419AF82A</key>
+		<dict>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>blog.surfacew.com</string>
+</dict>
+</plist>

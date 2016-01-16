@@ -9,11 +9,11 @@
 			<key>enabled</key>
 			<true/>
 			<key>keyword</key>
-			<string>baidu</string>
+			<string>bd</string>
 			<key>plusSpaces</key>
 			<false/>
 			<key>text</key>
-			<string>Baidu</string>
+			<string>Sarch Baidu for '{query}'</string>
 			<key>url</key>
 			<string>https://www.baidu.com/s?wd={query}</string>
 			<key>utf8</key>
@@ -31,6 +31,21 @@
 			<string>Search Taobao</string>
 			<key>url</key>
 			<string>https://s.taobao.com/search?q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>FF5D424A-2F69-4A99-8154-A7DAE43F1F04</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>zhihu</string>
+			<key>plusSpaces</key>
+			<false/>
+			<key>text</key>
+			<string>Zhihu Search</string>
+			<key>url</key>
+			<string>https://www.zhihu.com/search?q={query}</string>
 			<key>utf8</key>
 			<true/>
 		</dict>

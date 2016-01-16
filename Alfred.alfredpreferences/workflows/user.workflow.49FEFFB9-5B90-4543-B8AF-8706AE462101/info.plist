@@ -523,17 +523,6 @@
 				<string></string>
 			</dict>
 		</array>
-		<key>BA65BA92-2F93-468E-9C0C-6532A2AFB52B</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8BDABE79-2BF4-4CAC-83C5-D960633934DC</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
 		<key>BB8DEF2C-ED9B-4A8A-85EB-E65AA7E6E702</key>
 		<array>
 			<dict>
@@ -712,17 +701,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>837749EE-179F-4B00-BD6E-066478F83A38</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-		<key>FD7E3A4B-6AB5-40B2-8285-D3004928CFDA</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>7C43E15F-8371-4EC8-B8C1-54E7AE9ACC2D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -2036,23 +2014,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>acceptsmulti</key>
-				<true/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>New Note with File(s) to Evernote</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>BA65BA92-2F93-468E-9C0C-6532A2AFB52B</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -2072,23 +2033,6 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>A0760809-E929-4DFC-9C32-DEB39366F960</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<true/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>New Notes from each File</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>FD7E3A4B-6AB5-40B2-8285-D3004928CFDA</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -2686,11 +2630,6 @@ q_workflow library by Ursan Razvan</string>
 			<key>ypos</key>
 			<real>3110</real>
 		</dict>
-		<key>BA65BA92-2F93-468E-9C0C-6532A2AFB52B</key>
-		<dict>
-			<key>ypos</key>
-			<real>3210</real>
-		</dict>
 		<key>BB8DEF2C-ED9B-4A8A-85EB-E65AA7E6E702</key>
 		<dict>
 			<key>ypos</key>
@@ -2795,11 +2734,6 @@ q_workflow library by Ursan Razvan</string>
 		<dict>
 			<key>ypos</key>
 			<real>1310</real>
-		</dict>
-		<key>FD7E3A4B-6AB5-40B2-8285-D3004928CFDA</key>
-		<dict>
-			<key>ypos</key>
-			<real>3310</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>

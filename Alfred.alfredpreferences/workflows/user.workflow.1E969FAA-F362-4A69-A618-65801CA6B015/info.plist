@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>forceemptytrash</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>01086DB9-6E17-485F-9E18-A4D707385EF4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CCDD0A46-3D06-4344-A187-C75F43D63053</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>B11B132B-4A61-4C05-8F4F-2111F454E6C6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>01086DB9-6E17-485F-9E18-A4D707385EF4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Erik Jansson</string>
+	<key>description</key>
+	<string>Empties your trash with force!</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Force Empty Trash</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>2</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>You are already feeling a little better, aren't you?</string>
+				<key>title</key>
+				<string>Trash is now empty</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>CCDD0A46-3D06-4344-A187-C75F43D63053</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>script</key>
+				<string>rm -Rf ~/.Trash/*</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>01086DB9-6E17-485F-9E18-A4D707385EF4</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>forceempty</string>
+				<key>subtext</key>
+				<string>Ensuring peace of mind and happiness</string>
+				<key>text</key>
+				<string>Force empty trash</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B11B132B-4A61-4C05-8F4F-2111F454E6C6</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Based on Trevor Williams' script for Alfred v1 (http://phase1geo.tumblr.com/post/10587536897/alfred-extension-force-empty-trash).
+
+http://erikjansson.net
+http://twitter.com/erikjansson</string>
+	<key>uidata</key>
+	<dict>
+		<key>01086DB9-6E17-485F-9E18-A4D707385EF4</key>
+		<dict>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>B11B132B-4A61-4C05-8F4F-2111F454E6C6</key>
+		<dict>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>CCDD0A46-3D06-4344-A187-C75F43D63053</key>
+		<dict>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://erikjansson.net</string>
+</dict>
+</plist>

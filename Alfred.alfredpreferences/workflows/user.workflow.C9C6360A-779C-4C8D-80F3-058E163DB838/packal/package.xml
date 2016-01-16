@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<workflow>
+  <name>Better IMDB search</name>
+  <version>1.2</version>
+  <bundle>fspinillo.alfredv2.imdb</bundle>
+  <updated>1418821933</updated>
+  <file>imdb.alfredworkflow</file>
+</workflow>

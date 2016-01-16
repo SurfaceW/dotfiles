@@ -19,17 +19,6 @@
 				<string></string>
 			</dict>
 		</array>
-		<key>20F1E8E8-0E47-48E3-92C4-AF412CCD4271</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>6F699D42-32F5-4E05-BC56-B0CFE62B3FB8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
 		<key>3D8A5387-CCF1-421B-B3AF-054EFF9C80F5</key>
 		<array>
 			<dict>
@@ -135,77 +124,25 @@ python "main.py" -v "chrome" -c "get.bookmarks" -q "${QUERY}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string>org.chromium.Chromium</string>
-				<key>plusspaces</key>
+				<key>lastpathcomponent</key>
 				<false/>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>284986D3-9648-450F-BD20-DF66B98F0E2D</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string>com.google.Chrome.canary</string>
-				<key>plusspaces</key>
+				<key>onlyshowifquerypopulated</key>
 				<false/>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>6F699D42-32F5-4E05-BC56-B0CFE62B3FB8</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
+				<key>output</key>
 				<integer>0</integer>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>keyword</key>
-				<string>.bookmark</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
+				<key>removeextension</key>
 				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Searching bookmarks...</string>
-				<key>script</key>
-				<string>QUERY=$(./bin/normalise -form NFC "{query}")
-
-python "main.py" -v "canary" -c "get.bookmarks" -q "${QUERY}"</string>
-				<key>subtext</key>
-				<string>Start typing to search bookmarks…</string>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
 				<key>title</key>
-				<string>Google Chrome Canary bookmarks '{query}'</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
+				<string>Chrome Bookmarks</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>20F1E8E8-0E47-48E3-92C4-AF412CCD4271</string>
+			<string>986B910B-B203-4CFA-807B-7922C6D6FF15</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -227,31 +164,6 @@ python "settings.py" -v "chrome" -c "set.profile" -q "${QUERY}"</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>0436063E-BB98-42FF-A897-2CE6E941F289</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>output</key>
-				<integer>0</integer>
-				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Chrome Bookmarks</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>986B910B-B203-4CFA-807B-7922C6D6FF15</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -305,16 +217,6 @@ python "settings.py" -v "canary" -c "set.profile" -q "${QUERY}"</string>
 		<key>0436063E-BB98-42FF-A897-2CE6E941F289</key>
 		<dict>
 			<key>ypos</key>
-			<real>370</real>
-		</dict>
-		<key>20F1E8E8-0E47-48E3-92C4-AF412CCD4271</key>
-		<dict>
-			<key>ypos</key>
-			<real>250</real>
-		</dict>
-		<key>284986D3-9648-450F-BD20-DF66B98F0E2D</key>
-		<dict>
-			<key>ypos</key>
 			<real>130</real>
 		</dict>
 		<key>3D8A5387-CCF1-421B-B3AF-054EFF9C80F5</key>
@@ -323,11 +225,6 @@ python "settings.py" -v "canary" -c "set.profile" -q "${QUERY}"</string>
 			<real>10</real>
 		</dict>
 		<key>3E84C658-B2CE-46AB-8242-4D2675D1AC1C</key>
-		<dict>
-			<key>ypos</key>
-			<real>490</real>
-		</dict>
-		<key>6F699D42-32F5-4E05-BC56-B0CFE62B3FB8</key>
 		<dict>
 			<key>ypos</key>
 			<real>250</real>
@@ -340,12 +237,12 @@ python "settings.py" -v "canary" -c "set.profile" -q "${QUERY}"</string>
 		<key>986B910B-B203-4CFA-807B-7922C6D6FF15</key>
 		<dict>
 			<key>ypos</key>
-			<real>490</real>
+			<real>130</real>
 		</dict>
 		<key>F6CA3879-13F5-4213-BA6B-082BF8B37D59</key>
 		<dict>
 			<key>ypos</key>
-			<real>610</real>
+			<real>380</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
