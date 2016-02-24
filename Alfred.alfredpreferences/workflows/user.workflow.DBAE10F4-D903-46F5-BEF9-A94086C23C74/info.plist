@@ -66,7 +66,7 @@
 				<key>escaping</key>
 				<integer>32</integer>
 				<key>keyword</key>
-				<string>.history</string>
+				<string>history</string>
 				<key>queuedelaycustom</key>
 				<integer>1</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -99,15 +99,15 @@
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>keyword</key>
-				<string>.history</string>
+				<string>history</string>
 				<key>subtext</key>
 				<string>Quick open url</string>
 				<key>text</key>
 				<string>Open Chrome to View History</string>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
@@ -119,6 +119,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string>com.google.chrome</string>
 				<key>plusspaces</key>
 				<false/>
 				<key>url</key>

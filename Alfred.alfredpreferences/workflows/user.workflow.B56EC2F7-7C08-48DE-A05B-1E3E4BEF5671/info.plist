@@ -71,7 +71,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>keyword</key>
-				<string>.bookmark</string>
+				<string>bookmark</string>
 				<key>queuedelaycustom</key>
 				<integer>1</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -124,6 +124,27 @@ python "main.py" -v "chrome" -c "get.bookmarks" -q "${QUERY}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>QUERY=$(./bin/normalise -form NFC "{query}")
+
+python "settings.py" -v "chrome" -c "set.profile" -q "${QUERY}"</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0436063E-BB98-42FF-A897-2CE6E941F289</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -143,27 +164,6 @@ python "main.py" -v "chrome" -c "get.bookmarks" -q "${QUERY}"</string>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>986B910B-B203-4CFA-807B-7922C6D6FF15</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string>QUERY=$(./bin/normalise -form NFC "{query}")
-
-python "settings.py" -v "chrome" -c "set.profile" -q "${QUERY}"</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>0436063E-BB98-42FF-A897-2CE6E941F289</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>

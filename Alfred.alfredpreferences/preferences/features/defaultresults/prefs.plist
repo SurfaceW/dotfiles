@@ -8,8 +8,6 @@
 		<string>features.websearch.custom.490AD867-CECF-4DA0-88AC-0B2CDEBE5D6B.fallback</string>
 		<string>features.websearch.wiki.fallback</string>
 	</array>
-	<key>showArchives</key>
-	<true/>
 	<key>showBookmarks</key>
 	<true/>
 	<key>showDocuments</key>

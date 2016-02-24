@@ -8,6 +8,17 @@
 	<string>Internet</string>
 	<key>connections</key>
 	<dict>
+		<key>26DF8C02-B40B-4232-AC82-B3CF3AC69B18</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4C085856-E37E-4A54-9E11-1BBBD9D1C473</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>31FB650B-4C0F-4C10-A26F-7A88913B3D70</key>
 		<array>
 			<dict>
@@ -30,11 +41,33 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>4536EF44-A414-47A7-9C1F-0A4CE12ABA66</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CB2AB056-FF83-459B-B419-CE1660ED8828</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>598556DF-F932-4ACC-8046-0671892D3C57</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>4FA69514-E014-46F7-A9D3-6AB11F2DBFBA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>687F35A4-1370-48B3-B65C-074E45C14C2C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0F888A60-383B-4B2A-8AD5-235BCB3C4086</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -118,6 +151,52 @@
 	<string>HotKeys Series</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/NeteaseMusic.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>4C085856-E37E-4A54-9E11-1BBBD9D1C473</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>GlobalFocus</string>
+				<key>hotkey</key>
+				<integer>13</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>W</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>26DF8C02-B40B-4232-AC82-B3CF3AC69B18</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -339,19 +418,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>sourcefile</key>
-				<string>~/Documents/Frame/3D_理性囚笼/管理/AffairsDaily.md</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>B87733F6-F519-494D-92C3-3336C5561D74</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -373,6 +439,19 @@
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>D1E68E69-5DED-4ECD-92CB-1177AF48184C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>sourcefile</key>
+				<string>~/Documents/Frame/3D_理性囚笼/管理/AffairsDaily.md</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>B87733F6-F519-494D-92C3-3336C5561D74</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -508,15 +587,109 @@
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>15</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>R</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>687F35A4-1370-48B3-B65C-074E45C14C2C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Reeder.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>0F888A60-383B-4B2A-8AD5-235BCB3C4086</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>4</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>H</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>4536EF44-A414-47A7-9C1F-0A4CE12ABA66</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>sourcefile</key>
+				<string>~/Documents/Frame/4D_心灵净土/显意识_信息/视野/信息视野.md</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>CB2AB056-FF83-459B-B419-CE1660ED8828</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Improve the personal daily procedures efficiency.</string>
 	<key>uidata</key>
 	<dict>
+		<key>0F888A60-383B-4B2A-8AD5-235BCB3C4086</key>
+		<dict>
+			<key>ypos</key>
+			<real>1260</real>
+		</dict>
 		<key>212ED9ED-8E72-4EDB-9CC0-35D655CA9EE0</key>
 		<dict>
 			<key>ypos</key>
 			<real>540</real>
+		</dict>
+		<key>26DF8C02-B40B-4232-AC82-B3CF3AC69B18</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
 		</dict>
 		<key>31FB650B-4C0F-4C10-A26F-7A88913B3D70</key>
 		<dict>
@@ -528,10 +701,20 @@
 			<key>ypos</key>
 			<real>420</real>
 		</dict>
+		<key>4536EF44-A414-47A7-9C1F-0A4CE12ABA66</key>
+		<dict>
+			<key>ypos</key>
+			<real>1380</real>
+		</dict>
 		<key>467BF837-6697-41FE-A785-7326BDF0E970</key>
 		<dict>
 			<key>ypos</key>
 			<real>660</real>
+		</dict>
+		<key>4C085856-E37E-4A54-9E11-1BBBD9D1C473</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
 		</dict>
 		<key>4FA69514-E014-46F7-A9D3-6AB11F2DBFBA</key>
 		<dict>
@@ -542,6 +725,11 @@
 		<dict>
 			<key>ypos</key>
 			<real>900</real>
+		</dict>
+		<key>687F35A4-1370-48B3-B65C-074E45C14C2C</key>
+		<dict>
+			<key>ypos</key>
+			<real>1260</real>
 		</dict>
 		<key>719089DD-50D1-490A-BC21-B935AF34D290</key>
 		<dict>
@@ -582,6 +770,11 @@
 		<dict>
 			<key>ypos</key>
 			<real>180</real>
+		</dict>
+		<key>CB2AB056-FF83-459B-B419-CE1660ED8828</key>
+		<dict>
+			<key>ypos</key>
+			<real>1380</real>
 		</dict>
 		<key>D1E68E69-5DED-4ECD-92CB-1177AF48184C</key>
 		<dict>

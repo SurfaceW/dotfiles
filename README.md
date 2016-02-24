@@ -64,8 +64,7 @@ Networking
 
 Private Usage
 
-- `zhihu_c`
-- `zhihu_livecode`
+- `alic`
 
 Git Shortcuts
 
@@ -90,6 +89,7 @@ OSX Series:
 - `quick-look` - Quick Look a specified file
 - `man-preview` - open a specified man page in Preview
 - `trash` - move a specified file to the Trash
+- `open` - Open directory in Finder of Mac
 
 Tools:
 

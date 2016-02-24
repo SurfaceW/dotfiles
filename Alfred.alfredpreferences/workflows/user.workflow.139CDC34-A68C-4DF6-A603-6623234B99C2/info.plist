@@ -27,11 +27,44 @@
 				<string>Kill all processes with this name.</string>
 			</dict>
 		</array>
+		<key>5B53C018-19D3-4A69-BE02-AB58178C76CD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C44D65CF-9C35-43F4-92FC-2583334D5479</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>BDE3E8F6-CE82-4137-B0D9-AE9CE4FBCDC8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F68463CD-0BC0-4719-ACBB-3B89129ED2DC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>C0A5D632-3A7D-4FFA-B2CD-65EC2E69A567</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>CE3ADA44-598D-4476-89A1-9EAAB079DCFF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>E35D8650-1BEE-4A90-80BB-F3F2CD09F299</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B4B6D59C-CA75-49C4-AFDE-80485B1732D1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -55,16 +88,39 @@
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>0</integer>
+				<integer>102</integer>
 				<key>script</key>
-				<string>kill -9 {query}</string>
+				<string>pkill 'Chrome'
+pkill 'firefox'
+pkill 'Safari'</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>31AD6783-08D4-48E0-B323-39292BF089D6</string>
+			<string>C44D65CF-9C35-43F4-92FC-2583334D5479</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>killbrowser</string>
+				<key>subtext</key>
+				<string>Fast kill, isn't it?</string>
+				<key>text</key>
+				<string>Kill all browsers</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>5B53C018-19D3-4A69-BE02-AB58178C76CD</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -161,21 +217,19 @@ puts xmlString</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>.killall</string>
-				<key>subtext</key>
-				<string>Often to kill hanging apps  XD, you dead!</string>
-				<key>text</key>
-				<string>Kill all not necessary processes</string>
-				<key>withspace</key>
+				<key>concurrently</key>
 				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>kill -9 {query}</string>
+				<key>type</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>C0A5D632-3A7D-4FFA-B2CD-65EC2E69A567</string>
+			<string>31AD6783-08D4-48E0-B323-39292BF089D6</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -201,6 +255,27 @@ puts xmlString</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>killall</string>
+				<key>subtext</key>
+				<string>Often to kill hanging apps  XD, you dead!</string>
+				<key>text</key>
+				<string>Kill all not necessary processes</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C0A5D632-3A7D-4FFA-B2CD-65EC2E69A567</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -211,7 +286,20 @@ pkill 'Preview'
 pkill 'Monitor'
 pkill 'GitHub Desktop'
 pkill 'PDF Expert'
-pkill 'Terminal'</string>
+pkill 'Terminal'
+pkill 'BetterZip'
+pkill 'Terminal'
+pkill 'Mindjet MindManager'
+pkill 'Reeder'
+pkill 'Dash'
+pkill 'QuickTime Player'
+pkill 'MPlayerX'
+pkill '1Password'
+pkill 'Thunder'
+pkill 'Messages'
+pkill 'Pages'
+pkill 'Numbers'
+pkill 'Keynotes'</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -219,6 +307,90 @@ pkill 'Terminal'</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>CE3ADA44-598D-4476-89A1-9EAAB079DCFF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>killdevelopment</string>
+				<key>subtext</key>
+				<string>Often to kill hanging apps  XD, you dead!</string>
+				<key>text</key>
+				<string>Kill all not necessary processes via developer</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>E35D8650-1BEE-4A90-80BB-F3F2CD09F299</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>pkill 'iTerm'
+pkill 'Sublime Text'
+pkill 'Terminal'
+pkill 'Dash'</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B4B6D59C-CA75-49C4-AFDE-80485B1732D1</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>pkill 'QQ'
+pkill 'WeChat'</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F68463CD-0BC0-4719-ACBB-3B89129ED2DC</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>killcommunicators</string>
+				<key>subtext</key>
+				<string>Often to kill hanging apps  XD, you dead!</string>
+				<key>text</key>
+				<string>Kill all not necessary IM</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BDE3E8F6-CE82-4137-B0D9-AE9CE4FBCDC8</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -275,10 +447,30 @@ The ruby script that powers Kill Process is `script.rb`. For testing, add a valu
 			<key>ypos</key>
 			<real>170</real>
 		</dict>
+		<key>5B53C018-19D3-4A69-BE02-AB58178C76CD</key>
+		<dict>
+			<key>ypos</key>
+			<real>50</real>
+		</dict>
+		<key>B4B6D59C-CA75-49C4-AFDE-80485B1732D1</key>
+		<dict>
+			<key>ypos</key>
+			<real>580</real>
+		</dict>
+		<key>BDE3E8F6-CE82-4137-B0D9-AE9CE4FBCDC8</key>
+		<dict>
+			<key>ypos</key>
+			<real>700</real>
+		</dict>
 		<key>C0A5D632-3A7D-4FFA-B2CD-65EC2E69A567</key>
 		<dict>
 			<key>ypos</key>
-			<real>290</real>
+			<real>460</real>
+		</dict>
+		<key>C44D65CF-9C35-43F4-92FC-2583334D5479</key>
+		<dict>
+			<key>ypos</key>
+			<real>50</real>
 		</dict>
 		<key>C4986824-5761-4F2E-A82F-E4EBC2CAF54C</key>
 		<dict>
@@ -289,6 +481,16 @@ The ruby script that powers Kill Process is `script.rb`. For testing, add a valu
 		<dict>
 			<key>ypos</key>
 			<real>460</real>
+		</dict>
+		<key>E35D8650-1BEE-4A90-80BB-F3F2CD09F299</key>
+		<dict>
+			<key>ypos</key>
+			<real>580</real>
+		</dict>
+		<key>F68463CD-0BC0-4719-ACBB-3B89129ED2DC</key>
+		<dict>
+			<key>ypos</key>
+			<real>700</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>

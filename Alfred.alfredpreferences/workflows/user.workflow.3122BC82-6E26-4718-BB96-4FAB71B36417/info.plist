@@ -55,6 +55,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>extension</string>
+				<key>subtext</key>
+				<string>Open extensions in Chrome</string>
+				<key>text</key>
+				<string>Chrome Extension</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>614DFF00-ACEB-489C-BE83-7191FAEBF870</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string>com.google.chrome</string>
 				<key>plusspaces</key>
@@ -77,28 +98,7 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>.extension</string>
-				<key>subtext</key>
-				<string>Open extensions in Chrome</string>
-				<key>text</key>
-				<string>Chrome Extension</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>614DFF00-ACEB-489C-BE83-7191FAEBF870</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>.weather</string>
+				<string>weather</string>
 				<key>subtext</key>
 				<string>Open the weather in Baidu</string>
 				<key>text</key>
@@ -157,7 +157,7 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>.calendar</string>
+				<string>calendar</string>
 				<key>subtext</key>
 				<string>Open the calendar in Baidu</string>
 				<key>text</key>

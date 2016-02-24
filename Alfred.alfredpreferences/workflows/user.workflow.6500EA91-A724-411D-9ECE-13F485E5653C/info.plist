@@ -8,11 +8,66 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>2025BCB4-8E66-4555-B850-2F331F15493E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F4742C30-52C6-4234-AB74-2B6B648119A6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>4CA6E426-CE49-4BCD-85EB-A8D37F170EF8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DFE8406B-F741-4BF2-8BF1-1AFA6869AB3B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>4D1D6345-DE0E-4C64-BEA1-7F9663C7FCED</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>739DE2D1-18B1-47E5-988E-E648419AF82A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>58AEAF21-D16C-46F9-A2AE-2193F0ABBB99</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AC1B1220-B905-4EA9-B070-73C16F8AB526</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>72375F6E-5CFF-400C-9F44-7775E1FD1BD4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7DD5B372-2245-459F-BABB-5FE58BD3A541</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>DED218B4-653F-4A22-B704-21BC09EAC114</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9B7BEDF0-12ED-42F3-B3B5-18C671506930</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -30,6 +85,19 @@
 	<string>Finder Express Way</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>sourcefile</key>
+				<string>~/Pictures/FN2V63AD2J.com.tencent.ScreenCapture2</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>739DE2D1-18B1-47E5-988E-E648419AF82A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -55,29 +123,236 @@
 			<key>config</key>
 			<dict>
 				<key>sourcefile</key>
-				<string>~/Pictures/FN2V63AD2J.com.tencent.ScreenCapture2</string>
+				<string>~/Documents/Work/毕业设计</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>739DE2D1-18B1-47E5-988E-E648419AF82A</string>
+			<string>AC1B1220-B905-4EA9-B070-73C16F8AB526</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>bs</string>
+				<key>subtext</key>
+				<string>Enter Please</string>
+				<key>text</key>
+				<string>Open Folder of 毕业设计</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>58AEAF21-D16C-46F9-A2AE-2193F0ABBB99</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>sourcefile</key>
+				<string>~/Library/SE Services/SE_TOP_Contents.md</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>DFE8406B-F741-4BF2-8BF1-1AFA6869AB3B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>se1</string>
+				<key>subtext</key>
+				<string>Enter Please</string>
+				<key>text</key>
+				<string>Open SE1 Top contents</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4CA6E426-CE49-4BCD-85EB-A8D37F170EF8</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>se1_service</string>
+				<key>subtext</key>
+				<string>Enter Please</string>
+				<key>text</key>
+				<string>Open SE1 Service Folder</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2025BCB4-8E66-4555-B850-2F331F15493E</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>sourcefile</key>
+				<string>~/Library/SE Services</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>F4742C30-52C6-4234-AB74-2B6B648119A6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>developer-react-boilerplate</string>
+				<key>subtext</key>
+				<string>Enter Please</string>
+				<key>text</key>
+				<string>Open React Boilerplate</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DED218B4-653F-4A22-B704-21BC09EAC114</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>sourcefile</key>
+				<string>~/Developer/playground/react-boilerplate</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>9B7BEDF0-12ED-42F3-B3B5-18C671506930</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>sourcefile</key>
+				<string>~/Sites/uxcore/uxcore-form</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>7DD5B372-2245-459F-BABB-5FE58BD3A541</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>uxcore</string>
+				<key>subtext</key>
+				<string>Enter Please</string>
+				<key>text</key>
+				<string>Uxcore of Alinw</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>72375F6E-5CFF-400C-9F44-7775E1FD1BD4</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string>This is a great way to view frequently used files in Finder.</string>
 	<key>uidata</key>
 	<dict>
+		<key>2025BCB4-8E66-4555-B850-2F331F15493E</key>
+		<dict>
+			<key>ypos</key>
+			<real>340</real>
+		</dict>
+		<key>4CA6E426-CE49-4BCD-85EB-A8D37F170EF8</key>
+		<dict>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
 		<key>4D1D6345-DE0E-4C64-BEA1-7F9663C7FCED</key>
 		<dict>
 			<key>ypos</key>
-			<real>250</real>
+			<real>10</real>
+		</dict>
+		<key>58AEAF21-D16C-46F9-A2AE-2193F0ABBB99</key>
+		<dict>
+			<key>ypos</key>
+			<real>120</real>
+		</dict>
+		<key>72375F6E-5CFF-400C-9F44-7775E1FD1BD4</key>
+		<dict>
+			<key>ypos</key>
+			<real>580</real>
 		</dict>
 		<key>739DE2D1-18B1-47E5-988E-E648419AF82A</key>
 		<dict>
 			<key>ypos</key>
-			<real>250</real>
+			<real>10</real>
+		</dict>
+		<key>7DD5B372-2245-459F-BABB-5FE58BD3A541</key>
+		<dict>
+			<key>ypos</key>
+			<real>580</real>
+		</dict>
+		<key>9B7BEDF0-12ED-42F3-B3B5-18C671506930</key>
+		<dict>
+			<key>ypos</key>
+			<real>460</real>
+		</dict>
+		<key>AC1B1220-B905-4EA9-B070-73C16F8AB526</key>
+		<dict>
+			<key>ypos</key>
+			<real>120</real>
+		</dict>
+		<key>DED218B4-653F-4A22-B704-21BC09EAC114</key>
+		<dict>
+			<key>ypos</key>
+			<real>460</real>
+		</dict>
+		<key>DFE8406B-F741-4BF2-8BF1-1AFA6869AB3B</key>
+		<dict>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
+		<key>F4742C30-52C6-4234-AB74-2B6B648119A6</key>
+		<dict>
+			<key>ypos</key>
+			<real>340</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>

@@ -6,7 +6,7 @@
 	<array>
 		<string>/Applications</string>
 		<string>~/Desktop</string>
-		<string>~/Developer</string>
+		<string>~/Developer/dotfiles</string>
 		<string>~/Documents</string>
 		<string>~/Downloads</string>
 		<string>~/Library/Caches/Metadata</string>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>113B3D32-8D36-4EAB-85E3-50A09E11BC11</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DAB94AD4-75C6-4B52-BF90-46314C074599</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>638F8B0D-93AA-465D-8095-854788AE2A16</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7BC7F57-7E0C-429E-A347-55585ACE7900</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>C88BCC3D-ED6D-4842-8D46-2BCFE9BCF99F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>638F8B0D-93AA-465D-8095-854788AE2A16</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>113B3D32-8D36-4EAB-85E3-50A09E11BC11</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Steffen Lyngbaek</string>
+	<key>description</key>
+	<string>Shows a list of disks to eject and ejects upon selection.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Eject Disk</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>if [ {query} == "all" ]
+then
+	osascript -e 'tell application "Finder" to eject (every disk whose ejectable is true)'
+	echo {query}
+fi</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>113B3D32-8D36-4EAB-85E3-50A09E11BC11</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>All hardware is safe to remove</string>
+				<key>title</key>
+				<string>All Disks Ejected</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>DAB94AD4-75C6-4B52-BF90-46314C074599</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>if [ {query} -a {query} != "all" ]
+then
+	diskutil eject {query}
+fi</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>638F8B0D-93AA-465D-8095-854788AE2A16</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>eject</string>
+				<key>runningsubtext</key>
+				<string>Searching Volumes</string>
+				<key>script</key>
+				<string>from Mounted import run
+print run()</string>
+				<key>subtext</key>
+				<string>Searches /Volumes for Mounts</string>
+				<key>title</key>
+				<string>Select a Volume to Unmount</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C88BCC3D-ED6D-4842-8D46-2BCFE9BCF99F</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<true/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>Safe to remove hardware</string>
+				<key>title</key>
+				<string>{query} has been ejected</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>B7BC7F57-7E0C-429E-A347-55585ACE7900</string>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>113B3D32-8D36-4EAB-85E3-50A09E11BC11</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>638F8B0D-93AA-465D-8095-854788AE2A16</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>B7BC7F57-7E0C-429E-A347-55585ACE7900</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>C88BCC3D-ED6D-4842-8D46-2BCFE9BCF99F</key>
+		<dict>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>DAB94AD4-75C6-4B52-BF90-46314C074599</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>steffen.lyngbaek.com</string>
+</dict>
+</plist>
