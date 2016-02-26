@@ -1,17 +1,33 @@
 {
 	"auto_complete_delay": 5,
 	"auto_complete_selector": "source, text",
-	"color_scheme": "Packages/User/SublimeLinter/One Dark (SL).tmTheme",
+	"binary_file_patterns":
+	[
+		"dist/*",
+		"node_modules/*",
+		"build/*",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
 	"create_window_at_startup": false,
 	"file_exclude_patterns":
 	[
 		"*.map",
 		"*.min.js",
 		"*.min.css",
-		"node_modules/*",
-		"dist/*",
 		".tmp/*",
-		"static/compiled/-/js/closure/",
 		".DS_Store"
 	],
 	"folder_exclude_patterns":
@@ -44,6 +60,7 @@
 	[
 		"caniuse_local",
 		"Clipboard Manager",
+		"ConvertToUTF8",
 		"CSScomb",
 		"HTML-CSS-JS Prettify",
 		"JavaScript Patterns",
@@ -51,6 +68,7 @@
 		"JSLint",
 		"Markdown",
 		"Nodejs",
+		"SFTP",
 		"SublimeLinter-jsl",
 		"Terminal",
 		"Trimmer"

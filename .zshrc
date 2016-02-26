@@ -74,6 +74,7 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
+# fix 体系小改
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -162,9 +163,11 @@ alias size='du -d 1 -h'                     # size:         Show current file / 
 
 # Self-defined alias
 
-# Zhihu
-alias zhihu_c='ssh yeqingnan.aws.dev'
-alias zhihu_livecode='livecode ~/Sites/zhihu/zhihu-web surfacew@yeqingnan.aws.dev:/home/surfacew'
+# Alibaba
+alias alic='ssh qingnan.yqn@10.125.55.239'
+
+# Npm
+alias tnpm='tnpm -d'
 
 # Git
 alias co='git checkout'
@@ -174,6 +177,11 @@ alias gs='git status'
 alias diff='git diff'
 alias rebase='git rebase'
 alias reset='git reset'
+alias merge='git merge'
+
+# Python
+alias p='python3'
+alias p2='python'
 
 #   lr:  Full Recursive Directory Listing
 #   ------------------------------------------
@@ -298,7 +306,7 @@ ffe () { /usr/bin/find . -name '*'"$@" ; }  # ffe:      Find file whose name end
 #   6.  NETWORKING
 #   ---------------------------
 
-alias myip='curl ip.appspot.com'                    # myip:         Public facing IP Address
+alias myip='ifconfig | grep inet" "'                    # myip:         Public facing IP Address
 alias netCons='lsof -i'                             # netCons:      Show all open TCP/IP sockets
 alias flushDNS='dscacheutil -flushcache'            # flushDNS:     Flush out the DNS Cache
 alias lsock='sudo /usr/sbin/lsof -i -P'             # lsock:        Display open sockets

@@ -19,17 +19,6 @@
 				<string></string>
 			</dict>
 		</array>
-		<key>31FB650B-4C0F-4C10-A26F-7A88913B3D70</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>467BF837-6697-41FE-A785-7326BDF0E970</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
 		<key>3F8E4E2A-9CA5-4466-8719-09EFFE2A76ED</key>
 		<array>
 			<dict>
@@ -288,7 +277,7 @@
 			<dict>
 				<key>paths</key>
 				<array>
-					<string>/Applications/Evernote.app</string>
+					<string>~/Documents/Evernote.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>
@@ -368,50 +357,6 @@
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>719089DD-50D1-490A-BC21-B935AF34D290</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/Slack.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
-			<key>uid</key>
-			<string>467BF837-6697-41FE-A785-7326BDF0E970</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>hotkey</key>
-				<integer>1</integer>
-				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>S</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>31FB650B-4C0F-4C10-A26F-7A88913B3D70</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -691,11 +636,6 @@
 			<key>ypos</key>
 			<real>60</real>
 		</dict>
-		<key>31FB650B-4C0F-4C10-A26F-7A88913B3D70</key>
-		<dict>
-			<key>ypos</key>
-			<real>660</real>
-		</dict>
 		<key>3F8E4E2A-9CA5-4466-8719-09EFFE2A76ED</key>
 		<dict>
 			<key>ypos</key>
@@ -705,11 +645,6 @@
 		<dict>
 			<key>ypos</key>
 			<real>1380</real>
-		</dict>
-		<key>467BF837-6697-41FE-A785-7326BDF0E970</key>
-		<dict>
-			<key>ypos</key>
-			<real>660</real>
 		</dict>
 		<key>4C085856-E37E-4A54-9E11-1BBBD9D1C473</key>
 		<dict>

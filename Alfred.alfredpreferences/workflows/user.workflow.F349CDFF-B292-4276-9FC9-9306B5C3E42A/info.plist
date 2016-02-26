@@ -57,61 +57,7 @@
 				<string>Copy</string>
 			</dict>
 		</array>
-		<key>dash_keyword_backbone</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_normal</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_cmd</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_alt</string>
-				<key>modifiers</key>
-				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
 		<key>dash_keyword_bash</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_normal</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_cmd</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_alt</string>
-				<key>modifiers</key>
-				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-		<key>dash_keyword_bootstrap</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -273,33 +219,6 @@
 				<string></string>
 			</dict>
 		</array>
-		<key>dash_keyword_laravel</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_normal</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_cmd</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_alt</string>
-				<key>modifiers</key>
-				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
 		<key>dash_keyword_less</key>
 		<array>
 			<dict>
@@ -355,87 +274,6 @@
 			</dict>
 		</array>
 		<key>dash_keyword_nodejs</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_normal</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_cmd</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_alt</string>
-				<key>modifiers</key>
-				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-		<key>dash_keyword_numpy</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_normal</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_cmd</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_alt</string>
-				<key>modifiers</key>
-				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-		<key>dash_keyword_php</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_normal</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_cmd</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>dash_action_alt</string>
-				<key>modifiers</key>
-				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-		<key>dash_keyword_python3</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -772,25 +610,19 @@ That said, you can edit anything else within this workflow (including adding new
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>110</integer>
-				<key>keyword</key>
-				<string>backbone</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
 				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Searching for "{query}"</string>
+				<string>Please read what's in the "Script:" section below</string>
 				<key>script</key>
-				<string>./dashAlfredWorkflow "backbone:{query}"</string>
+				<string>Dash dynamically updates this workflow with docset and search profile keywords.
+
+Do not try to change the keywords from within Alfred, as Dash will overwrite your changes. If you want to change a keyword, change it from within Dash (in Preferences &gt; Docsets).
+
+That said, you can edit anything else within this workflow (including adding new triggers/actions/hotkeys).</string>
 				<key>subtext</key>
-				<string>Search Backbone.js for "{query}"</string>
+				<string>Please read what's in the "Script:" section below</string>
 				<key>title</key>
-				<string>Search Backbone.js</string>
+				<string>PLEASE README</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -799,7 +631,162 @@ That said, you can edit anything else within this workflow (including adding new
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>dash_keyword_backbone</string>
+			<string>dash_note_readme</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string>Please read what's in the "Script:" section below</string>
+				<key>script</key>
+				<string>Dash dynamically updates this workflow with docset and search profile keywords.
+
+Do not try to change the keywords from within Alfred, as Dash will overwrite your changes. If you want to change a keyword, change it from within Dash (in Preferences &gt; Docsets).
+
+That said, you can edit anything else within this workflow (including adding new triggers/actions/hotkeys).</string>
+				<key>subtext</key>
+				<string>Please read what's in the "Script:" section below</string>
+				<key>title</key>
+				<string>PLEASE README</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>dash_note_readme</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string>Please read what's in the "Script:" section below</string>
+				<key>script</key>
+				<string>Dash dynamically updates this workflow with docset and search profile keywords.
+
+Do not try to change the keywords from within Alfred, as Dash will overwrite your changes. If you want to change a keyword, change it from within Dash (in Preferences &gt; Docsets).
+
+That said, you can edit anything else within this workflow (including adding new triggers/actions/hotkeys).</string>
+				<key>subtext</key>
+				<string>Please read what's in the "Script:" section below</string>
+				<key>title</key>
+				<string>PLEASE README</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>dash_note_readme</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string>Please read what's in the "Script:" section below</string>
+				<key>script</key>
+				<string>Dash dynamically updates this workflow with docset and search profile keywords.
+
+Do not try to change the keywords from within Alfred, as Dash will overwrite your changes. If you want to change a keyword, change it from within Dash (in Preferences &gt; Docsets).
+
+That said, you can edit anything else within this workflow (including adding new triggers/actions/hotkeys).</string>
+				<key>subtext</key>
+				<string>Please read what's in the "Script:" section below</string>
+				<key>title</key>
+				<string>PLEASE README</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>dash_note_readme</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string>Please read what's in the "Script:" section below</string>
+				<key>script</key>
+				<string>Dash dynamically updates this workflow with docset and search profile keywords.
+
+Do not try to change the keywords from within Alfred, as Dash will overwrite your changes. If you want to change a keyword, change it from within Dash (in Preferences &gt; Docsets).
+
+That said, you can edit anything else within this workflow (including adding new triggers/actions/hotkeys).</string>
+				<key>subtext</key>
+				<string>Please read what's in the "Script:" section below</string>
+				<key>title</key>
+				<string>PLEASE README</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>dash_note_readme</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string>Please read what's in the "Script:" section below</string>
+				<key>script</key>
+				<string>Dash dynamically updates this workflow with docset and search profile keywords.
+
+Do not try to change the keywords from within Alfred, as Dash will overwrite your changes. If you want to change a keyword, change it from within Dash (in Preferences &gt; Docsets).
+
+That said, you can edit anything else within this workflow (including adding new triggers/actions/hotkeys).</string>
+				<key>subtext</key>
+				<string>Please read what's in the "Script:" section below</string>
+				<key>title</key>
+				<string>PLEASE README</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>dash_note_readme</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -812,14 +799,6 @@ That said, you can edit anything else within this workflow (including adding new
 				<integer>110</integer>
 				<key>keyword</key>
 				<string>bash</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -848,52 +827,7 @@ That said, you can edit anything else within this workflow (including adding new
 				<key>escaping</key>
 				<integer>110</integer>
 				<key>keyword</key>
-				<string>bootstrap</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Searching for "{query}"</string>
-				<key>script</key>
-				<string>./dashAlfredWorkflow "bootstrap:{query}"</string>
-				<key>subtext</key>
-				<string>Search Bootstrap 3 for "{query}"</string>
-				<key>title</key>
-				<string>Search Bootstrap 3</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>dash_keyword_bootstrap</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>110</integer>
-				<key>keyword</key>
 				<string>css</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -923,14 +857,6 @@ That said, you can edit anything else within this workflow (including adding new
 				<integer>110</integer>
 				<key>keyword</key>
 				<string>express</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -960,14 +886,6 @@ That said, you can edit anything else within this workflow (including adding new
 				<integer>110</integer>
 				<key>keyword</key>
 				<string>html</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -997,14 +915,6 @@ That said, you can edit anything else within this workflow (including adding new
 				<integer>110</integer>
 				<key>keyword</key>
 				<string>javascript</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -1034,14 +944,6 @@ That said, you can edit anything else within this workflow (including adding new
 				<integer>110</integer>
 				<key>keyword</key>
 				<string>jquery</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -1070,52 +972,7 @@ That said, you can edit anything else within this workflow (including adding new
 				<key>escaping</key>
 				<integer>110</integer>
 				<key>keyword</key>
-				<string>laravel</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Searching for "{query}"</string>
-				<key>script</key>
-				<string>./dashAlfredWorkflow "laravel:{query}"</string>
-				<key>subtext</key>
-				<string>Search Laravel for "{query}"</string>
-				<key>title</key>
-				<string>Search Laravel</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>dash_keyword_laravel</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>110</integer>
-				<key>keyword</key>
 				<string>less</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -1145,14 +1002,6 @@ That said, you can edit anything else within this workflow (including adding new
 				<integer>110</integer>
 				<key>keyword</key>
 				<string>markdown</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -1182,14 +1031,6 @@ That said, you can edit anything else within this workflow (including adding new
 				<integer>110</integer>
 				<key>keyword</key>
 				<string>nodejs</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -1218,126 +1059,7 @@ That said, you can edit anything else within this workflow (including adding new
 				<key>escaping</key>
 				<integer>110</integer>
 				<key>keyword</key>
-				<string>numpy</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Searching for "{query}"</string>
-				<key>script</key>
-				<string>./dashAlfredWorkflow "numpy:{query}"</string>
-				<key>subtext</key>
-				<string>Search NumPy for "{query}"</string>
-				<key>title</key>
-				<string>Search NumPy</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>dash_keyword_numpy</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>110</integer>
-				<key>keyword</key>
-				<string>php</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Searching for "{query}"</string>
-				<key>script</key>
-				<string>./dashAlfredWorkflow "php:{query}"</string>
-				<key>subtext</key>
-				<string>Search PHP for "{query}"</string>
-				<key>title</key>
-				<string>Search PHP</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>dash_keyword_php</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>110</integer>
-				<key>keyword</key>
-				<string>python3</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Searching for "{query}"</string>
-				<key>script</key>
-				<string>./dashAlfredWorkflow "python3:{query}"</string>
-				<key>subtext</key>
-				<string>Search Python 3 for "{query}"</string>
-				<key>title</key>
-				<string>Search Python 3</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>dash_keyword_python3</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>110</integer>
-				<key>keyword</key>
 				<string>require</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -1367,14 +1089,6 @@ That said, you can edit anything else within this workflow (including adding new
 				<integer>110</integer>
 				<key>keyword</key>
 				<string>sass</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -1404,14 +1118,6 @@ That said, you can edit anything else within this workflow (including adding new
 				<integer>110</integer>
 				<key>keyword</key>
 				<string>underscore</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -1441,14 +1147,6 @@ That said, you can edit anything else within this workflow (including adding new
 				<integer>110</integer>
 				<key>keyword</key>
 				<string>vimc</string>
-				<key>queuedelaycustom</key>
-				<integer>1</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -1508,100 +1206,70 @@ The keyword is either a docset keyword (defined in Preferences &gt; Docsets) or 
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
-		<key>dash_keyword_backbone</key>
+		<key>dash_keyword_bash</key>
 		<dict>
 			<key>ypos</key>
 			<integer>930</integer>
 		</dict>
-		<key>dash_keyword_bash</key>
+		<key>dash_keyword_css</key>
 		<dict>
 			<key>ypos</key>
 			<integer>1050</integer>
 		</dict>
-		<key>dash_keyword_bootstrap</key>
+		<key>dash_keyword_express</key>
 		<dict>
 			<key>ypos</key>
 			<integer>1170</integer>
 		</dict>
-		<key>dash_keyword_css</key>
+		<key>dash_keyword_html</key>
 		<dict>
 			<key>ypos</key>
 			<integer>1290</integer>
 		</dict>
-		<key>dash_keyword_express</key>
+		<key>dash_keyword_javascript</key>
 		<dict>
 			<key>ypos</key>
 			<integer>1410</integer>
 		</dict>
-		<key>dash_keyword_html</key>
+		<key>dash_keyword_jquery</key>
 		<dict>
 			<key>ypos</key>
 			<integer>1530</integer>
 		</dict>
-		<key>dash_keyword_javascript</key>
+		<key>dash_keyword_less</key>
 		<dict>
 			<key>ypos</key>
 			<integer>1650</integer>
 		</dict>
-		<key>dash_keyword_jquery</key>
+		<key>dash_keyword_markdown</key>
 		<dict>
 			<key>ypos</key>
 			<integer>1770</integer>
 		</dict>
-		<key>dash_keyword_laravel</key>
+		<key>dash_keyword_nodejs</key>
 		<dict>
 			<key>ypos</key>
 			<integer>1890</integer>
 		</dict>
-		<key>dash_keyword_less</key>
+		<key>dash_keyword_require</key>
 		<dict>
 			<key>ypos</key>
 			<integer>2010</integer>
 		</dict>
-		<key>dash_keyword_markdown</key>
+		<key>dash_keyword_sass</key>
 		<dict>
 			<key>ypos</key>
 			<integer>2130</integer>
 		</dict>
-		<key>dash_keyword_nodejs</key>
+		<key>dash_keyword_underscore</key>
 		<dict>
 			<key>ypos</key>
 			<integer>2250</integer>
 		</dict>
-		<key>dash_keyword_numpy</key>
-		<dict>
-			<key>ypos</key>
-			<integer>2370</integer>
-		</dict>
-		<key>dash_keyword_php</key>
-		<dict>
-			<key>ypos</key>
-			<integer>2490</integer>
-		</dict>
-		<key>dash_keyword_python3</key>
-		<dict>
-			<key>ypos</key>
-			<integer>2610</integer>
-		</dict>
-		<key>dash_keyword_require</key>
-		<dict>
-			<key>ypos</key>
-			<integer>2730</integer>
-		</dict>
-		<key>dash_keyword_sass</key>
-		<dict>
-			<key>ypos</key>
-			<integer>2850</integer>
-		</dict>
-		<key>dash_keyword_underscore</key>
-		<dict>
-			<key>ypos</key>
-			<integer>2970</integer>
-		</dict>
 		<key>dash_keyword_vimc</key>
 		<dict>
 			<key>ypos</key>
-			<integer>3090</integer>
+			<integer>2370</integer>
 		</dict>
 		<key>dash_note_readme</key>
 		<dict>

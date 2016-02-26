@@ -18,6 +18,7 @@ HTMLAttributes.sublime-package
 HTMLBeautify.sublime-package
 Indent XML.sublime-package
 JSCS-Formatter.sublime-package
+JSON Reindent.sublime-package
 JSX.sublime-package
 Jade.sublime-package
 JavaScript Multiline.sublime-package
@@ -37,6 +38,7 @@ ReactJS Snippets.sublime-package
 ReactJS.sublime-package
 Sass.sublime-package
 SideBarEnhancements.sublime-package
+Stylus.sublime-package
 SublimeLinter-jscs.sublime-package
 SublimeLinter-jsl.sublime-package
 Theme - Spacegray.sublime-package

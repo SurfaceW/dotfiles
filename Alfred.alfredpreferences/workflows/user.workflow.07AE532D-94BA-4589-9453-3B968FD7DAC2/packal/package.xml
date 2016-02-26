@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' ?>
-<workflow>
-  <name>Terminal Commands</name>
-  <version>1.0</version>
-  <bundle>com.gnestor.alfred-terminal-commands</bundle>
-  <updated>1424221053</updated>
-  <file>alfred-terminal-commands.alfredworkflow</file>
-</workflow>
