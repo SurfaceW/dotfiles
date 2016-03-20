@@ -48,6 +48,7 @@ ZSH_THEME="avit"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git osx wd sublime)
+plugins=(autojump) 
 
 # User configuration
 
@@ -168,6 +169,7 @@ alias alic='ssh qingnan.yqn@10.125.55.239'
 
 # Npm
 alias tnpm='tnpm -d'
+alias npm='npm -d'
 
 # Git
 alias co='git checkout'

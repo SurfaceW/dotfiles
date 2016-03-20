@@ -17,6 +17,7 @@ HTML5.sublime-package
 HTMLAttributes.sublime-package
 HTMLBeautify.sublime-package
 Indent XML.sublime-package
+JS Snippets.sublime-package
 JSCS-Formatter.sublime-package
 JSON Reindent.sublime-package
 JSX.sublime-package
@@ -34,14 +35,14 @@ Oceanic Next Color Scheme.sublime-package
 One Dark Color Scheme.sublime-package
 Package Control.sublime-package
 PyV8
+React ES6 Snippets.sublime-package
 ReactJS Snippets.sublime-package
 ReactJS.sublime-package
 Sass.sublime-package
 SideBarEnhancements.sublime-package
 Stylus.sublime-package
-SublimeLinter-jscs.sublime-package
-SublimeLinter-jsl.sublime-package
 Theme - Spacegray.sublime-package
+TrailingSpaces.sublime-package
 Trimmer.sublime-package
 Web Inspector.sublime-package
 jQuery.sublime-package

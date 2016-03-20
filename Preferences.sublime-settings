@@ -1,11 +1,12 @@
 {
-	"auto_complete_delay": 5,
+	"auto_complete_delay": 15,
 	"auto_complete_selector": "source, text",
 	"binary_file_patterns":
 	[
 		"dist/*",
 		"node_modules/*",
 		"build/*",
+		".idea/*",
 		"*.jpg",
 		"*.jpeg",
 		"*.png",
@@ -54,7 +55,8 @@
 		".DS_Store",
 		"*.psd"
 	],
-	"font_size": 12,
+	"font_face": "Consolas",
+	"font_size": 13,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -62,22 +64,31 @@
 		"Clipboard Manager",
 		"ConvertToUTF8",
 		"CSScomb",
+		"DashDoc",
+		"Diff",
+		"Diffy",
+		"EasyDiff",
 		"HTML-CSS-JS Prettify",
 		"JavaScript Patterns",
 		"jQuery",
-		"JSLint",
-		"Markdown",
+		"JSCS-Formatter",
+		"JsFormat",
+		"JSHint",
+		"LESS",
+		"MarkdownEditing",
 		"Nodejs",
+		"Python",
 		"SFTP",
-		"SublimeLinter-jsl",
 		"Terminal",
-		"Trimmer"
+		"tern_for_sublime",
+		"Trimmer",
+		"Web Inspector"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"show_line_endings": true,
 	"tab_size": 2,
-	"theme": "Spacegray.sublime-theme",
+	"theme": "Oceanic Next.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true
 }

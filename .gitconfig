@@ -1,5 +1,5 @@
 [user]
-	name = qingnan.yqn
+	name = 磬楠
 	email = qingnan.yqn@alibaba-inc.com
 [filter "media"]
 	required = true
@@ -8,6 +8,7 @@
 [core]
 	autocrlf = input
 	quotepath = false
+	excludesfile = /Users/yeqingnan/.gitignore_global
 [credential]
 	helper = osxkeychain
 [color]
@@ -22,3 +23,9 @@
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

@@ -31,17 +31,20 @@ File and Directory
 - `ll`: show all the details of such directory
 - `..` | `...` | `.3` | `.4` | `.5` | `.6` : back to n level of directory
 - `edit` `editd`: edit file/directory in sublime editor
-- `f`: open current direcotry in finder
+- `f`: open current directory in finder
 - `which`: find all executables
 - `path`: show all executable path
 - `trash FILENAME`: move a file to MacOS Trash
 - `wd add xxx`: add alias for directory in wd `~/.wraprc`
 - `wd youralias`: go to your pre-defined directory
 - `wd rm xxx`: delete your directory alias in wd
+- `j`: jump to the directory you've visited before
+- `jo`: open a file explorer window (Mac Finder, Windows Explorer, GNOME Nautilus, etc.) to the directory.
+- `jc`: jump to the child of current directory.
 - `lr`:  Full Recursive Directory Listing
 - `zipf FILE/DIR_NAME`: To create a ZIP archive of a folder
-- `extract ARCHIVE`: Extract mainstram archive like: \*.tra.bz2 \*.tar.gz and etc.
-- `size`: Show the current direcotry's sub-tree size
+- `extract ARCHIVE`: Extract mainstream archive like: \*.tra.bz2 \*.tar.gz and etc.
+- `size`: Show the current directory's sub-tree size
 
 Searching
 
@@ -60,7 +63,7 @@ Networking
 
 - `myip`
 - `netCons`: show all open TCP/IP sockets
-- `ii`: display useful host-related informaton
+- `ii`: display useful host-related information
 
 Private Usage
 
