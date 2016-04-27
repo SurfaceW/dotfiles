@@ -16,13 +16,30 @@ run `bash build.sh` on MacOSX to update files.
 - `build.sh`: build current directory from elsewhere of my disc.
 - `macdown.css`: .md file render to HTML's stylesheet.
 
+## Oh My ZSH plugin
+
+- `git`: [git plugin guide](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
+- `osx`: **Maintainers:** [robbyrussell](https://github.com/robbyrussell) [sorin-ionescu](https://github.com/sorin-ionescu)
+
+| Command       | Description                                    |
+|:--------------|:-----------------------------------------------|
+| _tab_         | open the current directory in a new tab        |
+| _pfd_         | return the path of the frontmost Finder window |
+| _pfs_         | return the current Finder selection            |
+| _cdf_         | cd to the current Finder directory             |
+| _pushdf_      | pushd to the current Finder directory          |
+| _quick-look_  | quick Look a specified file                    |
+| _man-preview_ | open a specified man page in Preview           |
+
+-  Enables [autojump](https://github.com/joelthelion/autojump/wiki/) if installed with homebrew, macports or debian/ubuntu package.
+
 ## Alias and Commands with oh\_my\_zsh
 
 > More details see the `.zshrc` file.
 
 Easy-Use Functionalities:
 
-- `edit FILENAME` open a file on sublime editor
+- `sublime FILENAME` open a file on sublime editor
 
 ### File System:
 
@@ -30,14 +47,11 @@ File and Directory
 
 - `ll`: show all the details of such directory
 - `..` | `...` | `.3` | `.4` | `.5` | `.6` : back to n level of directory
-- `edit` `editd`: edit file/directory in sublime editor
+- `sublime`: edit file/directory in sublime editor
 - `f`: open current directory in finder
 - `which`: find all executables
 - `path`: show all executable path
 - `trash FILENAME`: move a file to MacOS Trash
-- `wd add xxx`: add alias for directory in wd `~/.wraprc`
-- `wd youralias`: go to your pre-defined directory
-- `wd rm xxx`: delete your directory alias in wd
 - `j`: jump to the directory you've visited before
 - `jo`: open a file explorer window (Mac Finder, Windows Explorer, GNOME Nautilus, etc.) to the directory.
 - `jc`: jump to the child of current directory.
@@ -48,7 +62,6 @@ File and Directory
 
 Searching
 
-- `qfind`: quickly search for file
 - `ff`: find the file under the current directory
 - `ffs`: find the file whose name starts with a given string
 - `ffe`: find the file whose name starts with a given string
@@ -65,10 +78,6 @@ Networking
 - `netCons`: show all open TCP/IP sockets
 - `ii`: display useful host-related information
 
-Private Usage
-
-- `alic`
-
 Git Shortcuts
 
 - `co`: git checkout
@@ -84,12 +93,6 @@ Help
 
 OSX Series:
 
-- `tab` - open the current directory in a new tab
-- `pfd` - return the path of the frontmost Finder window
-- `pfs` - return the current Finder selection
-- `cdf` - cd to the current Finder directory
-- `pushdf` - pushed to the current Finder directory
-- `quick-look` - Quick Look a specified file
 - `man-preview` - open a specified man page in Preview
 - `trash` - move a specified file to the Trash
 - `open` - Open directory in Finder of Mac
@@ -110,7 +113,6 @@ Node Tools:
 - `npm`
 - `gulp`
 - `grunt`
-- `bower`
 - `tldr`
 
 ---

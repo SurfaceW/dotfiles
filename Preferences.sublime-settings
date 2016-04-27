@@ -23,6 +23,8 @@
 	],
 	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
 	"create_window_at_startup": false,
+	"default_line_ending": "unix",
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		"*.map",
@@ -90,5 +92,6 @@
 	"tab_size": 2,
 	"theme": "Oceanic Next.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
 }

@@ -8,6 +8,17 @@
 	<string>Internet</string>
 	<key>connections</key>
 	<dict>
+		<key>0EBA8EDB-CDA3-40BC-B5AB-31B0C7771441</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8E972662-E5B6-440F-B9C1-4CB9ECB68A93</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>26DF8C02-B40B-4232-AC82-B3CF3AC69B18</key>
 		<array>
 			<dict>
@@ -30,33 +41,11 @@
 				<string></string>
 			</dict>
 		</array>
-		<key>4536EF44-A414-47A7-9C1F-0A4CE12ABA66</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>CB2AB056-FF83-459B-B419-CE1660ED8828</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
 		<key>598556DF-F932-4ACC-8046-0671892D3C57</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>4FA69514-E014-46F7-A9D3-6AB11F2DBFBA</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-		<key>687F35A4-1370-48B3-B65C-074E45C14C2C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>0F888A60-383B-4B2A-8AD5-235BCB3C4086</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -101,17 +90,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>B87733F6-F519-494D-92C3-3336C5561D74</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-		<key>D5DEF805-6D9D-4BD0-A23C-AFDFAE3DAF6D</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8E3769CD-C4E7-486B-8572-B0A59659D7CE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -368,6 +346,50 @@
 				<key>argument</key>
 				<integer>0</integer>
 				<key>hotkey</key>
+				<integer>2</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>D</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>0EBA8EDB-CDA3-40BC-B5AB-31B0C7771441</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Dash.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>8E972662-E5B6-440F-B9C1-4CB9ECB68A93</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>1835008</integer>
@@ -488,143 +510,15 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>hotkey</key>
-				<integer>8</integer>
-				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>C</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>D5DEF805-6D9D-4BD0-A23C-AFDFAE3DAF6D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/Calendar.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
-			<key>uid</key>
-			<string>8E3769CD-C4E7-486B-8572-B0A59659D7CE</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>hotkey</key>
-				<integer>15</integer>
-				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>R</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>687F35A4-1370-48B3-B65C-074E45C14C2C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/Reeder.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
-			<key>uid</key>
-			<string>0F888A60-383B-4B2A-8AD5-235BCB3C4086</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>hotkey</key>
-				<integer>4</integer>
-				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>H</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>4536EF44-A414-47A7-9C1F-0A4CE12ABA66</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>sourcefile</key>
-				<string>~/Documents/Frame/4D_心灵净土/显意识_信息/视野/信息视野.md</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>CB2AB056-FF83-459B-B419-CE1660ED8828</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>Improve the personal daily procedures efficiency.</string>
 	<key>uidata</key>
 	<dict>
-		<key>0F888A60-383B-4B2A-8AD5-235BCB3C4086</key>
+		<key>0EBA8EDB-CDA3-40BC-B5AB-31B0C7771441</key>
 		<dict>
 			<key>ypos</key>
-			<real>1260</real>
+			<real>660</real>
 		</dict>
 		<key>212ED9ED-8E72-4EDB-9CC0-35D655CA9EE0</key>
 		<dict>
@@ -641,11 +535,6 @@
 			<key>ypos</key>
 			<real>420</real>
 		</dict>
-		<key>4536EF44-A414-47A7-9C1F-0A4CE12ABA66</key>
-		<dict>
-			<key>ypos</key>
-			<real>1380</real>
-		</dict>
 		<key>4C085856-E37E-4A54-9E11-1BBBD9D1C473</key>
 		<dict>
 			<key>ypos</key>
@@ -661,11 +550,6 @@
 			<key>ypos</key>
 			<real>900</real>
 		</dict>
-		<key>687F35A4-1370-48B3-B65C-074E45C14C2C</key>
-		<dict>
-			<key>ypos</key>
-			<real>1260</real>
-		</dict>
 		<key>719089DD-50D1-490A-BC21-B935AF34D290</key>
 		<dict>
 			<key>ypos</key>
@@ -676,10 +560,10 @@
 			<key>ypos</key>
 			<real>180</real>
 		</dict>
-		<key>8E3769CD-C4E7-486B-8572-B0A59659D7CE</key>
+		<key>8E972662-E5B6-440F-B9C1-4CB9ECB68A93</key>
 		<dict>
 			<key>ypos</key>
-			<real>1140</real>
+			<real>660</real>
 		</dict>
 		<key>A654123D-B402-4E98-BA20-57B89B589A7B</key>
 		<dict>
@@ -706,20 +590,10 @@
 			<key>ypos</key>
 			<real>180</real>
 		</dict>
-		<key>CB2AB056-FF83-459B-B419-CE1660ED8828</key>
-		<dict>
-			<key>ypos</key>
-			<real>1380</real>
-		</dict>
 		<key>D1E68E69-5DED-4ECD-92CB-1177AF48184C</key>
 		<dict>
 			<key>ypos</key>
 			<real>780</real>
-		</dict>
-		<key>D5DEF805-6D9D-4BD0-A23C-AFDFAE3DAF6D</key>
-		<dict>
-			<key>ypos</key>
-			<real>1140</real>
 		</dict>
 		<key>E697EF6A-11E1-4C31-B124-8A25EAF05BF4</key>
 		<dict>

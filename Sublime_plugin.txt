@@ -3,6 +3,7 @@ Alignment.sublime-package
 All Autocomplete.sublime-package
 AutoFileName.sublime-package
 BracketHighlighter.sublime-package
+BufferScroll.sublime-package
 CSS Snippets.sublime-package
 Clipboard Manager.sublime-package
 Color Highlighter.sublime-package
@@ -12,6 +13,7 @@ Diffy.sublime-package
 DocBlockr.sublime-package
 EasyDiff.sublime-package
 Emmet.sublime-package
+Fold Comments.sublime-package
 HTML Snippets.sublime-package
 HTML5.sublime-package
 HTMLAttributes.sublime-package
@@ -30,6 +32,7 @@ JsFormat.sublime-package
 LESS.sublime-package
 Markdown Preview.sublime-package
 MarkdownEditing.sublime-package
+Modific.sublime-package
 Nodejs.sublime-package
 Oceanic Next Color Scheme.sublime-package
 One Dark Color Scheme.sublime-package
