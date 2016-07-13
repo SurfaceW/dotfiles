@@ -3,6 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>historyExpiry</key>
-	<integer>2</integer>
+	<integer>3</integer>
+	<key>schemesEnabled</key>
+	<true/>
 </dict>
 </plist>

@@ -13,7 +13,9 @@ Diffy.sublime-package
 DocBlockr.sublime-package
 EasyDiff.sublime-package
 Emmet.sublime-package
+EsFormatter.sublime-package
 Fold Comments.sublime-package
+GitHub Markdown Snippets.sublime-package
 HTML Snippets.sublime-package
 HTML5.sublime-package
 HTMLAttributes.sublime-package

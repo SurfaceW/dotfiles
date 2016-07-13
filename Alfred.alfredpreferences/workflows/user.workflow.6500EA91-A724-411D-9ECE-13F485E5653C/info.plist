@@ -17,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>4CA6E426-CE49-4BCD-85EB-A8D37F170EF8</key>
@@ -28,6 +30,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>4D1D6345-DE0E-4C64-BEA1-7F9663C7FCED</key>
@@ -39,6 +43,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>58AEAF21-D16C-46F9-A2AE-2193F0ABBB99</key>
@@ -50,6 +56,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>918166C0-BBE1-4BD9-B688-1168351F9E1B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>48609DC7-27D9-4910-8642-EF2AD5436F57</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -66,6 +87,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>openwith</key>
+				<string></string>
 				<key>sourcefile</key>
 				<string>~/Pictures/FN2V63AD2J.com.tencent.ScreenCapture2</string>
 			</dict>
@@ -74,7 +97,7 @@
 			<key>uid</key>
 			<string>739DE2D1-18B1-47E5-988E-E648419AF82A</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -95,11 +118,13 @@
 			<key>uid</key>
 			<string>4D1D6345-DE0E-4C64-BEA1-7F9663C7FCED</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>openwith</key>
+				<string></string>
 				<key>sourcefile</key>
 				<string>~/Documents/Work/毕业设计</string>
 			</dict>
@@ -108,7 +133,7 @@
 			<key>uid</key>
 			<string>AC1B1220-B905-4EA9-B070-73C16F8AB526</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -129,11 +154,13 @@
 			<key>uid</key>
 			<string>58AEAF21-D16C-46F9-A2AE-2193F0ABBB99</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>openwith</key>
+				<string></string>
 				<key>sourcefile</key>
 				<string>~/Library/SE Services/SE_TOP_Contents.md</string>
 			</dict>
@@ -142,7 +169,7 @@
 			<key>uid</key>
 			<string>DFE8406B-F741-4BF2-8BF1-1AFA6869AB3B</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -163,7 +190,7 @@
 			<key>uid</key>
 			<string>4CA6E426-CE49-4BCD-85EB-A8D37F170EF8</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -184,11 +211,13 @@
 			<key>uid</key>
 			<string>2025BCB4-8E66-4555-B850-2F331F15493E</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>openwith</key>
+				<string></string>
 				<key>sourcefile</key>
 				<string>~/Library/SE Services</string>
 			</dict>
@@ -196,6 +225,42 @@
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
 			<string>F4742C30-52C6-4234-AB74-2B6B648119A6</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/Sites/ali</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>48609DC7-27D9-4910-8642-EF2AD5436F57</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>ali</string>
+				<key>subtext</key>
+				<string>Enter Please</string>
+				<key>text</key>
+				<string>Open ali working directory</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>918166C0-BBE1-4BD9-B688-1168351F9E1B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -206,41 +271,71 @@
 	<dict>
 		<key>2025BCB4-8E66-4555-B850-2F331F15493E</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>340</real>
 		</dict>
+		<key>48609DC7-27D9-4910-8642-EF2AD5436F57</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>460</integer>
+		</dict>
 		<key>4CA6E426-CE49-4BCD-85EB-A8D37F170EF8</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>230</real>
 		</dict>
 		<key>4D1D6345-DE0E-4C64-BEA1-7F9663C7FCED</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>58AEAF21-D16C-46F9-A2AE-2193F0ABBB99</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>120</real>
 		</dict>
 		<key>739DE2D1-18B1-47E5-988E-E648419AF82A</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
+		<key>918166C0-BBE1-4BD9-B688-1168351F9E1B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>460</integer>
+		</dict>
 		<key>AC1B1220-B905-4EA9-B070-73C16F8AB526</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>120</real>
 		</dict>
 		<key>DFE8406B-F741-4BF2-8BF1-1AFA6869AB3B</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>230</real>
 		</dict>
 		<key>F4742C30-52C6-4234-AB74-2B6B648119A6</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>340</real>
 		</dict>

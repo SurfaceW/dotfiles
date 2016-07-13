@@ -4,7 +4,5 @@
 <dict>
 	<key>autohide</key>
 	<true/>
-	<key>showOnMouseScreen</key>
-	<true/>
 </dict>
 </plist>

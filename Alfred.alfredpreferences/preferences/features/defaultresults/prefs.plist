@@ -16,6 +16,7 @@
 	<true/>
 	<key>showUserDefined</key>
 	<array>
+		<string>com.bohemiancoding.sketch.drawing.single</string>
 		<string>com.mindjet.mindmanager.map</string>
 		<string>net.daringfireball.markdown</string>
 	</array>

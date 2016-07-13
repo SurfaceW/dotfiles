@@ -17,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -25,6 +27,8 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Kill all processes with this name.</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>5B53C018-19D3-4A69-BE02-AB58178C76CD</key>
@@ -36,6 +40,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>BDE3E8F6-CE82-4137-B0D9-AE9CE4FBCDC8</key>
@@ -47,6 +53,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>C0A5D632-3A7D-4FFA-B2CD-65EC2E69A567</key>
@@ -58,6 +66,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>E35D8650-1BEE-4A90-80BB-F3F2CD09F299</key>
@@ -69,6 +79,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -93,6 +105,10 @@
 				<string>pkill 'Chrome'
 pkill 'firefox'
 pkill 'Safari'</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -101,7 +117,7 @@ pkill 'Safari'</string>
 			<key>uid</key>
 			<string>C44D65CF-9C35-43F4-92FC-2583334D5479</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -122,11 +138,13 @@ pkill 'Safari'</string>
 			<key>uid</key>
 			<string>5B53C018-19D3-4A69-BE02-AB58178C76CD</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -198,6 +216,10 @@ end
 # Finish off and echo the XML string to Alfred.
 xmlString += "&lt;/items&gt;"
 puts xmlString</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Start typing a process name...</string>
 				<key>title</key>
@@ -212,7 +234,7 @@ puts xmlString</string>
 			<key>uid</key>
 			<string>2A751056-87B7-4408-90D6-B868021760CE</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -223,6 +245,10 @@ puts xmlString</string>
 				<integer>0</integer>
 				<key>script</key>
 				<string>kill -9 {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -231,7 +257,7 @@ puts xmlString</string>
 			<key>uid</key>
 			<string>31AD6783-08D4-48E0-B323-39292BF089D6</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -242,6 +268,10 @@ puts xmlString</string>
 				<integer>0</integer>
 				<key>script</key>
 				<string>killall -- "$(ps -c -p {query} -o comm | tail -n 1)"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -250,7 +280,7 @@ puts xmlString</string>
 			<key>uid</key>
 			<string>C4986824-5761-4F2E-A82F-E4EBC2CAF54C</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -271,7 +301,7 @@ puts xmlString</string>
 			<key>uid</key>
 			<string>C0A5D632-3A7D-4FFA-B2CD-65EC2E69A567</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -299,7 +329,12 @@ pkill 'Thunder'
 pkill 'Messages'
 pkill 'Pages'
 pkill 'Numbers'
-pkill 'Keynotes'</string>
+pkill 'Keynotes'
+pkill 'OmniGraffle'</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -308,7 +343,7 @@ pkill 'Keynotes'</string>
 			<key>uid</key>
 			<string>CE3ADA44-598D-4476-89A1-9EAAB079DCFF</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -329,7 +364,7 @@ pkill 'Keynotes'</string>
 			<key>uid</key>
 			<string>E35D8650-1BEE-4A90-80BB-F3F2CD09F299</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -343,6 +378,10 @@ pkill 'Keynotes'</string>
 pkill 'Sublime Text'
 pkill 'Terminal'
 pkill 'Dash'</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -351,7 +390,7 @@ pkill 'Dash'</string>
 			<key>uid</key>
 			<string>B4B6D59C-CA75-49C4-AFDE-80485B1732D1</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -363,6 +402,10 @@ pkill 'Dash'</string>
 				<key>script</key>
 				<string>pkill 'QQ'
 pkill 'WeChat'</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -371,7 +414,7 @@ pkill 'WeChat'</string>
 			<key>uid</key>
 			<string>F68463CD-0BC0-4719-ACBB-3B89129ED2DC</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -392,7 +435,7 @@ pkill 'WeChat'</string>
 			<key>uid</key>
 			<string>BDE3E8F6-CE82-4137-B0D9-AE9CE4FBCDC8</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -439,56 +482,78 @@ The ruby script that powers Kill Process is `script.rb`. For testing, add a valu
 	<dict>
 		<key>2A751056-87B7-4408-90D6-B868021760CE</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>170</real>
 		</dict>
 		<key>31AD6783-08D4-48E0-B323-39292BF089D6</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>170</real>
 		</dict>
 		<key>5B53C018-19D3-4A69-BE02-AB58178C76CD</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>50</real>
 		</dict>
 		<key>B4B6D59C-CA75-49C4-AFDE-80485B1732D1</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>580</real>
 		</dict>
 		<key>BDE3E8F6-CE82-4137-B0D9-AE9CE4FBCDC8</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>700</real>
 		</dict>
 		<key>C0A5D632-3A7D-4FFA-B2CD-65EC2E69A567</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>460</real>
 		</dict>
 		<key>C44D65CF-9C35-43F4-92FC-2583334D5479</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>50</real>
 		</dict>
 		<key>C4986824-5761-4F2E-A82F-E4EBC2CAF54C</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>340</real>
 		</dict>
 		<key>CE3ADA44-598D-4476-89A1-9EAAB079DCFF</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>460</real>
 		</dict>
 		<key>E35D8650-1BEE-4A90-80BB-F3F2CD09F299</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>580</real>
 		</dict>
 		<key>F68463CD-0BC0-4719-ACBB-3B89129ED2DC</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>700</real>
 		</dict>

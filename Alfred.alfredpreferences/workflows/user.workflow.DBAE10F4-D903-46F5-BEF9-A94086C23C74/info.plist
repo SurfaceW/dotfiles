@@ -17,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>85F68C16-7F2D-46FB-8A27-539360EA3118</key>
@@ -28,6 +30,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D0929F84-F34F-4DC2-8155-F0BE4CC447C8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>85F68C16-7F2D-46FB-8A27-539360EA3118</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -44,8 +61,10 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
 				<string>{query}</string>
 				<key>utf8</key>
@@ -56,11 +75,40 @@
 			<key>uid</key>
 			<string>A2B8B2DD-642A-4661-871C-4819C082256F</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>4</integer>
+				<key>hotmod</key>
+				<integer>1703936</integer>
+				<key>hotstring</key>
+				<string>H</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>D0929F84-F34F-4DC2-8155-F0BE4CC447C8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -79,6 +127,10 @@
 				<string>Fetching History ...</string>
 				<key>script</key>
 				<string>php -f chrome.php -- '{query}';</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Fetching Google Chrome History ...</string>
 				<key>title</key>
@@ -93,7 +145,7 @@
 			<key>uid</key>
 			<string>85F68C16-7F2D-46FB-8A27-539360EA3118</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -114,15 +166,15 @@
 			<key>uid</key>
 			<string>4D47D27B-19C7-43E5-93DC-4815F6D7AABF</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>browser</key>
 				<string>com.google.chrome</string>
-				<key>plusspaces</key>
-				<false/>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
 				<string>chrome://history</string>
 				<key>utf8</key>
@@ -133,7 +185,7 @@
 			<key>uid</key>
 			<string>D5592D88-D189-4761-BDE0-DBC6274C4079</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -160,21 +212,36 @@ This will return all pages in your history that have the word alfred in the URL 
 	<dict>
 		<key>4D47D27B-19C7-43E5-93DC-4815F6D7AABF</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>130</real>
 		</dict>
 		<key>85F68C16-7F2D-46FB-8A27-539360EA3118</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>A2B8B2DD-642A-4661-871C-4819C082256F</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
+		<key>D0929F84-F34F-4DC2-8155-F0BE4CC447C8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>80</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
 		<key>D5592D88-D189-4761-BDE0-DBC6274C4079</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>130</real>
 		</dict>

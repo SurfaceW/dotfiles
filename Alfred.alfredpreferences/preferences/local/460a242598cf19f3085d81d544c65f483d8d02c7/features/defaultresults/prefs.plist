@@ -5,6 +5,7 @@
 	<key>scope</key>
 	<array>
 		<string>/Applications</string>
+		<string>~/Applications</string>
 		<string>~/Desktop</string>
 		<string>~/Developer/dotfiles</string>
 		<string>~/Documents</string>
