@@ -60,7 +60,7 @@
 		"/dist/*"
 	],
 	"font_face": "Operator Mono Book",
-	"font_size": 13,
+	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":
 	[

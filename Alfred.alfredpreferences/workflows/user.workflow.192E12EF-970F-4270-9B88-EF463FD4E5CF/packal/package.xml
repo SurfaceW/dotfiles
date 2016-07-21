@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<workflow>
+  <name>Sublime Text Projects</name>
+  <version>2.0.1</version>
+  <bundle>net.deanishe.alfred-sublime-text-projects</bundle>
+  <updated>1403031491</updated>
+  <file>sublime_text_projects.alfredworkflow</file>
+</workflow>

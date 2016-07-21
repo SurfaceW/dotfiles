@@ -17,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>0A80F579-874A-4AD9-80CA-486A98155898</key>
@@ -28,6 +30,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>0CDB8453-7549-4C58-B0BA-F24E45B018C8</key>
@@ -39,6 +43,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>103A74CD-4EAC-4869-9522-30D821B3CE13</key>
@@ -50,6 +56,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>10460E83-82BA-491B-8D29-6FF26F0A4DA1</key>
@@ -61,6 +69,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>11F0317D-BA3E-4674-BDC0-EB5A21092114</key>
@@ -72,6 +82,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>1B484655-159F-43B3-B8D4-26948DB5971B</key>
@@ -83,6 +95,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>1D8B049C-5A92-444D-A63D-CC46DABBAB2D</key>
@@ -94,6 +108,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>292FA993-EA5B-47AE-9B49-F00D69ED3BE0</key>
@@ -105,6 +121,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -113,6 +131,8 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string>Paste Note Content</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -121,6 +141,8 @@
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
 				<string>Set Reminder</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -129,6 +151,8 @@
 				<integer>8388608</integer>
 				<key>modifiersubtext</key>
 				<string>Open Note URL</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -137,17 +161,8 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Append From...</string>
-			</dict>
-		</array>
-		<key>2B3579E2-6AF0-48FE-9503-A5D40C158FDB</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>9940B9D1-CA30-4D88-88AD-C0B686A79509</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>2B7138ED-D927-4D76-A708-9028C9AC18DB</key>
@@ -159,6 +174,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -167,6 +184,8 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string>Paste to topmost application</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -175,6 +194,8 @@
 				<integer>8388608</integer>
 				<key>modifiersubtext</key>
 				<string>Open Note URL</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -183,6 +204,8 @@
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
 				<string>Set Reminder</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -191,6 +214,8 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Append From...</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>31A81D1C-D5E4-4FD9-8022-361C9E1DBD23</key>
@@ -202,6 +227,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>388F687E-0773-45D9-8168-0A43874A46B1</key>
@@ -213,6 +240,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>401F2F70-C45D-41AC-A9E0-8058BAD83686</key>
@@ -224,6 +253,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>52C5B49B-F64C-4E27-97FE-D4B6C00325BC</key>
@@ -235,6 +266,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>5A88DD8F-6DDE-4187-B499-6D85F0BED29D</key>
@@ -246,6 +279,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>5D666118-248B-4651-B441-C0210B9D5B79</key>
@@ -257,6 +292,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>604CA1A4-1F80-4E3B-9C8C-42C61F26341F</key>
@@ -268,6 +305,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>7C43E15F-8371-4EC8-B8C1-54E7AE9ACC2D</key>
@@ -279,6 +318,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>82C32C6B-AE6D-47B4-9043-959DE534F191</key>
@@ -290,6 +331,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>8AC9DA30-2F9D-4E61-919C-DA5DC07BC4D5</key>
@@ -301,6 +344,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>8BDABE79-2BF4-4CAC-83C5-D960633934DC</key>
@@ -312,6 +357,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>912F5F2A-B7F4-4C8B-9490-3CACA97D63B7</key>
@@ -323,6 +370,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>98F88518-1696-4151-9151-E9BFE90FDFB2</key>
@@ -334,6 +383,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>9940B9D1-CA30-4D88-88AD-C0B686A79509</key>
@@ -345,6 +396,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -353,6 +406,8 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string>Paste Note Content</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -361,6 +416,8 @@
 				<integer>8388608</integer>
 				<key>modifiersubtext</key>
 				<string>Open Note URL</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -369,6 +426,8 @@
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
 				<string>Set Reminder</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -377,6 +436,8 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Append From...</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>9A1E0EC0-B446-4586-9ED4-1229700D064A</key>
@@ -388,6 +449,8 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Append to a Note...</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -396,6 +459,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -404,6 +469,8 @@
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
 				<string>Append to a Note with Current Date...</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -412,6 +479,8 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string>Create Note and Open</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>A6828845-E40B-4814-A899-C5718F63D3D3</key>
@@ -423,6 +492,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>A70539A5-7E52-433F-8802-13E82CEC1673</key>
@@ -434,6 +505,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>A91FD655-4D1B-49BC-9CB3-4E5CC6A95B0F</key>
@@ -445,6 +518,8 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Append From...</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -453,6 +528,8 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string>Paste Note Content</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -461,6 +538,8 @@
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
 				<string>Set Reminder</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -469,6 +548,8 @@
 				<integer>8388608</integer>
 				<key>modifiersubtext</key>
 				<string>Open Note URL</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -477,6 +558,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>ADC3EF51-7B82-4B03-BA79-1D9FFA05E05E</key>
@@ -488,6 +571,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>B14E9201-66FE-4ABB-A3C6-E25477C27CA9</key>
@@ -499,6 +584,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>B25C029D-CE2E-462C-B3A5-7F20165805E7</key>
@@ -510,6 +597,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>B545AB8F-C982-484B-9A94-5849E5B1B098</key>
@@ -521,6 +610,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>BB8DEF2C-ED9B-4A8A-85EB-E65AA7E6E702</key>
@@ -532,6 +623,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>C261E260-526B-4EF6-B6F1-6BF5F04A8626</key>
@@ -543,6 +636,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>C95E4049-FEFD-4FD2-AEEF-8C949B676AF2</key>
@@ -556,6 +651,8 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Append From...</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -564,6 +661,8 @@
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
 				<string>Set Reminder</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -572,6 +671,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -580,6 +681,8 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string>Set Status to DONE</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>D4DCD4EA-CEE5-495D-BA5F-7C8F8259D4DB</key>
@@ -591,6 +694,8 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Append to a Note</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -599,6 +704,8 @@
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
 				<string>Append to a Note with Current Date</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -607,6 +714,8 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string>Create Note and Open</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -615,6 +724,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>D7A16404-A29C-42FD-9664-9F6BC3F260DA</key>
@@ -628,6 +739,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>E656975D-7167-4C75-9927-C9B188AF8C7D</key>
@@ -639,6 +752,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>EA1B23BD-B97B-428C-880C-5CE13AED4A32</key>
@@ -650,6 +765,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>EA9A6078-A17A-40BE-B440-44F48DAA5A92</key>
@@ -661,6 +778,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>EB821439-3991-4885-92BF-1C349BC09348</key>
@@ -672,6 +791,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>F0AB1D96-A5EB-4AD2-BE38-CB82F917A389</key>
@@ -683,6 +804,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>F1DB470C-0EA9-4055-B321-9696C108DEA9</key>
@@ -694,6 +817,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>F5012C9C-B1F1-4041-A6DC-9F09CC9DE60D</key>
@@ -705,6 +830,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -727,6 +854,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>do shell script "open " &amp; (quoted form of (POSIX path of ((do shell script "pwd") &amp; "/help.pdf")))</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -735,7 +866,7 @@
 			<key>uid</key>
 			<string>7188E433-28CE-4D39-847F-E4526D7FC97C</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -756,7 +887,7 @@
 			<key>uid</key>
 			<string>52C5B49B-F64C-4E27-97FE-D4B6C00325BC</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -767,6 +898,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_open.scpt")) with parameters {"{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -775,7 +910,7 @@
 			<key>uid</key>
 			<string>3D0C64EE-F2CE-4A9A-91E6-3A11D95E993E</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -784,13 +919,15 @@
 				<true/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>164FB514-4786-4374-B5ED-464B02346B17</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -801,6 +938,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_paste.scpt")) with parameters {"{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -809,7 +950,7 @@
 			<key>uid</key>
 			<string>0CDB8453-7549-4C58-B0BA-F24E45B018C8</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -834,11 +975,13 @@
 			<key>uid</key>
 			<string>E0EEE9EF-3E52-4077-9A51-56882FEC0BED</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -857,6 +1000,10 @@
 				<string>Searching...</string>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_search.scpt")) with parameters {"{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Keyword: ens</string>
 				<key>title</key>
@@ -871,7 +1018,7 @@
 			<key>uid</key>
 			<string>2B7138ED-D927-4D76-A708-9028C9AC18DB</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -882,6 +1029,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_open.scpt")) with parameters {"{query}-url"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -890,7 +1041,7 @@
 			<key>uid</key>
 			<string>1B484655-159F-43B3-B8D4-26948DB5971B</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -899,11 +1050,7 @@
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<true/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
 				<false/>
 				<key>text</key>
 				<string>{query}</string>
@@ -915,7 +1062,7 @@
 			<key>uid</key>
 			<string>86EE8DD8-4C22-45D3-8E97-1A6B2B86B986</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -926,6 +1073,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addrm.scpt")) with parameters {"{query}||1"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -934,7 +1085,7 @@
 			<key>uid</key>
 			<string>E656975D-7167-4C75-9927-C9B188AF8C7D</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -945,6 +1096,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_act_append.scpt")) with parameters {"{query}|1|"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -953,7 +1108,7 @@
 			<key>uid</key>
 			<string>93739175-2DF2-4A69-B1EB-21A5ED215F6A</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -964,6 +1119,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_open.scpt")) with parameters {"{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -972,7 +1131,7 @@
 			<key>uid</key>
 			<string>D3ABA52B-C329-43BB-9832-CA00CE09EA67</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -983,6 +1142,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_paste.scpt")) with parameters {"{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -991,7 +1154,7 @@
 			<key>uid</key>
 			<string>C261E260-526B-4EF6-B6F1-6BF5F04A8626</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1000,17 +1163,21 @@
 				<true/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>71003F13-77A1-4814-B25A-2218229298D4</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -1029,6 +1196,10 @@
 				<string>Searching...</string>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_search.scpt")) with parameters {"intitle:{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Keyword: ent</string>
 				<key>title</key>
@@ -1043,36 +1214,7 @@
 			<key>uid</key>
 			<string>9940B9D1-CA30-4D88-88AD-C0B686A79509</string>
 			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>1</integer>
-				<key>argument</key>
-				<integer>3</integer>
-				<key>argumenttext</key>
-				<string>.ent </string>
-				<key>hotkey</key>
-				<integer>17</integer>
-				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>T</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>2B3579E2-6AF0-48FE-9503-A5D40C158FDB</string>
-			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1083,6 +1225,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_open.scpt")) with parameters {"{query}-url"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1091,7 +1237,7 @@
 			<key>uid</key>
 			<string>B25C029D-CE2E-462C-B3A5-7F20165805E7</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1100,11 +1246,7 @@
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<true/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
 				<false/>
 				<key>text</key>
 				<string>{query}</string>
@@ -1116,7 +1258,7 @@
 			<key>uid</key>
 			<string>70E059D4-836C-4712-B936-9CF786C91577</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1127,6 +1269,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addrm.scpt")) with parameters {"{query}||1"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1135,7 +1281,7 @@
 			<key>uid</key>
 			<string>5D666118-248B-4651-B441-C0210B9D5B79</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1146,6 +1292,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_act_append.scpt")) with parameters {"{query}|1|"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1154,7 +1304,7 @@
 			<key>uid</key>
 			<string>1548A07D-6ED9-481D-B85F-92AFB92EFFE3</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1165,6 +1315,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addrm.scpt")) with parameters {"{query}||1"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1173,11 +1327,13 @@
 			<key>uid</key>
 			<string>A6828845-E40B-4814-A899-C5718F63D3D3</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -1192,8 +1348,14 @@
 				<integer>0</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_search.scpt")) with parameters {"reminder:{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Keyword: enr</string>
 				<key>title</key>
@@ -1208,7 +1370,7 @@
 			<key>uid</key>
 			<string>CA78A861-69B9-4416-99EA-8F6D8BBE8FE3</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1219,6 +1381,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_open.scpt")) with parameters {"{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1227,7 +1393,7 @@
 			<key>uid</key>
 			<string>7DFFFEC9-E7AB-4B35-A317-F7983A7DE0DD</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1236,11 +1402,7 @@
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<true/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
 				<false/>
 				<key>text</key>
 				<string>{query}</string>
@@ -1252,7 +1414,7 @@
 			<key>uid</key>
 			<string>837749EE-179F-4B00-BD6E-066478F83A38</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1263,6 +1425,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addrm.scpt")) with parameters {"{query}||4"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1271,7 +1437,7 @@
 			<key>uid</key>
 			<string>F5012C9C-B1F1-4041-A6DC-9F09CC9DE60D</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1282,6 +1448,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_act_append.scpt")) with parameters {"{query}|1|"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1290,7 +1460,7 @@
 			<key>uid</key>
 			<string>2D184C40-D620-4F4E-8F51-2F6AC3FA4AE9</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1301,6 +1471,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_paste.scpt")) with parameters {"{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1309,7 +1483,7 @@
 			<key>uid</key>
 			<string>051B1D7E-4660-4706-9B71-8C1F50BE9F93</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1318,17 +1492,21 @@
 				<true/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>613D53C2-4645-43F3-B147-22C42C1B392A</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -1347,6 +1525,10 @@
 				<string>Loading...</string>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_search.scpt")) with parameters {"todo:{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Keyword: entodo</string>
 				<key>title</key>
@@ -1361,7 +1543,7 @@
 			<key>uid</key>
 			<string>A91FD655-4D1B-49BC-9CB3-4E5CC6A95B0F</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1372,6 +1554,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addrm.scpt")) with parameters {"{query}||1"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1380,7 +1566,7 @@
 			<key>uid</key>
 			<string>BB8DEF2C-ED9B-4A8A-85EB-E65AA7E6E702</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1389,11 +1575,7 @@
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<true/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
 				<false/>
 				<key>text</key>
 				<string>{query}</string>
@@ -1405,7 +1587,7 @@
 			<key>uid</key>
 			<string>0D49FCE7-B1F7-4C21-8C27-179EF2527CE0</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1416,6 +1598,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_open.scpt")) with parameters {"{query}-url"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1424,7 +1610,7 @@
 			<key>uid</key>
 			<string>401F2F70-C45D-41AC-A9E0-8058BAD83686</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1435,6 +1621,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_open.scpt")) with parameters {"{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1443,7 +1633,7 @@
 			<key>uid</key>
 			<string>E9A5BC9B-ABAE-4915-94FC-48C00E7C34D3</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1454,6 +1644,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_paste.scpt")) with parameters {"{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1462,7 +1656,7 @@
 			<key>uid</key>
 			<string>912F5F2A-B7F4-4C8B-9490-3CACA97D63B7</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1471,13 +1665,15 @@
 				<true/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>294AC964-3857-444E-9A17-C85F4D47245F</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1488,6 +1684,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addrm.scpt")) with parameters {"{query}||1"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1496,11 +1696,13 @@
 			<key>uid</key>
 			<string>98F88518-1696-4151-9151-E9BFE90FDFB2</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -1519,6 +1721,10 @@
 				<string>Loading...</string>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_search.scpt")) with parameters {"updated:{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Keyword: enrec</string>
 				<key>title</key>
@@ -1533,7 +1739,7 @@
 			<key>uid</key>
 			<string>292FA993-EA5B-47AE-9B49-F00D69ED3BE0</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1542,11 +1748,7 @@
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<true/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
 				<false/>
 				<key>text</key>
 				<string>{query}</string>
@@ -1558,7 +1760,7 @@
 			<key>uid</key>
 			<string>EF6EF80A-5097-46E2-9A3E-0AFBC69961E8</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1569,6 +1771,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_open.scpt")) with parameters {"{query}-url"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1577,7 +1783,7 @@
 			<key>uid</key>
 			<string>1D8B049C-5A92-444D-A63D-CC46DABBAB2D</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1588,6 +1794,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_act_append.scpt")) with parameters {"{query}|1|"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1596,11 +1806,13 @@
 			<key>uid</key>
 			<string>F05D3580-684A-4BD8-9249-85E6823CF9FD</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -1619,6 +1831,10 @@
 				<string>Loading...</string>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_search.scpt")) with parameters {"url:{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Keyword: enu</string>
 				<key>title</key>
@@ -1633,7 +1849,7 @@
 			<key>uid</key>
 			<string>0A80F579-874A-4AD9-80CA-486A98155898</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1644,6 +1860,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_open.scpt")) with parameters {"{query}-url"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1652,7 +1872,7 @@
 			<key>uid</key>
 			<string>7061F9FC-37D0-40F2-AB40-7A2F9065BDF4</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1663,6 +1883,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_append.scpt")) with parameters {"{query}||1"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1671,7 +1895,7 @@
 			<key>uid</key>
 			<string>F0AB1D96-A5EB-4AD2-BE38-CB82F917A389</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1682,6 +1906,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addnote.scpt")) with parameters {"{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1690,11 +1918,13 @@
 			<key>uid</key>
 			<string>388F687E-0773-45D9-8168-0A43874A46B1</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -1713,6 +1943,10 @@
 				<string>Loading options...</string>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_filter.scpt")) with parameters {"{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Keyword: enn</string>
 				<key>title</key>
@@ -1727,7 +1961,7 @@
 			<key>uid</key>
 			<string>9A1E0EC0-B446-4586-9ED4-1229700D064A</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1736,11 +1970,7 @@
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<true/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
 				<false/>
 				<key>text</key>
 				<string>{query}</string>
@@ -1752,7 +1982,7 @@
 			<key>uid</key>
 			<string>D939543B-25D2-4C34-BAF2-4CAA441B9FA2</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1763,6 +1993,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_append.scpt")) with parameters {"{query}||4"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1771,7 +2005,7 @@
 			<key>uid</key>
 			<string>604CA1A4-1F80-4E3B-9C8C-42C61F26341F</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1782,6 +2016,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addnote.scpt")) with parameters {"-o{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1790,7 +2028,7 @@
 			<key>uid</key>
 			<string>515404C0-B52C-40D8-A533-8D5756F5B0C4</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1801,6 +2039,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_append.scpt")) with parameters {"{query}||1"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1809,11 +2051,13 @@
 			<key>uid</key>
 			<string>EA9A6078-A17A-40BE-B440-44F48DAA5A92</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -1832,6 +2076,10 @@
 				<string>Loading...</string>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_filter.scpt")) with parameters {"typeennote:{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Notebook: (default) | Tags: (none) | Reminder: (none) | Note: (type it)</string>
 				<key>title</key>
@@ -1846,7 +2094,7 @@
 			<key>uid</key>
 			<string>D4DCD4EA-CEE5-495D-BA5F-7C8F8259D4DB</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1855,11 +2103,7 @@
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<true/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
 				<false/>
 				<key>text</key>
 				<string>{query}</string>
@@ -1871,7 +2115,7 @@
 			<key>uid</key>
 			<string>1A119793-F983-41B9-BB97-3C69008AA63E</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1882,6 +2126,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_append.scpt")) with parameters {"{query}||4"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1890,7 +2138,7 @@
 			<key>uid</key>
 			<string>ADC3EF51-7B82-4B03-BA79-1D9FFA05E05E</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1917,7 +2165,7 @@
 			<key>uid</key>
 			<string>EA1B23BD-B97B-428C-880C-5CE13AED4A32</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1928,6 +2176,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addnote.scpt")) with parameters {"-o{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1936,7 +2188,7 @@
 			<key>uid</key>
 			<string>CBBD9277-6389-4BA9-B282-D0F51A323F04</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1963,7 +2215,7 @@
 			<key>uid</key>
 			<string>8AC9DA30-2F9D-4E61-919C-DA5DC07BC4D5</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1974,6 +2226,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addnote.scpt")) with parameters {"{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -1982,7 +2238,7 @@
 			<key>uid</key>
 			<string>8BDABE79-2BF4-4CAC-83C5-D960633934DC</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2009,7 +2265,7 @@
 			<key>uid</key>
 			<string>B545AB8F-C982-484B-9A94-5849E5B1B098</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2018,11 +2274,7 @@
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<true/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
 				<false/>
 				<key>text</key>
 				<string>{query}</string>
@@ -2034,7 +2286,7 @@
 			<key>uid</key>
 			<string>A0760809-E929-4DFC-9C32-DEB39366F960</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2045,6 +2297,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addnote.scpt")) with parameters {"-f{query}"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -2053,7 +2309,7 @@
 			<key>uid</key>
 			<string>7C43E15F-8371-4EC8-B8C1-54E7AE9ACC2D</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2068,7 +2324,7 @@
 			<key>uid</key>
 			<string>11F0317D-BA3E-4674-BDC0-EB5A21092114</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2079,6 +2335,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>tell application "Alfred 2" to search "ens " &amp; "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -2087,7 +2347,7 @@
 			<key>uid</key>
 			<string>C95E4049-FEFD-4FD2-AEEF-8C949B676AF2</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2098,6 +2358,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_append.scpt")) with parameters {"{query}||3"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -2106,11 +2370,13 @@
 			<key>uid</key>
 			<string>F1DB470C-0EA9-4055-B321-9696C108DEA9</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -2125,8 +2391,16 @@
 				<integer>0</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_append.scpt")) with parameters {"{query}||2"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
 				<key>title</key>
 				<string>Select a note to append text</string>
 				<key>type</key>
@@ -2139,7 +2413,7 @@
 			<key>uid</key>
 			<string>103A74CD-4EAC-4869-9522-30D821B3CE13</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2150,6 +2424,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addrm.scpt")) with parameters {"{query}||3"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -2158,7 +2436,7 @@
 			<key>uid</key>
 			<string>EB821439-3991-4885-92BF-1C349BC09348</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2167,11 +2445,7 @@
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<false/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
 				<false/>
 				<key>text</key>
 				<string>{query}</string>
@@ -2183,11 +2457,13 @@
 			<key>uid</key>
 			<string>CDA5D561-D54B-4CB6-B5A1-2117C658AC23</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -2202,8 +2478,14 @@
 				<integer>0</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_addrm.scpt")) with parameters {"{query}||2"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Set date</string>
 				<key>title</key>
@@ -2218,11 +2500,13 @@
 			<key>uid</key>
 			<string>A70539A5-7E52-433F-8802-13E82CEC1673</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -2237,8 +2521,16 @@
 				<integer>0</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_act_append.scpt")) with parameters {"{query}|2|"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
 				<key>title</key>
 				<string>Append Text</string>
 				<key>type</key>
@@ -2251,7 +2543,7 @@
 			<key>uid</key>
 			<string>B14E9201-66FE-4ABB-A3C6-E25477C27CA9</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2262,6 +2554,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_act_append.scpt")) with parameters {"{query}|3|"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -2270,11 +2566,13 @@
 			<key>uid</key>
 			<string>82C32C6B-AE6D-47B4-9043-959DE534F191</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -2289,8 +2587,14 @@
 				<integer>0</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_pref.scpt")) with parameters {"{query}||f"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Keyword: enpref</string>
 				<key>title</key>
@@ -2305,7 +2609,7 @@
 			<key>uid</key>
 			<string>31A81D1C-D5E4-4FD9-8022-361C9E1DBD23</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2316,6 +2620,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>run script (POSIX file ((do shell script "pwd") &amp; "/en_pref.scpt")) with parameters {"{query}||s"}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -2324,7 +2632,7 @@
 			<key>uid</key>
 			<string>5A88DD8F-6DDE-4187-B499-6D85F0BED29D</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2335,6 +2643,10 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>tell application "Evernote" to synchronize</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>6</integer>
 			</dict>
@@ -2343,7 +2655,7 @@
 			<key>uid</key>
 			<string>D7A16404-A29C-42FD-9664-9F6BC3F260DA</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2364,7 +2676,7 @@
 			<key>uid</key>
 			<string>10460E83-82BA-491B-8D29-6FF26F0A4DA1</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -2377,361 +2689,498 @@ q_workflow library by Ursan Razvan</string>
 	<dict>
 		<key>051B1D7E-4660-4706-9B71-8C1F50BE9F93</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1510</real>
 		</dict>
 		<key>0A80F579-874A-4AD9-80CA-486A98155898</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>2310</real>
 		</dict>
 		<key>0CDB8453-7549-4C58-B0BA-F24E45B018C8</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>210</real>
 		</dict>
 		<key>0D49FCE7-B1F7-4C21-8C27-179EF2527CE0</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>1660</real>
 		</dict>
 		<key>103A74CD-4EAC-4869-9522-30D821B3CE13</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>3510</real>
 		</dict>
 		<key>10460E83-82BA-491B-8D29-6FF26F0A4DA1</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>3910</real>
 		</dict>
 		<key>11F0317D-BA3E-4674-BDC0-EB5A21092114</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>3410</real>
 		</dict>
 		<key>1548A07D-6ED9-481D-B85F-92AFB92EFFE3</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1010</real>
 		</dict>
 		<key>164FB514-4786-4374-B5ED-464B02346B17</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>210</real>
 		</dict>
 		<key>1A119793-F983-41B9-BB97-3C69008AA63E</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>2910</real>
 		</dict>
 		<key>1B484655-159F-43B3-B8D4-26948DB5971B</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>310</real>
 		</dict>
 		<key>1D8B049C-5A92-444D-A63D-CC46DABBAB2D</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>2110</real>
 		</dict>
 		<key>292FA993-EA5B-47AE-9B49-F00D69ED3BE0</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>2010</real>
 		</dict>
 		<key>294AC964-3857-444E-9A17-C85F4D47245F</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>1910</real>
 		</dict>
-		<key>2B3579E2-6AF0-48FE-9503-A5D40C158FDB</key>
-		<dict>
-			<key>ypos</key>
-			<real>810</real>
-		</dict>
 		<key>2B7138ED-D927-4D76-A708-9028C9AC18DB</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>310</real>
 		</dict>
 		<key>2D184C40-D620-4F4E-8F51-2F6AC3FA4AE9</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1410</real>
 		</dict>
 		<key>31A81D1C-D5E4-4FD9-8022-361C9E1DBD23</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>3810</real>
 		</dict>
 		<key>388F687E-0773-45D9-8168-0A43874A46B1</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>2510</real>
 		</dict>
 		<key>3D0C64EE-F2CE-4A9A-91E6-3A11D95E993E</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>110</real>
 		</dict>
 		<key>401F2F70-C45D-41AC-A9E0-8058BAD83686</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1710</real>
 		</dict>
 		<key>515404C0-B52C-40D8-A533-8D5756F5B0C4</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>2710</real>
 		</dict>
 		<key>52C5B49B-F64C-4E27-97FE-D4B6C00325BC</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>5A88DD8F-6DDE-4187-B499-6D85F0BED29D</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>3810</real>
 		</dict>
 		<key>5D666118-248B-4651-B441-C0210B9D5B79</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>910</real>
 		</dict>
 		<key>604CA1A4-1F80-4E3B-9C8C-42C61F26341F</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>2610</real>
 		</dict>
 		<key>613D53C2-4645-43F3-B147-22C42C1B392A</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>1510</real>
 		</dict>
 		<key>7061F9FC-37D0-40F2-AB40-7A2F9065BDF4</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>2310</real>
 		</dict>
 		<key>70E059D4-836C-4712-B936-9CF786C91577</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>860</real>
 		</dict>
 		<key>71003F13-77A1-4814-B25A-2218229298D4</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>710</real>
 		</dict>
 		<key>7188E433-28CE-4D39-847F-E4526D7FC97C</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>7C43E15F-8371-4EC8-B8C1-54E7AE9ACC2D</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>3310</real>
 		</dict>
 		<key>7DFFFEC9-E7AB-4B35-A317-F7983A7DE0DD</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1210</real>
 		</dict>
 		<key>82C32C6B-AE6D-47B4-9043-959DE534F191</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>3710</real>
 		</dict>
 		<key>837749EE-179F-4B00-BD6E-066478F83A38</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>1210</real>
 		</dict>
 		<key>86EE8DD8-4C22-45D3-8E97-1A6B2B86B986</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>360</real>
 		</dict>
 		<key>8AC9DA30-2F9D-4E61-919C-DA5DC07BC4D5</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>3010</real>
 		</dict>
 		<key>8BDABE79-2BF4-4CAC-83C5-D960633934DC</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>3110</real>
 		</dict>
 		<key>912F5F2A-B7F4-4C8B-9490-3CACA97D63B7</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1910</real>
 		</dict>
 		<key>93739175-2DF2-4A69-B1EB-21A5ED215F6A</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>510</real>
 		</dict>
 		<key>98F88518-1696-4151-9151-E9BFE90FDFB2</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>2010</real>
 		</dict>
 		<key>9940B9D1-CA30-4D88-88AD-C0B686A79509</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>810</real>
 		</dict>
 		<key>9A1E0EC0-B446-4586-9ED4-1229700D064A</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>2510</real>
 		</dict>
 		<key>A0760809-E929-4DFC-9C32-DEB39366F960</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>3310</real>
 		</dict>
 		<key>A6828845-E40B-4814-A899-C5718F63D3D3</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1110</real>
 		</dict>
 		<key>A70539A5-7E52-433F-8802-13E82CEC1673</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>3610</real>
 		</dict>
 		<key>A91FD655-4D1B-49BC-9CB3-4E5CC6A95B0F</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>1610</real>
 		</dict>
 		<key>ADC3EF51-7B82-4B03-BA79-1D9FFA05E05E</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>2910</real>
 		</dict>
 		<key>B14E9201-66FE-4ABB-A3C6-E25477C27CA9</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>3710</real>
 		</dict>
 		<key>B25C029D-CE2E-462C-B3A5-7F20165805E7</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>810</real>
 		</dict>
 		<key>B545AB8F-C982-484B-9A94-5849E5B1B098</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>3110</real>
 		</dict>
 		<key>BB8DEF2C-ED9B-4A8A-85EB-E65AA7E6E702</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1610</real>
 		</dict>
 		<key>C261E260-526B-4EF6-B6F1-6BF5F04A8626</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>710</real>
 		</dict>
 		<key>C95E4049-FEFD-4FD2-AEEF-8C949B676AF2</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>3410</real>
 		</dict>
 		<key>CA78A861-69B9-4416-99EA-8F6D8BBE8FE3</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>1210</real>
 		</dict>
 		<key>CBBD9277-6389-4BA9-B282-D0F51A323F04</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>3010</real>
 		</dict>
 		<key>CDA5D561-D54B-4CB6-B5A1-2117C658AC23</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>3610</real>
 		</dict>
 		<key>D3ABA52B-C329-43BB-9832-CA00CE09EA67</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>610</real>
 		</dict>
 		<key>D4DCD4EA-CEE5-495D-BA5F-7C8F8259D4DB</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>2910</real>
 		</dict>
 		<key>D7A16404-A29C-42FD-9664-9F6BC3F260DA</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>3910</real>
 		</dict>
 		<key>D939543B-25D2-4C34-BAF2-4CAA441B9FA2</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>2510</real>
 		</dict>
 		<key>E0EEE9EF-3E52-4077-9A51-56882FEC0BED</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>310</real>
 		</dict>
 		<key>E656975D-7167-4C75-9927-C9B188AF8C7D</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>410</real>
 		</dict>
 		<key>E9A5BC9B-ABAE-4915-94FC-48C00E7C34D3</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1810</real>
 		</dict>
 		<key>EA1B23BD-B97B-428C-880C-5CE13AED4A32</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>2910</real>
 		</dict>
 		<key>EA9A6078-A17A-40BE-B440-44F48DAA5A92</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>2810</real>
 		</dict>
 		<key>EB821439-3991-4885-92BF-1C349BC09348</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>3610</real>
 		</dict>
 		<key>EF6EF80A-5097-46E2-9A3E-0AFBC69961E8</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>2060</real>
 		</dict>
 		<key>F05D3580-684A-4BD8-9249-85E6823CF9FD</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>2210</real>
 		</dict>
 		<key>F0AB1D96-A5EB-4AD2-BE38-CB82F917A389</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>2410</real>
 		</dict>
 		<key>F1DB470C-0EA9-4055-B321-9696C108DEA9</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>3510</real>
 		</dict>
 		<key>F5012C9C-B1F1-4041-A6DC-9F09CC9DE60D</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1310</real>
 		</dict>

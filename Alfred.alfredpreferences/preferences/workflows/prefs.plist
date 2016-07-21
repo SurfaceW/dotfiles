@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>defaultBundleId</key>
-	<string>surfacew</string>
+	<string>sublime project</string>
 	<key>defaultCreatedBy</key>
 	<string>surfacew</string>
 	<key>defaultReadme</key>
-	<string>Quickly Do it!</string>
+	<string>Quickly Do it to open sublime porject.</string>
 	<key>defaultWebsite</key>
 	<string>blog.surfacew.com</string>
 </dict>
