@@ -112,6 +112,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>54086BC6-2BC8-4340-A64A-8E1EAC5BD79B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>480832BD-10E4-4760-B356-1E2A52C9A0B7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>598556DF-F932-4ACC-8046-0671892D3C57</key>
 		<array>
 			<dict>
@@ -976,7 +989,7 @@
 				<key>hotkey</key>
 				<integer>11</integer>
 				<key>hotmod</key>
-				<integer>1179648</integer>
+				<integer>1966080</integer>
 				<key>hotstring</key>
 				<string>B</string>
 				<key>leftcursor</key>
@@ -1098,6 +1111,48 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/Documents/Frame/2D_浮华表世/理想国度/理想国_一天.md</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>480832BD-10E4-4760-B356-1E2A52C9A0B7</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>31</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>O</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>54086BC6-2BC8-4340-A64A-8E1EAC5BD79B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Improve the personal daily procedures efficiency.</string>
@@ -1194,6 +1249,13 @@
 			<key>ypos</key>
 			<integer>1500</integer>
 		</dict>
+		<key>480832BD-10E4-4760-B356-1E2A52C9A0B7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>2340</integer>
+		</dict>
 		<key>4A7AFD75-BF6B-4383-84FB-0C89732F2B20</key>
 		<dict>
 			<key>xpos</key>
@@ -1214,6 +1276,13 @@
 			<integer>500</integer>
 			<key>ypos</key>
 			<real>900</real>
+		</dict>
+		<key>54086BC6-2BC8-4340-A64A-8E1EAC5BD79B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>2340</integer>
 		</dict>
 		<key>598556DF-F932-4ACC-8046-0671892D3C57</key>
 		<dict>
