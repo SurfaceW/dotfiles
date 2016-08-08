@@ -242,19 +242,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>DD2223CD-617C-4746-8118-C40F175F62B8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>CBF05598-3B7F-43BF-81E6-29F19C30CFDA</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>EFE1FAB9-5DAE-42D5-A0ED-6D6D1D40380D</key>
 		<array>
 			<dict>
@@ -760,50 +747,6 @@
 			<string>965CD0AA-3445-4230-9754-AFCA3445CEB5</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/SourceTree.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
-			<key>uid</key>
-			<string>CBF05598-3B7F-43BF-81E6-29F19C30CFDA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>hotkey</key>
-				<integer>1</integer>
-				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>S</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>DD2223CD-617C-4746-8118-C40F175F62B8</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1396,13 +1339,6 @@
 			<key>ypos</key>
 			<real>180</real>
 		</dict>
-		<key>CBF05598-3B7F-43BF-81E6-29F19C30CFDA</key>
-		<dict>
-			<key>xpos</key>
-			<integer>500</integer>
-			<key>ypos</key>
-			<real>1380</real>
-		</dict>
 		<key>D1C39123-1B46-4035-954B-21323D3235A8</key>
 		<dict>
 			<key>xpos</key>
@@ -1416,13 +1352,6 @@
 			<integer>100</integer>
 			<key>ypos</key>
 			<real>780</real>
-		</dict>
-		<key>DD2223CD-617C-4746-8118-C40F175F62B8</key>
-		<dict>
-			<key>xpos</key>
-			<integer>100</integer>
-			<key>ypos</key>
-			<real>1380</real>
 		</dict>
 		<key>E697EF6A-11E1-4C31-B124-8A25EAF05BF4</key>
 		<dict>

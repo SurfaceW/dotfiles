@@ -34,6 +34,7 @@ JsFormat.sublime-package
 LESS.sublime-package
 Markdown Preview.sublime-package
 MarkdownEditing.sublime-package
+Mocha Snippets.sublime-package
 Modific.sublime-package
 Nodejs.sublime-package
 Oceanic Next Color Scheme.sublime-package

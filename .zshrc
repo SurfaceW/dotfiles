@@ -118,6 +118,13 @@ if [ -d "$GHC_DOT_APP" ]; then
 fi
 # export PATH="$GHC_DOT_APP:$PATH"
 
+# PHP
+# Use Home-brewed PHP 5.6 instead of pre-installed version (5.3)
+export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
+
+# Alibaba Arc
+export PATH="/Users/yeqingnan/Developer/pha-all/arcanist/bin:$PATH"
+
 #   Set Default Editor (change 'Nano' to the editor of your choice)
 #   ------------------------------------------------------------
 export EDITOR=/usr/bin/vim
@@ -174,6 +181,9 @@ alias size='du -d 1 -h'                     # size:         Show current file / 
 
 # Alibaba
 alias alic='ssh qingnan.yqn@10.125.55.239'
+alias tns='tnpm start'
+alias tnu='tnpm update -d'
+alias tni='tnpm install -d'
 
 # Npm
 # alias tnpm='tnpm -d'

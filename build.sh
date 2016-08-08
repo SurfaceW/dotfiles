@@ -8,6 +8,7 @@ cp /Users/yeqingnan/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 cp ~/.gitconfig ~/Developer/dotfiles/
 cp ~/.gitignore ~/Developer/dotfiles/
 cp /Users/yeqingnan/Library/Application\ Support/MacDown/Styles/macdown.css ~/Developer/dotfiles/
+cp /Users/yeqingnan/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/snippet/*.sublime-snippet ~/Developer/dotfiles/
 
 # Get the sublime plugin lists
 cd ~/Developer/dotfiles
