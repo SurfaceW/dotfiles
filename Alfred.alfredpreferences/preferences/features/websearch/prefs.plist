@@ -4,6 +4,19 @@
 <dict>
 	<key>customSites</key>
 	<dict>
+		<key>2CBEFB4D-A3F7-44FD-A9F6-C9D7DF4CFBCE</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>npm</string>
+			<key>text</key>
+			<string>Search NPM</string>
+			<key>url</key>
+			<string>https://www.npmjs.com/search?q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
 		<key>490AD867-CECF-4DA0-88AC-0B2CDEBE5D6B</key>
 		<dict>
 			<key>enabled</key>
@@ -16,6 +29,19 @@
 			<string>Sarch Baidu for '{query}'</string>
 			<key>url</key>
 			<string>https://www.baidu.com/s?wd={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>7A79E82E-5206-4D40-8C53-5AD350E25891</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>gitlab</string>
+			<key>text</key>
+			<string>Search Gitlab</string>
+			<key>url</key>
+			<string>http://gitlab.alibaba-inc.com/search?utf8=%E2%9C%93&amp;search={query}&amp;group_id=&amp;repository_ref=</string>
 			<key>utf8</key>
 			<true/>
 		</dict>

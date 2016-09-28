@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>net.technosorcery.vpn</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>D9548E9C-45AE-4088-9685-594A08D3E8A1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8B9132CA-632D-4B79-B445-B20D0CF530DF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Jacob Helwig</string>
+	<key>description</key>
+	<string>Connect &amp; Disconnect VPNs</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>VPN Connections</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>vpn</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Finding available VPNs</string>
+				<key>script</key>
+				<string>./get-vpns.rb "{query}"</string>
+				<key>subtext</key>
+				<string>VPN Name</string>
+				<key>title</key>
+				<string>Select a VPN</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D9548E9C-45AE-4088-9685-594A08D3E8A1</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>./handle-vpns.osascript "{query}"</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.script</string>
+			<key>uid</key>
+			<string>8B9132CA-632D-4B79-B445-B20D0CF530DF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Features
+
+* List VPNs configured under System Preferences -&gt; Network.
+* Filter VPN list based on input after "vpn" keyword.
+* Connect to the selected VPN if it isn't already connected
+  (disconnect if currently connected).
+
+# Bugs &amp; Feature Requests
+
+Please use our bug tracker to report any bugs, or file
+any feature requests. https://bugs.technosorcery.net/alfred-workflow-vpn
+
+# Contributing
+
+Please open a ticket, or comment on the relevant existing ticket in
+the bug tracker with any of the following to contribute code changes:
+
+* A link on where to find the Git branch with your changes.
+* Your changes attached to the ticket
+  (git-format-patch(1) works nicely for
+  generating appropriate files from local commits).
+
+All other contributions are probably easiest coordinated via the bug tracker.</string>
+	<key>uidata</key>
+	<dict>
+		<key>8B9132CA-632D-4B79-B445-B20D0CF530DF</key>
+		<dict>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>D9548E9C-45AE-4088-9685-594A08D3E8A1</key>
+		<dict>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://technosorcery.net</string>
+</dict>
+</plist>

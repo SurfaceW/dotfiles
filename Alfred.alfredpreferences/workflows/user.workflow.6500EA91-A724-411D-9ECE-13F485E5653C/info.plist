@@ -8,6 +8,19 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>1125A7DE-7F56-4F79-87CD-F1BF5B349FC4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6A4672DC-2C06-4B9A-AC26-C001C3AAD2E6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>2025BCB4-8E66-4555-B850-2F331F15493E</key>
 		<array>
 			<dict>
@@ -34,19 +47,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>4D1D6345-DE0E-4C64-BEA1-7F9663C7FCED</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>739DE2D1-18B1-47E5-988E-E648419AF82A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>58AEAF21-D16C-46F9-A2AE-2193F0ABBB99</key>
 		<array>
 			<dict>
@@ -60,11 +60,24 @@
 				<false/>
 			</dict>
 		</array>
-		<key>918166C0-BBE1-4BD9-B688-1168351F9E1B</key>
+		<key>58AED5B5-E6C0-4C9B-9783-402C70CEC47B</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>48609DC7-27D9-4910-8642-EF2AD5436F57</string>
+				<string>869CAB19-376A-46B9-BF6E-43F17E8894FC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6F24ECB6-46BC-4E19-AA05-DDC9B1893DA7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BB99B807-08A7-4288-8D95-3FD099225EC0</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -90,12 +103,12 @@
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
-				<string>~/Pictures/FN2V63AD2J.com.tencent.ScreenCapture2</string>
+				<string>~/Sites/ali</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>739DE2D1-18B1-47E5-988E-E648419AF82A</string>
+			<string>6A4672DC-2C06-4B9A-AC26-C001C3AAD2E6</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -105,20 +118,56 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>screenshoot</string>
+				<string>alicode</string>
 				<key>subtext</key>
 				<string>Enter Please</string>
 				<key>text</key>
-				<string>Open Screen Shoot Pics of QQ</string>
+				<string>ali code dir</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>4D1D6345-DE0E-4C64-BEA1-7F9663C7FCED</string>
+			<string>1125A7DE-7F56-4F79-87CD-F1BF5B349FC4</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>vision_doc</string>
+				<key>subtext</key>
+				<string>Enter Please</string>
+				<key>text</key>
+				<string>Vision Docs</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>58AED5B5-E6C0-4C9B-9783-402C70CEC47B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/Sites/ali/vision/docs</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>869CAB19-376A-46B9-BF6E-43F17E8894FC</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -162,14 +211,35 @@
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
-				<string>~/Library/SE Services/SE_TOP_Contents.md</string>
+				<string>~/Documents/Work/Ali</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>DFE8406B-F741-4BF2-8BF1-1AFA6869AB3B</string>
+			<string>BB99B807-08A7-4288-8D95-3FD099225EC0</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>aliwork</string>
+				<key>subtext</key>
+				<string>Enter Please</string>
+				<key>text</key>
+				<string>ali working dir</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>6F24ECB6-46BC-4E19-AA05-DDC9B1893DA7</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -191,6 +261,21 @@
 			<string>4CA6E426-CE49-4BCD-85EB-A8D37F170EF8</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/Library/SE Services/SE_TOP_Contents.md</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>DFE8406B-F741-4BF2-8BF1-1AFA6869AB3B</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -228,116 +313,94 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>~/Sites/ali</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>48609DC7-27D9-4910-8642-EF2AD5436F57</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>ali</string>
-				<key>subtext</key>
-				<string>Enter Please</string>
-				<key>text</key>
-				<string>Open ali working directory</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>918166C0-BBE1-4BD9-B688-1168351F9E1B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>This is a great way to view frequently used files in Finder.</string>
 	<key>uidata</key>
 	<dict>
+		<key>1125A7DE-7F56-4F79-87CD-F1BF5B349FC4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
 		<key>2025BCB4-8E66-4555-B850-2F331F15493E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>70</integer>
 			<key>ypos</key>
-			<real>340</real>
-		</dict>
-		<key>48609DC7-27D9-4910-8642-EF2AD5436F57</key>
-		<dict>
-			<key>xpos</key>
-			<integer>500</integer>
-			<key>ypos</key>
-			<integer>460</integer>
+			<integer>360</integer>
 		</dict>
 		<key>4CA6E426-CE49-4BCD-85EB-A8D37F170EF8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>70</integer>
 			<key>ypos</key>
-			<real>230</real>
-		</dict>
-		<key>4D1D6345-DE0E-4C64-BEA1-7F9663C7FCED</key>
-		<dict>
-			<key>xpos</key>
-			<integer>300</integer>
-			<key>ypos</key>
-			<real>10</real>
+			<integer>250</integer>
 		</dict>
 		<key>58AEAF21-D16C-46F9-A2AE-2193F0ABBB99</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>70</integer>
 			<key>ypos</key>
-			<real>120</real>
+			<integer>140</integer>
 		</dict>
-		<key>739DE2D1-18B1-47E5-988E-E648419AF82A</key>
+		<key>58AED5B5-E6C0-4C9B-9783-402C70CEC47B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>70</integer>
 			<key>ypos</key>
-			<real>10</real>
+			<integer>20</integer>
 		</dict>
-		<key>918166C0-BBE1-4BD9-B688-1168351F9E1B</key>
+		<key>6A4672DC-2C06-4B9A-AC26-C001C3AAD2E6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>670</integer>
 			<key>ypos</key>
-			<integer>460</integer>
+			<integer>20</integer>
+		</dict>
+		<key>6F24ECB6-46BC-4E19-AA05-DDC9B1893DA7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>150</integer>
+		</dict>
+		<key>869CAB19-376A-46B9-BF6E-43F17E8894FC</key>
+		<dict>
+			<key>xpos</key>
+			<integer>270</integer>
+			<key>ypos</key>
+			<integer>20</integer>
 		</dict>
 		<key>AC1B1220-B905-4EA9-B070-73C16F8AB526</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>270</integer>
 			<key>ypos</key>
-			<real>120</real>
+			<integer>140</integer>
+		</dict>
+		<key>BB99B807-08A7-4288-8D95-3FD099225EC0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>670</integer>
+			<key>ypos</key>
+			<integer>150</integer>
 		</dict>
 		<key>DFE8406B-F741-4BF2-8BF1-1AFA6869AB3B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>270</integer>
 			<key>ypos</key>
-			<real>230</real>
+			<integer>250</integer>
 		</dict>
 		<key>F4742C30-52C6-4234-AB74-2B6B648119A6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>270</integer>
 			<key>ypos</key>
-			<real>340</real>
+			<integer>360</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

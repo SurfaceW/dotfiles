@@ -34,6 +34,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>13331433-514A-4352-B68D-EE9F81E447B0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9AE6DE94-B7DF-44D4-A847-F18241F41B7B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>260E652D-0EA5-4BB0-AFBC-EC3D4E305EB3</key>
 		<array>
 			<dict>
@@ -151,6 +164,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>6268CD8D-B2F9-45F3-9F38-545AF44EBB1D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E0BC835A-D33A-4A16-BC02-C3251D873BD2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>719089DD-50D1-490A-BC21-B935AF34D290</key>
 		<array>
 			<dict>
@@ -194,7 +220,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8C8F0074-B9E5-4560-BA40-54B74E587F9E</string>
+				<string>DE90DFAC-6B63-426A-8E03-58E47C0C993A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -242,6 +268,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>E0CA265D-2A87-47E5-B85B-8BA1A0ED4C3C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>08BBDD96-BA19-4E2D-AC49-24BB77E26BD4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>EFE1FAB9-5DAE-42D5-A0ED-6D6D1D40380D</key>
 		<array>
 			<dict>
@@ -266,6 +305,46 @@
 	<string>HotKeys Series</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://aone.alibaba-inc.com/my/task#toPage=1&amp;statusStage=1+2&amp;</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>E0BC835A-D33A-4A16-BC02-C3251D873BD2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>aonem</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Aone task list of mine</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>6268CD8D-B2F9-45F3-9F38-545AF44EBB1D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -330,6 +409,46 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://aone.alibaba-inc.com/project/475517/sprint</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>9AE6DE94-B7DF-44D4-A847-F18241F41B7B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>aonep</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Aone task list of project literation</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>13331433-514A-4352-B68D-EE9F81E447B0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -370,6 +489,42 @@
 			<string>alfred.workflow.action.launchfiles</string>
 			<key>uid</key>
 			<string>ABA6442D-319B-4F94-8B26-75CE1ECED897</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/Sites/ali</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>08BBDD96-BA19-4E2D-AC49-24BB77E26BD4</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>alisite</string>
+				<key>subtext</key>
+				<string>now start to code anyway</string>
+				<key>text</key>
+				<string>Open ali working dir</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>E0CA265D-2A87-47E5-B85B-8BA1A0ED4C3C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -754,7 +909,7 @@
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
-				<string>~/Documents/Work/Ali/LichKing_日常工作.mmap</string>
+				<string>~/Documents/Work/Ali</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
@@ -969,19 +1124,17 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/Google Chrome Canary.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/Documents/Work/Ali/工作反思/日常工作思考.md</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
+			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>8C8F0074-B9E5-4560-BA40-54B74E587F9E</string>
+			<string>DE90DFAC-6B63-426A-8E03-58E47C0C993A</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1101,12 +1254,19 @@
 	<string>Improve the personal daily procedures efficiency.</string>
 	<key>uidata</key>
 	<dict>
+		<key>08BBDD96-BA19-4E2D-AC49-24BB77E26BD4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>900</integer>
+			<key>ypos</key>
+			<integer>300</integer>
+		</dict>
 		<key>0E966148-4D53-4EE0-ABA7-F95F4D273CB4</key>
 		<dict>
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
-			<integer>1740</integer>
+			<integer>1620</integer>
 		</dict>
 		<key>0EBA8EDB-CDA3-40BC-B5AB-31B0C7771441</key>
 		<dict>
@@ -1120,14 +1280,21 @@
 			<key>xpos</key>
 			<integer>100</integer>
 			<key>ypos</key>
-			<integer>1620</integer>
+			<integer>1500</integer>
+		</dict>
+		<key>13331433-514A-4352-B68D-EE9F81E447B0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>660</integer>
+			<key>ypos</key>
+			<integer>180</integer>
 		</dict>
 		<key>13AC878F-4C8E-4259-B737-A06D08330A3B</key>
 		<dict>
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
-			<integer>1620</integer>
+			<integer>1500</integer>
 		</dict>
 		<key>212ED9ED-8E72-4EDB-9CC0-35D655CA9EE0</key>
 		<dict>
@@ -1141,7 +1308,7 @@
 			<key>xpos</key>
 			<integer>100</integer>
 			<key>ypos</key>
-			<integer>1740</integer>
+			<integer>1620</integer>
 		</dict>
 		<key>26DF8C02-B40B-4232-AC82-B3CF3AC69B18</key>
 		<dict>
@@ -1155,21 +1322,21 @@
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
-			<integer>2220</integer>
+			<integer>2100</integer>
 		</dict>
 		<key>2BA17E26-FFA1-40C5-8AAF-158A85FB3B6A</key>
 		<dict>
 			<key>xpos</key>
 			<integer>100</integer>
 			<key>ypos</key>
-			<integer>1980</integer>
+			<integer>1860</integer>
 		</dict>
 		<key>317F5415-D90C-438E-BABA-E2F11F2394DB</key>
 		<dict>
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
-			<integer>1980</integer>
+			<integer>1860</integer>
 		</dict>
 		<key>39A9C55D-B232-49B3-83D8-8BFCF7024684</key>
 		<dict>
@@ -1190,21 +1357,21 @@
 			<key>xpos</key>
 			<integer>100</integer>
 			<key>ypos</key>
-			<integer>1500</integer>
+			<integer>1380</integer>
 		</dict>
 		<key>480832BD-10E4-4760-B356-1E2A52C9A0B7</key>
 		<dict>
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
-			<integer>2340</integer>
+			<integer>2220</integer>
 		</dict>
 		<key>4A7AFD75-BF6B-4383-84FB-0C89732F2B20</key>
 		<dict>
 			<key>xpos</key>
 			<integer>100</integer>
 			<key>ypos</key>
-			<integer>2220</integer>
+			<integer>2100</integer>
 		</dict>
 		<key>4C085856-E37E-4A54-9E11-1BBBD9D1C473</key>
 		<dict>
@@ -1225,7 +1392,7 @@
 			<key>xpos</key>
 			<integer>100</integer>
 			<key>ypos</key>
-			<integer>2340</integer>
+			<integer>2220</integer>
 		</dict>
 		<key>598556DF-F932-4ACC-8046-0671892D3C57</key>
 		<dict>
@@ -1239,14 +1406,21 @@
 			<key>xpos</key>
 			<integer>100</integer>
 			<key>ypos</key>
-			<integer>1860</integer>
+			<integer>1740</integer>
+		</dict>
+		<key>6268CD8D-B2F9-45F3-9F38-545AF44EBB1D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>660</integer>
+			<key>ypos</key>
+			<integer>60</integer>
 		</dict>
 		<key>6DC1A2FA-2D41-4C2A-8AFB-78D41F97D645</key>
 		<dict>
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
-			<integer>1500</integer>
+			<integer>1380</integer>
 		</dict>
 		<key>719089DD-50D1-490A-BC21-B935AF34D290</key>
 		<dict>
@@ -1261,13 +1435,6 @@
 			<integer>100</integer>
 			<key>ypos</key>
 			<real>180</real>
-		</dict>
-		<key>8C8F0074-B9E5-4560-BA40-54B74E587F9E</key>
-		<dict>
-			<key>xpos</key>
-			<integer>500</integer>
-			<key>ypos</key>
-			<integer>2100</integer>
 		</dict>
 		<key>8E972662-E5B6-440F-B9C1-4CB9ECB68A93</key>
 		<dict>
@@ -1288,7 +1455,14 @@
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
-			<integer>1860</integer>
+			<integer>1740</integer>
+		</dict>
+		<key>9AE6DE94-B7DF-44D4-A847-F18241F41B7B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>900</integer>
+			<key>ypos</key>
+			<integer>180</integer>
 		</dict>
 		<key>A654123D-B402-4E98-BA20-57B89B589A7B</key>
 		<dict>
@@ -1302,7 +1476,7 @@
 			<key>xpos</key>
 			<integer>100</integer>
 			<key>ypos</key>
-			<integer>2100</integer>
+			<integer>1980</integer>
 		</dict>
 		<key>ABA6442D-319B-4F94-8B26-75CE1ECED897</key>
 		<dict>
@@ -1352,6 +1526,27 @@
 			<integer>100</integer>
 			<key>ypos</key>
 			<real>780</real>
+		</dict>
+		<key>DE90DFAC-6B63-426A-8E03-58E47C0C993A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>1980</integer>
+		</dict>
+		<key>E0BC835A-D33A-4A16-BC02-C3251D873BD2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>900</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
+		<key>E0CA265D-2A87-47E5-B85B-8BA1A0ED4C3C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>660</integer>
+			<key>ypos</key>
+			<integer>300</integer>
 		</dict>
 		<key>E697EF6A-11E1-4C31-B124-8A25EAF05BF4</key>
 		<dict>

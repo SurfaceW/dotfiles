@@ -1,0 +1,14 @@
+#!/usr/bin/env osascript -l JavaScript
+
+function run(argv) {
+    var se = Application("System Events")
+
+    var vpns = []
+
+    var services = se.networkPreferences.currentLocation.services
+    var arrayLength = services.length
+    for (var i = 0; i < arrayLength; i++) {
+        var service = services[i]
+        console.log(JSON.stringify({name: service.name(), kind: service.kind()}))
+    }
+}
