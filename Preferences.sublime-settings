@@ -6,6 +6,7 @@
 		"dist/*",
 		"node_modules/*",
 		"build/*",
+		"demo/*",
 		".idea/*",
 		"*.jpg",
 		"*.jpeg",
@@ -32,7 +33,9 @@
 		"*.min.css",
 		".tmp/*",
 		"dist/*",
-		".DS_Store"
+		".DS_Store",
+		".happypack/*",
+		"coverage/*"
 	],
 	"folder_exclude_patterns":
 	[
@@ -57,7 +60,9 @@
 		"*.idb",
 		".DS_Store",
 		"*.psd",
-		"/dist/*"
+		"/dist/*",
+		"/lib/*",
+		"/demo/*"
 	],
 	"font_face": "Operator Mono Book",
 	"font_size": 14,
