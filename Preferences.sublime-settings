@@ -22,9 +22,10 @@
 		"*.jar",
 		"*.zip"
 	],
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
-	"create_window_at_startup": true,
 	"default_line_ending": "unix",
+	"draw_indent_guides": true,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -65,10 +66,14 @@
 		"/demo/*"
 	],
 	"font_face": "Operator Mono Book",
+	"font_options":
+	[
+	],
 	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"All Autocomplete",
 		"caniuse_local",
 		"Clipboard Manager",
 		"ConvertToUTF8",
@@ -86,15 +91,17 @@
 		"Nodejs",
 		"Python",
 		"SFTP",
-		"SublimeCodeIntel",
-		"Terminal",
 		"tern_for_sublime",
 		"Trimmer",
 		"Web Inspector"
 	],
+	"index_workers": 2,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
+	"margin": 2,
+	"save_on_focus_lost": true,
 	"show_line_endings": true,
+	"spell_check": false,
 	"tab_size": 2,
 	"theme": "Oceanic Next.sublime-theme",
 	"translate_tabs_to_spaces": true,

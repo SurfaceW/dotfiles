@@ -60,6 +60,19 @@
 			<key>utf8</key>
 			<true/>
 		</dict>
+		<key>F1166F81-603E-4AF7-BF3C-A5B42F3BBC47</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>dictionary</string>
+			<key>text</key>
+			<string>Dictionary</string>
+			<key>url</key>
+			<string>http://www.dictionary.com/browse/{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
 		<key>FF5D424A-2F69-4A99-8154-A7DAE43F1F04</key>
 		<dict>
 			<key>enabled</key>

@@ -1,6 +1,7 @@
 0_package_control_loader.sublime-package
 Alignment.sublime-package
 All Autocomplete.sublime-package
+Atomic Color Scheme.sublime-package
 AutoFileName.sublime-package
 BracketHighlighter.sublime-package
 BufferScroll.sublime-package

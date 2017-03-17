@@ -47,11 +47,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>58AEAF21-D16C-46F9-A2AE-2193F0ABBB99</key>
+		<key>8BA68372-74C7-43DC-8EFA-DCAF5FAE04E0</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>AC1B1220-B905-4EA9-B070-73C16F8AB526</string>
+				<string>4C094004-E515-4FC0-BDC6-0D5466329D4A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -60,24 +60,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>58AED5B5-E6C0-4C9B-9783-402C70CEC47B</key>
+		<key>92643050-E060-484D-B7F0-3EA423E6D342</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>869CAB19-376A-46B9-BF6E-43F17E8894FC</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>6F24ECB6-46BC-4E19-AA05-DDC9B1893DA7</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>BB99B807-08A7-4288-8D95-3FD099225EC0</string>
+				<string>4C094004-E515-4FC0-BDC6-0D5466329D4A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -136,110 +123,17 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>vision_doc</string>
-				<key>subtext</key>
-				<string>Enter Please</string>
-				<key>text</key>
-				<string>Vision Docs</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>58AED5B5-E6C0-4C9B-9783-402C70CEC47B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
-				<string>~/Sites/ali/vision/docs</string>
+				<string>~/Library/SE Services/SE_TOP_Contents.md</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>869CAB19-376A-46B9-BF6E-43F17E8894FC</string>
+			<string>DFE8406B-F741-4BF2-8BF1-1AFA6869AB3B</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>~/Documents/Work/毕业设计</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>AC1B1220-B905-4EA9-B070-73C16F8AB526</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>bs</string>
-				<key>subtext</key>
-				<string>Enter Please</string>
-				<key>text</key>
-				<string>Open Folder of 毕业设计</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>58AEAF21-D16C-46F9-A2AE-2193F0ABBB99</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>~/Documents/Work/Ali</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>BB99B807-08A7-4288-8D95-3FD099225EC0</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>aliwork</string>
-				<key>subtext</key>
-				<string>Enter Please</string>
-				<key>text</key>
-				<string>ali working dir</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>6F24ECB6-46BC-4E19-AA05-DDC9B1893DA7</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -265,17 +159,36 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>~/Library/SE Services/SE_TOP_Contents.md</string>
+				<key>path</key>
+				<string>~/Documents/Plans</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
+			<string>alfred.workflow.action.browseinalfred</string>
 			<key>uid</key>
-			<string>DFE8406B-F741-4BF2-8BF1-1AFA6869AB3B</string>
+			<string>4C094004-E515-4FC0-BDC6-0D5466329D4A</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>plan</string>
+				<key>subtext</key>
+				<string>choose one and open it :)</string>
+				<key>text</key>
+				<string>show plan file list</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8BA68372-74C7-43DC-8EFA-DCAF5FAE04E0</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -313,6 +226,37 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>35</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>P</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>92643050-E060-484D-B7F0-3EA423E6D342</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>This is a great way to view frequently used files in Finder.</string>
@@ -332,26 +276,19 @@
 			<key>ypos</key>
 			<integer>360</integer>
 		</dict>
+		<key>4C094004-E515-4FC0-BDC6-0D5466329D4A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>670</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
 		<key>4CA6E426-CE49-4BCD-85EB-A8D37F170EF8</key>
 		<dict>
 			<key>xpos</key>
 			<integer>70</integer>
 			<key>ypos</key>
 			<integer>250</integer>
-		</dict>
-		<key>58AEAF21-D16C-46F9-A2AE-2193F0ABBB99</key>
-		<dict>
-			<key>xpos</key>
-			<integer>70</integer>
-			<key>ypos</key>
-			<integer>140</integer>
-		</dict>
-		<key>58AED5B5-E6C0-4C9B-9783-402C70CEC47B</key>
-		<dict>
-			<key>xpos</key>
-			<integer>70</integer>
-			<key>ypos</key>
-			<integer>20</integer>
 		</dict>
 		<key>6A4672DC-2C06-4B9A-AC26-C001C3AAD2E6</key>
 		<dict>
@@ -360,33 +297,19 @@
 			<key>ypos</key>
 			<integer>20</integer>
 		</dict>
-		<key>6F24ECB6-46BC-4E19-AA05-DDC9B1893DA7</key>
+		<key>8BA68372-74C7-43DC-8EFA-DCAF5FAE04E0</key>
 		<dict>
 			<key>xpos</key>
 			<integer>450</integer>
 			<key>ypos</key>
-			<integer>150</integer>
+			<integer>280</integer>
 		</dict>
-		<key>869CAB19-376A-46B9-BF6E-43F17E8894FC</key>
+		<key>92643050-E060-484D-B7F0-3EA423E6D342</key>
 		<dict>
 			<key>xpos</key>
-			<integer>270</integer>
+			<integer>450</integer>
 			<key>ypos</key>
-			<integer>20</integer>
-		</dict>
-		<key>AC1B1220-B905-4EA9-B070-73C16F8AB526</key>
-		<dict>
-			<key>xpos</key>
-			<integer>270</integer>
-			<key>ypos</key>
-			<integer>140</integer>
-		</dict>
-		<key>BB99B807-08A7-4288-8D95-3FD099225EC0</key>
-		<dict>
-			<key>xpos</key>
-			<integer>670</integer>
-			<key>ypos</key>
-			<integer>150</integer>
+			<integer>400</integer>
 		</dict>
 		<key>DFE8406B-F741-4BF2-8BF1-1AFA6869AB3B</key>
 		<dict>

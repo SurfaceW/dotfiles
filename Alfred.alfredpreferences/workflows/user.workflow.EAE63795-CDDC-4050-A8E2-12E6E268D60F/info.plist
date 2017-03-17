@@ -47,19 +47,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>260E652D-0EA5-4BB0-AFBC-EC3D4E305EB3</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>0E966148-4D53-4EE0-ABA7-F95F4D273CB4</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>26DF8C02-B40B-4232-AC82-B3CF3AC69B18</key>
 		<array>
 			<dict>
@@ -103,7 +90,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6DC1A2FA-2D41-4C2A-8AFB-78D41F97D645</string>
+				<string>87C66E35-57D1-4BB3-98EF-796793CD89B8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -177,11 +164,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>718156C8-341D-48BA-99BE-EB1F408A61F0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>011FF23E-0D1E-49F8-B4D2-A99FAB86D630</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>719089DD-50D1-490A-BC21-B935AF34D290</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>212ED9ED-8E72-4EDB-9CC0-35D655CA9EE0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>77CA790A-EE70-4D15-8C73-ABAB253FBE7D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AA8E1B89-13D6-45DE-876F-D06EE7D27FCB</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -203,6 +216,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>9D819C9B-478D-45D1-AFE4-8A5C6B93FB9C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>778BAC51-36FD-4B9D-A653-9EEF0186A768</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A64D8CCB-3402-4FBB-B599-114D98E6E57C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A3E093EE-47C8-40F2-B00B-583BB1FB49D6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>A654123D-B402-4E98-BA20-57B89B589A7B</key>
 		<array>
 			<dict>
@@ -216,11 +255,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>A8787DAF-C815-4480-A3BF-2FE05E960E7F</key>
+		<key>AE6B4E19-7BAF-45B6-82E3-8B335D7B5AC3</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DE90DFAC-6B63-426A-8E03-58E47C0C993A</string>
+				<string>39A9C55D-B232-49B3-83D8-8BFCF7024684</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -229,11 +268,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>AE6B4E19-7BAF-45B6-82E3-8B335D7B5AC3</key>
+		<key>B3A21D3C-BB49-4CE6-B7BD-9DE1384CB1A1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>39A9C55D-B232-49B3-83D8-8BFCF7024684</string>
+				<string>05E0FCA2-E5B8-4C45-A621-4BE3B897D407</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -260,6 +299,32 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>B87733F6-F519-494D-92C3-3336C5561D74</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D3266400-4F84-4701-8F9A-06887A48BFFB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E129E551-B9D7-4A32-B931-98B407205F82</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D6B6A82D-0DEF-45C1-94D4-722E95718207</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A3AB17E5-F9C5-48C1-B692-E8F97BF1D7B4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -308,21 +373,35 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>GlobalFocus</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
 				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://aone.alibaba-inc.com/my/task#toPage=1&amp;statusStage=1+2&amp;</string>
-				<key>utf8</key>
-				<true/>
+				<key>hotkey</key>
+				<integer>46</integer>
+				<key>hotmod</key>
+				<integer>1703936</integer>
+				<key>hotstring</key>
+				<string>M</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>E0BC835A-D33A-4A16-BC02-C3251D873BD2</string>
+			<string>26DF8C02-B40B-4232-AC82-B3CF3AC69B18</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -348,31 +427,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>3</integer>
-				<key>argumenttext</key>
-				<string>GlobalFocus</string>
-				<key>hotkey</key>
-				<integer>46</integer>
-				<key>hotmod</key>
-				<integer>1703936</integer>
-				<key>hotstring</key>
-				<string>M</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://aone.alibaba-inc.com/my/task#toPage=1&amp;statusStage=1+2&amp;</string>
+				<key>utf8</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>26DF8C02-B40B-4232-AC82-B3CF3AC69B18</string>
+			<string>E0BC835A-D33A-4A16-BC02-C3251D873BD2</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -388,40 +457,6 @@
 			<string>alfred.workflow.action.launchfiles</string>
 			<key>uid</key>
 			<string>4C085856-E37E-4A54-9E11-1BBBD9D1C473</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>~/Documents/Work/_plan/GlobalFocus.md</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>C5875982-9875-498C-9D31-256B2537CC5E</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://aone.alibaba-inc.com/project/475517/sprint</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>9AE6DE94-B7DF-44D4-A847-F18241F41B7B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -455,6 +490,10 @@
 				<integer>3</integer>
 				<key>argumenttext</key>
 				<string>GlobalFocus</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>5</integer>
 				<key>hotmod</key>
@@ -478,53 +517,34 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/OmniFocus.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
-			<key>uid</key>
-			<string>ABA6442D-319B-4F94-8B26-75CE1ECED897</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
-				<string>~/Sites/ali</string>
+				<string>~/Documents/Plans/GlobalFocus.md</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>08BBDD96-BA19-4E2D-AC49-24BB77E26BD4</string>
+			<string>C5875982-9875-498C-9D31-256B2537CC5E</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>alisite</string>
-				<key>subtext</key>
-				<string>now start to code anyway</string>
-				<key>text</key>
-				<string>Open ali working dir</string>
-				<key>withspace</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://aone.alibaba-inc.com/project/475517/sprint</string>
+				<key>utf8</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>E0CA265D-2A87-47E5-B85B-8BA1A0ED4C3C</string>
+			<string>9AE6DE94-B7DF-44D4-A847-F18241F41B7B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -535,6 +555,10 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>3</integer>
 				<key>hotmod</key>
@@ -560,7 +584,64 @@
 			<dict>
 				<key>paths</key>
 				<array>
-					<string>~/Documents/Evernote.app</string>
+					<string>/Applications/OmniFocus.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>ABA6442D-319B-4F94-8B26-75CE1ECED897</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://aone.alibaba-inc.com/my</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>778BAC51-36FD-4B9D-A653-9EEF0186A768</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>aoned</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Aone dashboard of aone</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9D819C9B-478D-45D1-AFE4-8A5C6B93FB9C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>~/Documents/Apps/Evernote.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>
@@ -579,6 +660,10 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>14</integer>
 				<key>hotmod</key>
@@ -602,19 +687,38 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/iTerm.app</string>
-				</array>
-				<key>toggle</key>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>alisite</string>
+				<key>subtext</key>
+				<string>now start to code anyway</string>
+				<key>text</key>
+				<string>Open ali working dir</string>
+				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>212ED9ED-8E72-4EDB-9CC0-35D655CA9EE0</string>
+			<string>E0CA265D-2A87-47E5-B85B-8BA1A0ED4C3C</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/Sites/ali</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>08BBDD96-BA19-4E2D-AC49-24BB77E26BD4</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -623,6 +727,10 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>34</integer>
 				<key>hotmod</key>
@@ -640,6 +748,90 @@
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>719089DD-50D1-490A-BC21-B935AF34D290</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/iA Writer.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>212ED9ED-8E72-4EDB-9CC0-35D655CA9EE0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/Library/Reference/ref_track/LifePoints.fmp12</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>E129E551-B9D7-4A32-B931-98B407205F82</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>lifepoints</string>
+				<key>subtext</key>
+				<string>into database of YQN</string>
+				<key>text</key>
+				<string>Write the life points</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D3266400-4F84-4701-8F9A-06887A48BFFB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>2</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>D</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>0EBA8EDB-CDA3-40BC-B5AB-31B0C7771441</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -667,33 +859,10 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
-				<key>hotkey</key>
-				<integer>2</integer>
-				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>D</string>
-				<key>leftcursor</key>
+				<key>focusedappvariable</key>
 				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>0EBA8EDB-CDA3-40BC-B5AB-31B0C7771441</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>0</integer>
 				<key>hotmod</key>
@@ -732,27 +901,14 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/QQ.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
-			<key>uid</key>
-			<string>4FA69514-E014-46F7-A9D3-6AB11F2DBFBA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>12</integer>
 				<key>hotmod</key>
@@ -778,7 +934,24 @@
 			<dict>
 				<key>paths</key>
 				<array>
-					<string>/Applications/Mail.app</string>
+					<string>/Applications/QQ.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>4FA69514-E014-46F7-A9D3-6AB11F2DBFBA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Spark.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>
@@ -797,6 +970,10 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>46</integer>
 				<key>hotmod</key>
@@ -824,6 +1001,10 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>15</integer>
 				<key>hotmod</key>
@@ -864,10 +1045,29 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>~/Documents/Frame/4D_心灵净土/显意识_信息/信息视野.md</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>965CD0AA-3445-4230-9754-AFCA3445CEB5</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>4</integer>
 				<key>hotmod</key>
@@ -894,27 +1094,12 @@
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
-				<string>~/Documents/Frame/4D_心灵净土/显意识_信息/信息视野.md</string>
+				<string>~/Documents/Work/Ali_工作大纲.oo3</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>965CD0AA-3445-4230-9754-AFCA3445CEB5</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>~/Documents/Work/Ali</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>6DC1A2FA-2D41-4C2A-8AFB-78D41F97D645</string>
+			<string>87C66E35-57D1-4BB3-98EF-796793CD89B8</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -925,6 +1110,10 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>13</integer>
 				<key>hotmod</key>
@@ -942,6 +1131,37 @@
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>45AD1AC4-708A-4CC5-B25F-081158A07979</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>15</integer>
+				<key>hotmod</key>
+				<integer>1703936</integer>
+				<key>hotstring</key>
+				<string>R</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>127D398F-5750-4949-A9A3-851F0F16E41F</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -969,77 +1189,10 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
-				<key>hotkey</key>
-				<integer>15</integer>
-				<key>hotmod</key>
-				<integer>1703936</integer>
-				<key>hotstring</key>
-				<string>R</string>
-				<key>leftcursor</key>
+				<key>focusedappvariable</key>
 				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>127D398F-5750-4949-A9A3-851F0F16E41F</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>hotkey</key>
-				<integer>46</integer>
-				<key>hotmod</key>
-				<integer>1310720</integer>
-				<key>hotstring</key>
-				<string>M</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>260E652D-0EA5-4BB0-AFBC-EC3D4E305EB3</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/Utilities/Activity Monitor.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
-			<key>uid</key>
-			<string>0E966148-4D53-4EE0-ABA7-F95F4D273CB4</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>13</integer>
 				<key>hotmod</key>
@@ -1065,7 +1218,7 @@
 			<dict>
 				<key>paths</key>
 				<array>
-					<string>~/Documents/WeChat.app</string>
+					<string>~/Documents/Apps/WeChat.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>
@@ -1080,10 +1233,31 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Google Chrome.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>317F5415-D90C-438E-BABA-E2F11F2394DB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>11</integer>
 				<key>hotmod</key>
@@ -1109,7 +1283,7 @@
 			<dict>
 				<key>paths</key>
 				<array>
-					<string>/Applications/Google Chrome.app</string>
+					<string>/Applications/Dash.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>
@@ -1117,59 +1291,21 @@
 			<key>type</key>
 			<string>alfred.workflow.action.launchfiles</string>
 			<key>uid</key>
-			<string>317F5415-D90C-438E-BABA-E2F11F2394DB</string>
+			<string>272674F3-AB2E-4B46-9CD7-AE9024314D8C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>~/Documents/Work/Ali/工作反思/日常工作思考.md</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>DE90DFAC-6B63-426A-8E03-58E47C0C993A</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
-				<key>hotkey</key>
-				<integer>17</integer>
-				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>T</string>
-				<key>leftcursor</key>
+				<key>focusedappvariable</key>
 				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>A8787DAF-C815-4480-A3BF-2FE05E960E7F</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>2</integer>
 				<key>hotmod</key>
@@ -1193,23 +1329,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/Dash.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
-			<key>uid</key>
-			<string>272674F3-AB2E-4B46-9CD7-AE9024314D8C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
@@ -1229,6 +1348,10 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>31</integer>
 				<key>hotmod</key>
@@ -1249,24 +1372,275 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Visual Studio Code.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>011FF23E-0D1E-49F8-B4D2-A99FAB86D630</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>9</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>V</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>718156C8-341D-48BA-99BE-EB1F408A61F0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://lark.alipay.com/</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>05E0FCA2-E5B8-4C45-A621-4BE3B897D407</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>16</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>Y</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>B3A21D3C-BB49-4CE6-B7BD-9DE1384CB1A1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>3</integer>
+				<key>hotmod</key>
+				<integer>1703936</integer>
+				<key>hotstring</key>
+				<string>F</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>77CA790A-EE70-4D15-8C73-ABAB253FBE7D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>http://money08.feidee.com/money/tally/new.do</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>AA8E1B89-13D6-45DE-876F-D06EE7D27FCB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>2</integer>
+				<key>hotmod</key>
+				<integer>1703936</integer>
+				<key>hotstring</key>
+				<string>D</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>D6B6A82D-0DEF-45C1-94D4-722E95718207</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Dash.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>A3AB17E5-F9C5-48C1-B692-E8F97BF1D7B4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>~/Documents/Frame/2D_浮华表世/理想国度/理想国_一天.md</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>A3E093EE-47C8-40F2-B00B-583BB1FB49D6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>1703936</integer>
+				<key>hotstring</key>
+				<string>A</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>A64D8CCB-3402-4FBB-B599-114D98E6E57C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Improve the personal daily procedures efficiency.</string>
 	<key>uidata</key>
 	<dict>
+		<key>011FF23E-0D1E-49F8-B4D2-A99FAB86D630</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>2110</integer>
+		</dict>
+		<key>05E0FCA2-E5B8-4C45-A621-4BE3B897D407</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>2240</integer>
+		</dict>
 		<key>08BBDD96-BA19-4E2D-AC49-24BB77E26BD4</key>
 		<dict>
 			<key>xpos</key>
 			<integer>900</integer>
 			<key>ypos</key>
-			<integer>300</integer>
-		</dict>
-		<key>0E966148-4D53-4EE0-ABA7-F95F4D273CB4</key>
-		<dict>
-			<key>xpos</key>
-			<integer>500</integer>
-			<key>ypos</key>
-			<integer>1620</integer>
+			<integer>440</integer>
 		</dict>
 		<key>0EBA8EDB-CDA3-40BC-B5AB-31B0C7771441</key>
 		<dict>
@@ -1303,13 +1677,6 @@
 			<key>ypos</key>
 			<real>540</real>
 		</dict>
-		<key>260E652D-0EA5-4BB0-AFBC-EC3D4E305EB3</key>
-		<dict>
-			<key>xpos</key>
-			<integer>100</integer>
-			<key>ypos</key>
-			<integer>1620</integer>
-		</dict>
 		<key>26DF8C02-B40B-4232-AC82-B3CF3AC69B18</key>
 		<dict>
 			<key>xpos</key>
@@ -1322,21 +1689,21 @@
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
-			<integer>2100</integer>
+			<integer>1870</integer>
 		</dict>
 		<key>2BA17E26-FFA1-40C5-8AAF-158A85FB3B6A</key>
 		<dict>
 			<key>xpos</key>
 			<integer>100</integer>
 			<key>ypos</key>
-			<integer>1860</integer>
+			<integer>1740</integer>
 		</dict>
 		<key>317F5415-D90C-438E-BABA-E2F11F2394DB</key>
 		<dict>
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
-			<integer>1860</integer>
+			<integer>1740</integer>
 		</dict>
 		<key>39A9C55D-B232-49B3-83D8-8BFCF7024684</key>
 		<dict>
@@ -1364,14 +1731,14 @@
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
-			<integer>2220</integer>
+			<integer>1990</integer>
 		</dict>
 		<key>4A7AFD75-BF6B-4383-84FB-0C89732F2B20</key>
 		<dict>
 			<key>xpos</key>
 			<integer>100</integer>
 			<key>ypos</key>
-			<integer>2100</integer>
+			<integer>1870</integer>
 		</dict>
 		<key>4C085856-E37E-4A54-9E11-1BBBD9D1C473</key>
 		<dict>
@@ -1392,7 +1759,7 @@
 			<key>xpos</key>
 			<integer>100</integer>
 			<key>ypos</key>
-			<integer>2220</integer>
+			<integer>1990</integer>
 		</dict>
 		<key>598556DF-F932-4ACC-8046-0671892D3C57</key>
 		<dict>
@@ -1406,7 +1773,7 @@
 			<key>xpos</key>
 			<integer>100</integer>
 			<key>ypos</key>
-			<integer>1740</integer>
+			<integer>1620</integer>
 		</dict>
 		<key>6268CD8D-B2F9-45F3-9F38-545AF44EBB1D</key>
 		<dict>
@@ -1415,12 +1782,12 @@
 			<key>ypos</key>
 			<integer>60</integer>
 		</dict>
-		<key>6DC1A2FA-2D41-4C2A-8AFB-78D41F97D645</key>
+		<key>718156C8-341D-48BA-99BE-EB1F408A61F0</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>100</integer>
 			<key>ypos</key>
-			<integer>1380</integer>
+			<integer>2110</integer>
 		</dict>
 		<key>719089DD-50D1-490A-BC21-B935AF34D290</key>
 		<dict>
@@ -1429,12 +1796,33 @@
 			<key>ypos</key>
 			<real>540</real>
 		</dict>
+		<key>778BAC51-36FD-4B9D-A653-9EEF0186A768</key>
+		<dict>
+			<key>xpos</key>
+			<integer>900</integer>
+			<key>ypos</key>
+			<integer>310</integer>
+		</dict>
+		<key>77CA790A-EE70-4D15-8C73-ABAB253FBE7D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>2360</integer>
+		</dict>
 		<key>7B5AFF18-8A77-4DC6-9175-E314F23417EC</key>
 		<dict>
 			<key>xpos</key>
 			<integer>100</integer>
 			<key>ypos</key>
 			<real>180</real>
+		</dict>
+		<key>87C66E35-57D1-4BB3-98EF-796793CD89B8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>1380</integer>
 		</dict>
 		<key>8E972662-E5B6-440F-B9C1-4CB9ECB68A93</key>
 		<dict>
@@ -1455,7 +1843,7 @@
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
-			<integer>1740</integer>
+			<integer>1620</integer>
 		</dict>
 		<key>9AE6DE94-B7DF-44D4-A847-F18241F41B7B</key>
 		<dict>
@@ -1464,6 +1852,34 @@
 			<key>ypos</key>
 			<integer>180</integer>
 		</dict>
+		<key>9D819C9B-478D-45D1-AFE4-8A5C6B93FB9C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>660</integer>
+			<key>ypos</key>
+			<integer>310</integer>
+		</dict>
+		<key>A3AB17E5-F9C5-48C1-B692-E8F97BF1D7B4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>2490</integer>
+		</dict>
+		<key>A3E093EE-47C8-40F2-B00B-583BB1FB49D6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>2620</integer>
+		</dict>
+		<key>A64D8CCB-3402-4FBB-B599-114D98E6E57C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>2620</integer>
+		</dict>
 		<key>A654123D-B402-4E98-BA20-57B89B589A7B</key>
 		<dict>
 			<key>xpos</key>
@@ -1471,12 +1887,12 @@
 			<key>ypos</key>
 			<real>300</real>
 		</dict>
-		<key>A8787DAF-C815-4480-A3BF-2FE05E960E7F</key>
+		<key>AA8E1B89-13D6-45DE-876F-D06EE7D27FCB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>100</integer>
+			<integer>500</integer>
 			<key>ypos</key>
-			<integer>1980</integer>
+			<integer>2360</integer>
 		</dict>
 		<key>ABA6442D-319B-4F94-8B26-75CE1ECED897</key>
 		<dict>
@@ -1491,6 +1907,13 @@
 			<integer>100</integer>
 			<key>ypos</key>
 			<real>1140</real>
+		</dict>
+		<key>B3A21D3C-BB49-4CE6-B7BD-9DE1384CB1A1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>2240</integer>
 		</dict>
 		<key>B87733F6-F519-494D-92C3-3336C5561D74</key>
 		<dict>
@@ -1527,12 +1950,19 @@
 			<key>ypos</key>
 			<real>780</real>
 		</dict>
-		<key>DE90DFAC-6B63-426A-8E03-58E47C0C993A</key>
+		<key>D3266400-4F84-4701-8F9A-06887A48BFFB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>660</integer>
 			<key>ypos</key>
-			<integer>1980</integer>
+			<integer>570</integer>
+		</dict>
+		<key>D6B6A82D-0DEF-45C1-94D4-722E95718207</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>2490</integer>
 		</dict>
 		<key>E0BC835A-D33A-4A16-BC02-C3251D873BD2</key>
 		<dict>
@@ -1546,7 +1976,14 @@
 			<key>xpos</key>
 			<integer>660</integer>
 			<key>ypos</key>
-			<integer>300</integer>
+			<integer>440</integer>
+		</dict>
+		<key>E129E551-B9D7-4A32-B931-98B407205F82</key>
+		<dict>
+			<key>xpos</key>
+			<integer>900</integer>
+			<key>ypos</key>
+			<integer>570</integer>
 		</dict>
 		<key>E697EF6A-11E1-4C31-B124-8A25EAF05BF4</key>
 		<dict>

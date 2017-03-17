@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' ?>
-<workflow>
-  <name>VPN Connections</name>
-  <version>1.1.0</version>
-  <bundle>net.technosorcery.vpn</bundle>
-  <updated>1428256273</updated>
-  <file>vpn_connections.alfredworkflow</file>
-</workflow>

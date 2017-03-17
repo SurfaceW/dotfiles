@@ -6,6 +6,19 @@
 	<string>com.surfacew.alibabaSeries</string>
 	<key>connections</key>
 	<dict>
+		<key>0EF34F33-FEEA-48B1-879B-A4F778381422</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2528CEE9-DC98-4E3A-9F2E-4419F1784117</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>F569C3E6-F903-4CE1-80D6-3152189832CE</key>
 		<array>
 			<dict>
@@ -43,6 +56,46 @@
 	<string>Alibaba Series</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>render-engine</string>
+				<key>subtext</key>
+				<string>Go to gitlab site</string>
+				<key>text</key>
+				<string>Go to gitlab render-engine</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>0EF34F33-FEEA-48B1-879B-A4F778381422</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>http://gitlab.alibaba-inc.com/vision/render-engine</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>2528CEE9-DC98-4E3A-9F2E-4419F1784117</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -128,6 +181,20 @@
 	<string>Created by the Alfred team!</string>
 	<key>uidata</key>
 	<dict>
+		<key>0EF34F33-FEEA-48B1-879B-A4F778381422</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>2528CEE9-DC98-4E3A-9F2E-4419F1784117</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
 		<key>8B81BA87-0D13-4EF4-B373-A5C038D11B8E</key>
 		<dict>
 			<key>xpos</key>

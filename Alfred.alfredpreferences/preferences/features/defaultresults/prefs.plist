@@ -6,6 +6,7 @@
 	<array>
 		<string>features.websearch.google.fallback</string>
 		<string>features.websearch.custom.490AD867-CECF-4DA0-88AC-0B2CDEBE5D6B.fallback</string>
+		<string>features.websearch.custom.F1166F81-603E-4AF7-BF3C-A5B42F3BBC47.fallback</string>
 		<string>features.websearch.wiki.fallback</string>
 	</array>
 	<key>showBookmarks</key>
@@ -18,6 +19,7 @@
 	<array>
 		<string>com.bohemiancoding.sketch.drawing.single</string>
 		<string>com.mindjet.mindmanager.map</string>
+		<string>com.mindnode.mindnode.mindmap</string>
 		<string>net.daringfireball.markdown</string>
 	</array>
 </dict>
