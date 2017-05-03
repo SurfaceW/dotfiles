@@ -1,116 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>bundleid</key>
-	<string>com.madvas.iterm-sessions</string>
-	<key>category</key>
-	<string>Productivity</string>
-	<key>connections</key>
-	<dict>
-		<key>E3CA430B-62F5-4139-BE12-959B67696A22</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>E388B24D-2070-48ED-9F81-A3121B2363C0</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-	</dict>
-	<key>createdby</key>
-	<string>Matus Lestan</string>
-	<key>description</key>
-	<string>Quickly select of one currently opened iTerm sessions</string>
-	<key>disabled</key>
-	<false/>
-	<key>name</key>
-	<string>iTerm Sessions</string>
-	<key>objects</key>
-	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)
-set params to theSplit(q, " ") of meset terminalIndex to first item of params as integerset sessionIndex to second item of params as integertell application "iTerm"	set theTerminal to terminal terminalIndex	tell theTerminal		select
-		activate		tell session sessionIndex to select	end tellend tell
-end alfred_script
-
-
-on theSplit(theString, theDelimiter)	set oldDelimiters to AppleScript's text item delimiters	set AppleScript's text item delimiters to theDelimiter	set theArray to every text item of theString	set AppleScript's text item delimiters to oldDelimiters	return theArrayend theSplit</string>
-				<key>cachescript</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
-			<key>uid</key>
-			<string>E388B24D-2070-48ED-9F81-A3121B2363C0</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>keyword</key>
-				<string>sessions</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>script</key>
-				<string>set theQuery to "{query}"
-
-set xmlResult to "&lt;?xml version=\"1.0\"?&gt;
-&lt;items&gt;
-"set sessionsList to {}tell application "iTerm"	set i to 0	repeat with theTerm in terminals		set i to i + 1		set j to 0		repeat with theSession in sessions of theTerm			set j to j + 1			tell theSession				if length of theQuery &gt; 0 then					if theQuery is in name then						set xmlResult to addSessionItem(name, id, i, j, xmlResult) of me					end if				else					set xmlResult to addSessionItem(name, id, i, j, xmlResult) of me				end if			end tell		end repeat	end repeatend tellset xmlResult to xmlResult &amp; "&lt;/items&gt;"xmlResulton addSessionItem(sessionName, sessionId, windowIndex, sessionIndex, xmlResult)	set sessionName to escapeString(sessionName)	set res to xmlResult &amp; "&lt;item uid=\""	set res to res &amp; sessionId &amp; "\""	set res to res &amp; " arg=\"" &amp; windowIndex &amp; " " &amp; sessionIndex &amp; "\""	set res to res &amp; " autocomplete=\"" &amp; sessionName &amp; "\""	set res to res &amp; "&gt;"	set res to res &amp; "&lt;icon&gt;iterm.png&lt;/icon&gt;"	set res to res &amp; "&lt;title&gt;" &amp; sessionName &amp; "&lt;/title&gt;"
-	set res to res &amp; "&lt;subtitle&gt;window: " &amp; windowIndex &amp; " tab: " &amp; sessionIndex &amp; "&lt;/subtitle&gt;"	set res to res &amp; "&lt;/item&gt;
-	"	return resend addSessionItemon escapeString(toEscape)	set res to replaceChars(toEscape, "\"", "&amp;quot;")	set res to replaceChars(res, "'", "&amp;apos;")	set res to replaceChars(res, "&amp;", "&amp;amp;")	set res to replaceChars(res, "&gt;", "&amp;gt;")	set res to replaceChars(res, "&lt;", "&amp;lt;")	return resend escapeStringon replaceChars(this_text, search_string, replacement_string)	set AppleScript's text item delimiters to the search_string	set the item_list to every text item of this_text	set AppleScript's text item delimiters to the replacement_string	set this_text to the item_list as string	set AppleScript's text item delimiters to ""	return this_textend replaceChars</string>
-				<key>subtext</key>
-				<string>Select iTerm Session</string>
-				<key>title</key>
-				<string>iTerm Sessions</string>
-				<key>type</key>
-				<integer>6</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>E3CA430B-62F5-4139-BE12-959B67696A22</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-	</array>
-	<key>readme</key>
-	<string>Alfred workflow to quickly select of one currently opened iTerm sessions
-
-Just type “sessions” and it will show currently opened iTerm sessions. Optionally, you can type text to filter by session name</string>
-	<key>uidata</key>
-	<dict>
-		<key>E388B24D-2070-48ED-9F81-A3121B2363C0</key>
-		<dict>
-			<key>ypos</key>
-			<real>60</real>
-		</dict>
-		<key>E3CA430B-62F5-4139-BE12-959B67696A22</key>
-		<dict>
-			<key>ypos</key>
-			<real>60</real>
-		</dict>
-	</dict>
-	<key>webaddress</key>
-	<string>https://github.com/madvas/alfred-iterm-sessions</string>
-</dict>
-</plist>

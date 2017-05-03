@@ -89,7 +89,7 @@
 	<key>description</key>
 	<string>Find and open Sublime Text projects</string>
 	<key>disabled</key>
-	<false/>
+	<true/>
 	<key>name</key>
 	<string>Sublime Text Projects</string>
 	<key>objects</key>
@@ -144,6 +144,10 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>35</integer>
 				<key>hotmod</key>
@@ -277,27 +281,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>.sthelp</string>
-				<key>subtext</key>
-				<string>View the help file for this Workflow</string>
-				<key>text</key>
-				<string>Sublime Text Projects Help</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>36EE8FBB-FCCE-483E-AFCE-AC73906117C3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -317,6 +300,27 @@
 			<string>31AB2913-1B83-4976-BE10-2526F543F5E3</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>.sthelp</string>
+				<key>subtext</key>
+				<string>View the help file for this Workflow</string>
+				<key>text</key>
+				<string>Sublime Text Projects Help</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>36EE8FBB-FCCE-483E-AFCE-AC73906117C3</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>

@@ -8,19 +8,6 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>1125A7DE-7F56-4F79-87CD-F1BF5B349FC4</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>6A4672DC-2C06-4B9A-AC26-C001C3AAD2E6</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>2025BCB4-8E66-4555-B850-2F331F15493E</key>
 		<array>
 			<dict>
@@ -87,36 +74,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>~/Sites/ali</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>6A4672DC-2C06-4B9A-AC26-C001C3AAD2E6</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>alicode</string>
+				<string>plan</string>
 				<key>subtext</key>
-				<string>Enter Please</string>
+				<string>choose one and open it :)</string>
 				<key>text</key>
-				<string>ali code dir</string>
+				<string>show plan file list</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>1125A7DE-7F56-4F79-87CD-F1BF5B349FC4</string>
+			<string>8BA68372-74C7-43DC-8EFA-DCAF5FAE04E0</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -172,48 +144,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>plan</string>
-				<key>subtext</key>
-				<string>choose one and open it :)</string>
-				<key>text</key>
-				<string>show plan file list</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>8BA68372-74C7-43DC-8EFA-DCAF5FAE04E0</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>se1_service</string>
-				<key>subtext</key>
-				<string>Enter Please</string>
-				<key>text</key>
-				<string>Open SE1 Service Folder</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>2025BCB4-8E66-4555-B850-2F331F15493E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
@@ -257,18 +187,32 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>se1_service</string>
+				<key>subtext</key>
+				<string>Enter Please</string>
+				<key>text</key>
+				<string>Open SE1 Service Folder</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2025BCB4-8E66-4555-B850-2F331F15493E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>This is a great way to view frequently used files in Finder.</string>
 	<key>uidata</key>
 	<dict>
-		<key>1125A7DE-7F56-4F79-87CD-F1BF5B349FC4</key>
-		<dict>
-			<key>xpos</key>
-			<integer>450</integer>
-			<key>ypos</key>
-			<integer>20</integer>
-		</dict>
 		<key>2025BCB4-8E66-4555-B850-2F331F15493E</key>
 		<dict>
 			<key>xpos</key>
@@ -290,26 +234,19 @@
 			<key>ypos</key>
 			<integer>250</integer>
 		</dict>
-		<key>6A4672DC-2C06-4B9A-AC26-C001C3AAD2E6</key>
-		<dict>
-			<key>xpos</key>
-			<integer>670</integer>
-			<key>ypos</key>
-			<integer>20</integer>
-		</dict>
 		<key>8BA68372-74C7-43DC-8EFA-DCAF5FAE04E0</key>
 		<dict>
 			<key>xpos</key>
-			<integer>450</integer>
+			<integer>440</integer>
 			<key>ypos</key>
-			<integer>280</integer>
+			<integer>250</integer>
 		</dict>
 		<key>92643050-E060-484D-B7F0-3EA423E6D342</key>
 		<dict>
 			<key>xpos</key>
-			<integer>450</integer>
+			<integer>440</integer>
 			<key>ypos</key>
-			<integer>400</integer>
+			<integer>360</integer>
 		</dict>
 		<key>DFE8406B-F741-4BF2-8BF1-1AFA6869AB3B</key>
 		<dict>

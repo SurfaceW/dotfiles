@@ -307,37 +307,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>D3266400-4F84-4701-8F9A-06887A48BFFB</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>E129E551-B9D7-4A32-B931-98B407205F82</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>D6B6A82D-0DEF-45C1-94D4-722E95718207</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>A3AB17E5-F9C5-48C1-B692-E8F97BF1D7B4</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>E0CA265D-2A87-47E5-B85B-8BA1A0ED4C3C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>08BBDD96-BA19-4E2D-AC49-24BB77E26BD4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -687,42 +661,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>alisite</string>
-				<key>subtext</key>
-				<string>now start to code anyway</string>
-				<key>text</key>
-				<string>Open ali working dir</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>E0CA265D-2A87-47E5-B85B-8BA1A0ED4C3C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>~/Sites/ali</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>08BBDD96-BA19-4E2D-AC49-24BB77E26BD4</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -765,42 +703,6 @@
 			<string>alfred.workflow.action.launchfiles</string>
 			<key>uid</key>
 			<string>212ED9ED-8E72-4EDB-9CC0-35D655CA9EE0</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>~/Library/Reference/ref_track/LifePoints.fmp12</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>E129E551-B9D7-4A32-B931-98B407205F82</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>lifepoints</string>
-				<key>subtext</key>
-				<string>into database of YQN</string>
-				<key>text</key>
-				<string>Write the life points</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>D3266400-4F84-4701-8F9A-06887A48BFFB</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1635,13 +1537,6 @@
 			<key>ypos</key>
 			<integer>2240</integer>
 		</dict>
-		<key>08BBDD96-BA19-4E2D-AC49-24BB77E26BD4</key>
-		<dict>
-			<key>xpos</key>
-			<integer>900</integer>
-			<key>ypos</key>
-			<integer>440</integer>
-		</dict>
 		<key>0EBA8EDB-CDA3-40BC-B5AB-31B0C7771441</key>
 		<dict>
 			<key>xpos</key>
@@ -1950,13 +1845,6 @@
 			<key>ypos</key>
 			<real>780</real>
 		</dict>
-		<key>D3266400-4F84-4701-8F9A-06887A48BFFB</key>
-		<dict>
-			<key>xpos</key>
-			<integer>660</integer>
-			<key>ypos</key>
-			<integer>570</integer>
-		</dict>
 		<key>D6B6A82D-0DEF-45C1-94D4-722E95718207</key>
 		<dict>
 			<key>xpos</key>
@@ -1970,20 +1858,6 @@
 			<integer>900</integer>
 			<key>ypos</key>
 			<integer>60</integer>
-		</dict>
-		<key>E0CA265D-2A87-47E5-B85B-8BA1A0ED4C3C</key>
-		<dict>
-			<key>xpos</key>
-			<integer>660</integer>
-			<key>ypos</key>
-			<integer>440</integer>
-		</dict>
-		<key>E129E551-B9D7-4A32-B931-98B407205F82</key>
-		<dict>
-			<key>xpos</key>
-			<integer>900</integer>
-			<key>ypos</key>
-			<integer>570</integer>
 		</dict>
 		<key>E697EF6A-11E1-4C31-B124-8A25EAF05BF4</key>
 		<dict>

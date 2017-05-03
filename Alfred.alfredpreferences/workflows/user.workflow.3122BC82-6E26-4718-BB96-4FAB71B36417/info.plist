@@ -17,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>614DFF00-ACEB-489C-BE83-7191FAEBF870</key>
@@ -28,6 +30,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>7180495E-BBF3-431E-958A-1218CFCE5242</key>
@@ -39,6 +43,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B019EC2D-D9F3-4DD8-B93D-0937B03E78F5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7775D27D-2344-4B4E-BDF9-071123FBAC2D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -52,6 +71,25 @@
 	<string>QuickDo</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.google.chrome</string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>chrome://extensions</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>501E782B-1BFF-4184-BD50-1FFA84C3CC3C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -71,26 +109,26 @@
 			<key>uid</key>
 			<string>614DFF00-ACEB-489C-BE83-7191FAEBF870</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>browser</key>
 				<string>com.google.chrome</string>
-				<key>plusspaces</key>
-				<false/>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
-				<string>chrome://extensions</string>
+				<string>https://www.baidu.com/s?wd=天气</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>501E782B-1BFF-4184-BD50-1FFA84C3CC3C</string>
+			<string>404F851E-732E-4DA9-9E84-B65D0C1D780B</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -111,45 +149,7 @@
 			<key>uid</key>
 			<string>195D2594-E03C-4A41-876F-1CC98EE4F4F6</string>
 			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string>com.google.chrome</string>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>https://www.baidu.com/s?wd=天气</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>404F851E-732E-4DA9-9E84-B65D0C1D780B</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string>com.google.chrome</string>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>https://www.baidu.com/s?wd=日历</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>9BD5D520-2026-4133-9FD2-EA8678777A62</string>
-			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -170,7 +170,66 @@
 			<key>uid</key>
 			<string>7180495E-BBF3-431E-958A-1218CFCE5242</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.google.chrome</string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.baidu.com/s?wd=日历</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>9BD5D520-2026-4133-9FD2-EA8678777A62</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string>com.google.chrome</string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>chrome://apps</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>7775D27D-2344-4B4E-BDF9-071123FBAC2D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>apps</string>
+				<key>subtext</key>
+				<string>Open extensions in Chrome</string>
+				<key>text</key>
+				<string>Chrome Extension</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B019EC2D-D9F3-4DD8-B93D-0937B03E78F5</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -179,33 +238,59 @@
 	<dict>
 		<key>195D2594-E03C-4A41-876F-1CC98EE4F4F6</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>130</real>
 		</dict>
 		<key>404F851E-732E-4DA9-9E84-B65D0C1D780B</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>130</real>
 		</dict>
 		<key>501E782B-1BFF-4184-BD50-1FFA84C3CC3C</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>614DFF00-ACEB-489C-BE83-7191FAEBF870</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>7180495E-BBF3-431E-958A-1218CFCE5242</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>250</real>
 		</dict>
+		<key>7775D27D-2344-4B4E-BDF9-071123FBAC2D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>370</integer>
+		</dict>
 		<key>9BD5D520-2026-4133-9FD2-EA8678777A62</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>250</real>
+		</dict>
+		<key>B019EC2D-D9F3-4DD8-B93D-0937B03E78F5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>370</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
