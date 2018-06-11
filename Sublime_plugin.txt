@@ -15,6 +15,7 @@ DocBlockr.sublime-package
 EasyDiff.sublime-package
 Emmet.sublime-package
 EsFormatter.sublime-package
+Focus File on Sidebar.sublime-package
 Fold Comments.sublime-package
 GitHub Markdown Snippets.sublime-package
 HTML Snippets.sublime-package
@@ -33,8 +34,8 @@ JavaScript Snippets.sublime-package
 JavaScriptNext - ES6 Syntax.sublime-package
 JsFormat.sublime-package
 LESS.sublime-package
-Markdown Preview.sublime-package
 MarkdownEditing.sublime-package
+MarkdownPreview.sublime-package
 Mocha Snippets.sublime-package
 Modific.sublime-package
 Nodejs.sublime-package
@@ -48,6 +49,9 @@ ReactJS.sublime-package
 Sass.sublime-package
 SideBarEnhancements.sublime-package
 Stylus.sublime-package
+SublimeLinter-eslint.sublime-package
+SublimeLinter.sublime-package
+SyncedSideBar.sublime-package
 Theme - Spacegray.sublime-package
 TrailingSpaces.sublime-package
 Trimmer.sublime-package

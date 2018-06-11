@@ -1,4 +1,5 @@
 {
+	"always_show_minimap_viewport": true,
 	"auto_complete_delay": 15,
 	"auto_complete_selector": "source, text",
 	"binary_file_patterns":
@@ -23,7 +24,7 @@
 		"*.zip"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
+	"color_scheme": "Packages/One Dark Color Scheme/One Dark.tmTheme",
 	"default_line_ending": "unix",
 	"draw_indent_guides": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -36,7 +37,8 @@
 		"dist/*",
 		".DS_Store",
 		".happypack/*",
-		"coverage/*"
+		"coverage/*",
+		"/node_modules/*"
 	],
 	"folder_exclude_patterns":
 	[
@@ -63,13 +65,14 @@
 		"*.psd",
 		"/dist/*",
 		"/lib/*",
-		"/demo/*"
+		"/demo/*",
+		"node_modules"
 	],
 	"font_face": "Operator Mono Book",
 	"font_options":
 	[
 	],
-	"font_size": 14,
+	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -91,6 +94,8 @@
 		"Nodejs",
 		"Python",
 		"SFTP",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
 		"tern_for_sublime",
 		"Trimmer",
 		"Web Inspector"
@@ -99,11 +104,11 @@
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"margin": 2,
-	"save_on_focus_lost": true,
+	"save_on_focus_lost": false,
 	"show_line_endings": true,
 	"spell_check": false,
 	"tab_size": 2,
-	"theme": "Oceanic Next.sublime-theme",
+	"theme": "Spacegray Oceanic.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true

@@ -47,7 +47,7 @@ ZSH_THEME="avit"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx wd autojump)
+plugins=(git osx wd autojump zsh-autosuggestions)
 
 # User configuration
 
@@ -195,7 +195,7 @@ alias tnp='tnpm publish'
 # Git
 alias co='git checkout'
 alias br='git branch'
-alias ci='git commit'
+alias ci='git cz'
 alias gs='git status'
 alias gpl='git pull'
 alias gps='git push origin'
