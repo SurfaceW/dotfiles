@@ -7,3 +7,6 @@ cp ~/.zshrc ~/Developer/dotfiles/
 cp ~/.gitconfig ~/Developer/dotfiles/
 cp ~/.gitignore ~/Developer/dotfiles/
 
+# copy css files of typora
+cp ~/Library/Application\ Support/abnerworks.Typora/themes/github2.css ~/Developer/dotfiles/
+
