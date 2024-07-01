@@ -122,6 +122,11 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 export PATH="/usr/local/git/bin:/sw/bin/:/usr/local/:/usr/local/sbin:/sbin:$PATH"
 
+# homebrew path
+export PATH="/opt/homebrew/bin:$PATH"
+# node.js path is special in home-brew installation
+export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
+
 # Add GHC 7.10.3 to the PATH, via https://ghcformacosx.github.io/
 export GHC_DOT_APP="/Applications/ghc-7.10.3.app"
 if [ -d "$GHC_DOT_APP" ]; then
