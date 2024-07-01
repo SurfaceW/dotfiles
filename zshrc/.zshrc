@@ -53,7 +53,9 @@ ZSH_THEME="avit"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git macos wd autojump zsh-autosuggestions copyfile history last-working-dir)
+# brew install autojump <- run it before enable these plugins
+# zsh-autosuggestions: this plugin can be relplaced by using warp terminal as tool
+plugins=(git macos wd autojump copyfile history last-working-dir)
 
 # autojum plugin bootstrap
 [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
