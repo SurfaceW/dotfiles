@@ -2,9 +2,6 @@ export ZSH=/Users/arno/.oh-my-zsh
 
 echo "🤩 Arno"
 
-# home-brew path fix for OSX M1 chip
-eval $(/opt/homebrew/bin/brew shellenv)
-
 # export NODE_ENV=development
 
 # Set name of the theme to load.
