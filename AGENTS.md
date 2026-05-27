@@ -26,6 +26,9 @@ Sanitized templates for `~/.zshrc`, `~/.gitconfig`, `~/.vimrc`, plus a one-shot
    step checks for existing state and skips if already done.
 5. **Backup before destructive changes.** `cp <file> <file>.bak.$(date +%Y%m%d-%H%M%S)`
    before overwriting any live dotfile.
+6. **Update [CHANGELOG.md](CHANGELOG.md) in the same change.** Every modification
+   to a tracked file in this repo must add or extend a CHANGELOG entry. See the
+   [Changelog discipline](#changelog-discipline) section below.
 
 ---
 
@@ -39,6 +42,7 @@ Sanitized templates for `~/.zshrc`, `~/.gitconfig`, `~/.vimrc`, plus a one-shot
 | `brew.sh` | Idempotent Homebrew installer | ✓ |
 | `install.sh` | One-shot bootstrap | ✓ |
 | `AGENTS.md` | This file | ✓ |
+| `CHANGELOG.md` | Dated record of every change | ✓ |
 | `README.md` | Human-facing intro | ✓ |
 | `bash/` | Standalone bash helpers | ✓ |
 | `proxy/` | Clash proxy config sample | ✓ |
@@ -132,6 +136,71 @@ required tail present.
 
 ---
 
+## Changelog discipline
+
+[CHANGELOG.md](CHANGELOG.md) is the source of truth for "what changed and why"
+across this repo. **Every change to a tracked file must update it in the same
+commit.** No exceptions.
+
+### When to write to CHANGELOG.md
+
+| Change | CHANGELOG entry required? |
+| --- | --- |
+| Edit `zshrc/.zshrc`, `brew.sh`, `install.sh`, `.gitconfig`, `.vimrc`, `.gitignore` | **Yes** |
+| Add a new tracked file | **Yes** |
+| Remove a tracked file | **Yes** |
+| Update `README.md` or `AGENTS.md` itself | **Yes** |
+| Edit something in `bash/` or `proxy/` | Yes (use **Changed** category) |
+| Bump a brew package list in `brew.sh` | Yes (use **Changed** category) |
+| Routing a new secret to `~/.secrets/` (no repo file changed) | No |
+| Migrating a live machine (no repo file changed) | No |
+
+### How to write an entry
+
+1. Open `CHANGELOG.md`. Find the **`## [Unreleased]`** section near the top.
+2. If today's date is not yet a heading, leave the entry under `[Unreleased]`
+   for now — Arno will date and finalize it on commit. Otherwise, add to the
+   existing dated section.
+3. Pick the right category, in this order of preference:
+   - **Added** — new file or new capability.
+   - **Changed** — behavior or content modified.
+   - **Deprecated** — feature still works but will be removed.
+   - **Removed** — feature or file deleted.
+   - **Fixed** — bug fix.
+   - **Security** — secret leak fixed, mask added, gitignore tightened, etc.
+4. One bullet per logical change. Cite the file path in **backticks**. Be terse
+   but specific: name the thing, say what changed, and (if non-obvious) why.
+
+### Good vs. bad entries
+
+✅ Good:
+
+```
+### Changed
+- `zshrc/.zshrc` — NVM is now lazy-loaded via stubs for `nvm`, `node`, `npm`,
+  `npx`. Saves ~250 ms of shell startup time.
+
+### Security
+- `.gitconfig` — `excludesfile = /Users/yeqingnan/.gitignore_global` →
+  `~/.gitignore_global`. Removed a username leak.
+```
+
+❌ Bad (vague, no file, no reason):
+
+```
+### Changed
+- Updated config.
+- Some improvements.
+```
+
+### Date-stamping
+
+This repo uses **dated headings** (not semver). On the first change of a day,
+promote `[Unreleased]` to `## <YYYY-MM-DD> — <one-line theme>` and start a fresh
+`[Unreleased]` above it.
+
+---
+
 ## Verification commands (run after any structural change)
 
 ```bash
@@ -148,9 +217,14 @@ git -C ~/dotfiles diff --staged | rg -i 'AIza|sk-[A-Za-z0-9]{20}|ghp_|cmVmdGtu|a
 
 # Gitignore catches what it should
 git -C ~/dotfiles check-ignore -v test.env test.local .secrets/
+
+# Changelog updated alongside the change
+git -C ~/dotfiles diff --staged --name-only | grep -q CHANGELOG.md \
+  || echo "WARNING: CHANGELOG.md not in this commit"
 ```
 
 The grep for secrets must come back **empty** before any commit/push.
+The CHANGELOG.md check must pass for any change-bearing commit.
 
 ---
 
