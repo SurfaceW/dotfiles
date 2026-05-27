@@ -20,3 +20,16 @@ Thumbs.db
 venv
 node_modules
 .sass-cache
+
+# Machine-local overrides (managed by dotfiles-keeper)
+*.local
+.gitconfig.local
+.zshrc.local
+
+# Secrets — never commit
+.secrets/
+*.env
+!*.env.example
+
+# Backups created by install.sh
+*.bak.*

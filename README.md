@@ -1,157 +1,104 @@
 # dotfiles
 
-This is a dotfiles which I keep to improve my efficiency.
+Sanitized templates for `~/.zshrc`, `~/.gitconfig`, `~/.vimrc`, plus a one-shot
+bootstrap for a fresh macOS.
 
-run `bash build.sh` on MacOSX to update files.
+## Convention
 
-## File and Description
+This repo is cloned at **`~/dotfiles`** on every machine. All scripts assume
+that path.
 
-- `.bash_profile`: bash config file, not recommended use.
-- `.zshrc`: zsh configuration file
-- `.gitconfig`
-- `gitignore.txt`: basic contents a ignore file should be held.
-- `.vimrc`: vim configuration file
-- `Preferences.sublime-settings`: Preferences of sublime editor.
-- `Sublime_plugin.txt`: installed sublime plugins
-- `build.sh`: build current directory from elsewhere of my disc.
-- `macdown.css`: .md file render to HTML's stylesheet.
+| File / dir | Role |
+| --- | --- |
+| `zshrc/.zshrc` | Canonical zsh template (sanitized; symlinked to `~/.zshrc`) |
+| `.gitconfig` | Git config template (identity masked; symlinked to `~/.gitconfig`) |
+| `.vimrc` | Vim config template (symlinked to `~/.vimrc`) |
+| `brew.sh` | Idempotent Homebrew installer |
+| `install.sh` | One-shot bootstrap (Xcode CLT → brew → oh-my-zsh → plugins → symlinks) |
+| `bash/` | Standalone bash helpers (`batch-remove.sh`, `diff.sh`) |
+| `proxy/` | Clash proxy config sample |
 
-## Oh My ZSH plugin
+## Install
 
-- `git`: [git plugin guide](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git)
-- `osx`: **Maintainers:** [robbyrussell](https://github.com/robbyrussell) [sorin-ionescu](https://github.com/sorin-ionescu)
+```bash
+git clone git@github.com:SurfaceW/dotfiles.git ~/dotfiles
+cd ~/dotfiles && bash install.sh
+```
 
-| Command       | Description                                    |
-|:--------------|:-----------------------------------------------|
-| _tab_         | open the current directory in a new tab        |
-| _pfd_         | return the path of the frontmost Finder window |
-| _pfs_         | return the current Finder selection            |
-| _cdf_         | cd to the current Finder directory             |
-| _pushdf_      | pushd to the current Finder directory          |
-| _quick-look_  | quick Look a specified file                    |
-| _man-preview_ | open a specified man page in Preview           |
+The script is idempotent — safe to re-run. It backs up any existing
+`~/.zshrc` / `~/.gitconfig` / `~/.vimrc` to `*.bak.<timestamp>` before
+symlinking.
 
--  Enables [autojump](https://github.com/joelthelion/autojump/wiki/) if installed with homebrew, macports or debian/ubuntu package.
+## Secrets policy
 
-## Alias and Commands with oh\_my\_zsh
+**No secrets in this repo. Ever.**
 
-> More details see the `.zshrc` file.
+Secrets live in `~/.secrets/*.env` (mode `600`), gitignored. The template
+sources every `~/.secrets/*.env` from its tail. `install.sh` seeds three
+example files:
 
-Easy-Use Functionalities:
+| File | Contents |
+| --- | --- |
+| `~/.secrets/keys.env` | API keys (`OPENAI_API_KEY`, `GEMINI_API_KEY`, etc.) |
+| `~/.secrets/work.env` | Employer identity (`USER`, `IDENTITY_TOKEN`, registry tokens) |
+| `~/.secrets/proxy.env` | Local proxy URLs (`http_proxy`, `ALL_PROXY`) |
 
-- `sublime FILENAME` open a file on sublime editor
+After install:
 
-### File System:
+```bash
+cp ~/.secrets/keys.env.example ~/.secrets/keys.env
+$EDITOR ~/.secrets/keys.env   # fill in real values
+```
 
-File and Directory
+## Per-machine overrides
 
-- `ll`: show all the details of such directory
-- `..` | `...` | `.3` | `.4` | `.5` | `.6` : back to n level of directory
-- `sublime`: edit file/directory in sublime editor
-- `f`: open current directory in finder
-- `which`: find all executables
-- `path`: show all executable path
-- `trash FILENAME`: move a file to MacOS Trash
-- `j`: jump to the directory you've visited before
-- `jo`: open a file explorer window (Mac Finder, Windows Explorer, GNOME Nautilus, etc.) to the directory.
-- `jc`: jump to the child of current directory.
-- `lr`:  Full Recursive Directory Listing
-- `zipf FILE/DIR_NAME`: To create a ZIP archive of a folder
-- `extract ARCHIVE`: Extract mainstream archive like: \*.tra.bz2 \*.tar.gz and etc.
-- `size`: Show the current directory's sub-tree size
+| File | Purpose |
+| --- | --- |
+| `~/.zshrc.local` | Per-machine PATHs, employer-specific aliases, scratch exports |
+| `~/.gitconfig.local` | Per-machine git identity (name / email / signing key) |
 
-Searching
+Both are gitignored, sourced from the tail of their respective templates.
 
-- `ff`: find the file under the current directory
-- `ffs`: find the file whose name starts with a given string
-- `ffe`: find the file whose name starts with a given string
-- `spotlight`: use Mac Spotlight's metadata to search file 
+## Maintenance
 
-Process Management
+This repo is maintained with the `dotfiles-keeper` skill at
+`~/.agentic-arno/skills/arno/cio/dotfiles-keeper/SKILL.md`. The skill
+covers:
 
-- `findPid`: find out the pid of a specified process
-- `my_ps`: list the process owned by the current user
+- **Scan** — diff live machine vs template, detect secrets and dead code.
+- **Refactor** — promote reusable bits from the live machine to the template.
+- **Apply / migrate** — bring a live machine in line with the template safely.
+- **Secrets routing** — move secrets out of any committed file into `~/.secrets/`.
+- **Bootstrap** — what `install.sh` runs on a fresh machine.
 
-Networking
+## Plugins (oh-my-zsh)
 
-- `myip`
-- `netCons`: show all open TCP/IP sockets
-- `ii`: display useful host-related information
+Default `plugins=(...)` in the template:
 
-Git Shortcuts
+| Plugin | Source | Notes |
+| --- | --- | --- |
+| `git`, `macos`, `wd`, `copyfile`, `history`, `last-working-dir` | builtin | Always on |
+| `autojump` | builtin | Requires `brew install autojump` (handled by `brew.sh`) |
+| `zsh-autosuggestions` | external | Cloned by `install.sh` |
+| `zsh-syntax-highlighting` | external | Cloned by `install.sh`; **must be last** |
 
-- `co`: git checkout
-- `ci`: git commit -a
-- `br`: git branch
-- `gs`: git status
-- `rebase`: git rebase
-- `reset`: git reset
+## Highlight aliases & functions
 
-Help
+Pulled from the template; full list in `zshrc/.zshrc`.
 
-- `tldr`: simplified man page 
+| Command | Description |
+| --- | --- |
+| `ll` | Detailed listing (`ls -FGlAhp`) |
+| `..`, `...`, `.3`–`.6` | Walk up N directories |
+| `f` | Open current dir in Finder |
+| `mcd <dir>` | `mkdir -p` then `cd` |
+| `trash <file>` | Move to macOS Trash |
+| `extract <archive>` | Unpack `.tar.gz`, `.zip`, `.7z`, etc. |
+| `ff`, `ffs`, `ffe` | Find file by name / prefix / suffix |
+| `cdf` | `cd` to frontmost Finder window |
+| `myip`, `flushDNS`, `openPorts`, `ii` | Networking helpers |
+| `gs`, `co`, `br`, `gpl`, `gps` | Git shortcuts |
 
-OSX Series:
+## License
 
-- `man-preview` - open a specified man page in Preview
-- `trash` - move a specified file to the Trash
-- `open` - Open directory in Finder of Mac
-
-Tools:
-
-- `jekyll` - static blog generator
-    - `jekyll build | serve`
-- `jumbo` - Baidu Package Manager
-- `mongo` - Mongo DB
-- `mysql` - MySQL CLI tools
-- `brew` - Mac version of `apt-get`
-
-Node Tools:
-
-- `browserify`
-- `express`
-- `npm`
-- `gulp`
-- `grunt`
-- `tldr`
-
----
-
-## Alfred enhancement
-
-### Quick Search Tips
-
-- `open` quickly open doc or folder
-- 「←」「→」go inside or outside of a folder
-- After searching, click「Ctrl」 to get more operations on the searched item
-- After searching, click「Shift」to preview the document.
-- 「cmd」+ 「enter」open current file or directory on Finder
-- 「ctrl」+ 「enter」search the web with default search engine.
-
-Web Search：
-
-- 「google」「translate」「maps」「wolfram」… Web Search quick commands
-
-### Tools
-
-- Dictionary:「define」
-- Calculator:「15*5/2.3」
-
-### Workflow
-
-- Chrome
-    - 「ch」Search Chrome History and open it
-    - 「chrome」Search Chrome bookmarks and open it
-- Evernote
-    - 「ent」Evernote note search with node title
-    - 「ens」Evernote note search with node title and its content
-        - 「end #」Search note with tag name
-    - 「end」Evernote search the notebook
-
-### Global Hotkeys
-
-- `cmd + alt + control + T` Search Evernote with Title
-- `cmd + alt + control + E` Launch / Switch to Evernote
-- `cmd + alt + control + F` Launch / Switch to OmniFocus
-- `cmd + alt + control + G` Switch to GlobalFocus File
-- `cmd + alt + control + I` Launch / Switch to iTerm
+Personal config. Use what's useful.
